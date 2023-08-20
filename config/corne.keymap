@@ -41,20 +41,18 @@
             key-positions = <36 37 38 39 40 41>;
         };
 
-        F1 {
-            bindings = <&kp F1>;
-            key-positions = <0 12>;
-        };
-
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <1 13>;
-        };
-
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <2 14>;
-        };
+        F1 { bindings = <&kp F1>; key-positions = <0 12>; };
+        F2 { bindings = <&kp F2>; key-positions = <1 13>; };
+        F3 { bindings = <&kp F3>; key-positions = <2 14>; };
+        F4 { bindings = <&kp F4>; key-positions = <3 15>; };
+        F5 { bindings = <&kp F5>; key-positions = <4 16>; };
+        F6 { bindings = <&kp F6>; key-positions = <5 17>; };
+        F7 { bindings = <&kp F7>; key-positions = <6 18>; };
+        F8 { bindings = <&kp F8>; key-positions = <7 19>; };
+        F9 { bindings = <&kp F9>; key-positions = <8 20>; };
+        F10 { bindings = <&kp F10>; key-positions = <9 21>; };
+        F11 { bindings = <&kp F11>; key-positions = <10 22>; };
+        F12 { bindings = <&kp F12>; key-positions = <11 23>; };
     };
 
     keymap {
