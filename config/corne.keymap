@@ -9,7 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
+
 #define MEDIA_ESC &lt MEDIA ESC
+#define MOUSE_TAB &lt MOUSE TAB
+#define NUMBER_SPACE &lt NUMBER SPACE
+#define SYMBOL_RGUI &lt SYMBOL RGUI
+#define FUNCTION_RALT &lt FUNCTION RALT
 
 / {
     combos {
