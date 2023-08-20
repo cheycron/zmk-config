@@ -17,6 +17,18 @@
             key-positions = <1 0>;
             layers = <0>;
         };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+            layers = <0>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
     };
 
     keymap {
