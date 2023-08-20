@@ -6,12 +6,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combos-escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 0>;
-            layers = <0>;
-        };
-
         combos-delete {
             bindings = <&kp DELETE>;
             key-positions = <10 11>;
@@ -25,7 +19,7 @@
         };
 
         combos-super {
-            bindings = <&kp LWIN>;
+            bindings = <&kp CAPS>;
             key-positions = <24 25>;
             layers = <0>;
         };
