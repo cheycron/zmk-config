@@ -41,18 +41,18 @@
             key-positions = <36 37 38 39 40 41>;
         };
 
-        F1 { bindings = <&kp F1>; key-positions = <0 12>; layers = <0>; };
-        F2 { bindings = <&kp F2>; key-positions = <1 13>; layers = <0>; };
-        F3 { bindings = <&kp F3>; key-positions = <2 14>; layers = <0>; };
-        F4 { bindings = <&kp F4>; key-positions = <3 15>; layers = <0>; };
-        F5 { bindings = <&kp F5>; key-positions = <4 16>; layers = <0>; };
-        F6 { bindings = <&kp F6>; key-positions = <5 17>; layers = <0>; };
-        F7 { bindings = <&kp F7>; key-positions = <6 18>; layers = <0>; };
-        F8 { bindings = <&kp F8>; key-positions = <7 19>; layers = <0>; };
-        F9 { bindings = <&kp F9>; key-positions = <8 20>; layers = <0>; };
-        F10 { bindings = <&kp F10>; key-positions = <9 21>; layers = <0>; };
-        F11 { bindings = <&kp F11>; key-positions = <10 22>; layers = <0>; };
-        F12 { bindings = <&kp F12>; key-positions = <11 23>; layers = <0>; };
+        F1c { bindings = <&kp F1>; key-positions = <0 12>; layers = <0>; };
+        F2c { bindings = <&kp F2>; key-positions = <1 13>; layers = <0>; };
+        F3c { bindings = <&kp F3>; key-positions = <2 14>; layers = <0>; };
+        F4c { bindings = <&kp F4>; key-positions = <3 15>; layers = <0>; };
+        F5c { bindings = <&kp F5>; key-positions = <4 16>; layers = <0>; };
+        F6c { bindings = <&kp F6>; key-positions = <5 17>; layers = <0>; };
+        F7c { bindings = <&kp F7>; key-positions = <6 18>; layers = <0>; };
+        F8c { bindings = <&kp F8>; key-positions = <7 19>; layers = <0>; };
+        F9c { bindings = <&kp F9>; key-positions = <8 20>; layers = <0>; };
+        F10c { bindings = <&kp F10>; key-positions = <9 21>; layers = <0>; };
+        F11c { bindings = <&kp F11>; key-positions = <10 22>; layers = <0>; };
+        F12c { bindings = <&kp F12>; key-positions = <11 23>; layers = <0>; };
     };
 
     keymap {
