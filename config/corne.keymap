@@ -17,8 +17,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-        D
-
         combos-escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
@@ -36,8 +34,6 @@
             key-positions = <22 23>;
             layers = <0>;
         };
-
-        S
 
         combos-super {
             bindings = <&kp LMETA>;
@@ -104,23 +100,9 @@
             layers = <0>;
         };
 
-        combos-F10c {
-            bindings = <&kp F10>;
-            key-positions = <9 21>;
-            layers = <0>;
-        };
-
-        combos-F11c {
-            bindings = <&kp F11>;
-            key-positions = <10 22>;
-            layers = <0>;
-        };
-
-        combos-F12c {
-            bindings = <&kp F12>;
-            key-positions = <11 23>;
-            layers = <0>;
-        };
+        combos-F10c { bindings = <&kp F10>; key-positions = <9 21>; layers = <0>; };
+        combos-F11c { bindings = <&kp F11>; key-positions = <10 22>; layers = <0>; };
+        combos-F12c { bindings = <&kp F12>; key-positions = <11 23>; layers = <0>; };
     };
 
     keymap {
