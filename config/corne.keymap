@@ -12,9 +12,10 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
+            layers = <0>;
         };
     };
 
