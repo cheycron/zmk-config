@@ -29,7 +29,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            label = "Home"
+            label = "Home";
             bindings = <
   &lt 3 ESC    &kp Q  &kp W      &kp E     &kp R      &kp T          &kp Y  &kp U      &kp I      &kp O     &kp P       &kp BSPC
   &kp TAB      &kp A  &kp S      &kp D     &kp F      &kp G          &kp H  &kp J      &kp K      &kp L     &kp SEMI    &kp SQT
@@ -38,7 +38,7 @@
             >;
         };
        lower_layer {
-            label = "Function"
+            label = "Function";
             bindings = <
   &kp ESC    &kp F1   &kp F2        &kp F3        &kp F4        &kp F5         &kp PAGE_UP  &kp UP      &kp PAGE_DOWN   &kp N7  &kp N8  &kp N9
   &kp TAB    &kp F6   &kp F7        &kp F8        &kp F9        &kp F10        &kp LEFT     &kp DOWN    &kp RIGHT       &kp N4  &kp N5  &kp N6
@@ -47,7 +47,7 @@
             >;
         };
         raise_layer {
-            label = "Extend"
+            label = "Extend";
             bindings = <
   &kp ESC     &kp EXCL       &kp AT             &kp HASH  &kp DLLR   &kp PRCNT   &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DELETE
   &kp TAB     &kp LPAR       &kp RPAR           &kp LBKT  &kp RBKT   &none       &kp MINUS   &kp EQUAL   &kp LBKT         &kp RBKT  &kp BSLH   &kp GRAVE
@@ -56,7 +56,7 @@
             >;
         };
         bluetooth_layer {
-            label = "Bluetooth"
+            label = "Bluetooth";
             bindings = <
   &none  &none   &none  &none   &none     &none         &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_SEL 6
   &none  &none   &none  &none   &none     &none         &none        &none        &none         &none        &none        &none
@@ -65,7 +65,7 @@
             >;
         };
         test_layer {
-            label = "Testing"
+            label = "Testing";
             bindings = <
   &kp F1     &kp F2   &kp F3     &kp F4        &kp F5        &kp F6         &kp F7     &kp F8     &kp F9     &kp F10  &kp F11  &kp F12
   &kp N1     &kp N2   &kp N3     &kp N4        &kp N5        &kp N6         &kp N7     &kp N8     &kp N9     &kp N0   &kp MINUS   &kp PLUS
