@@ -26,18 +26,16 @@
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; };
         combos_btclr { bindings = <&bt BT_CLR>; key-positions = <37 38 39 40>; };
 
-        combos_F1 { bindings = <&kp F1>; key-positions = <0 12>; layers = <0>; };
-        combos_F2 { bindings = <&kp F2>; key-positions = <1 13>; layers = <0>; };
-        combos_F3 { bindings = <&kp F3>; key-positions = <2 14>; layers = <0>; };
-        combos_F4 { bindings = <&kp F4>; key-positions = <3 15>; layers = <0>; };
-        combos_F5 { bindings = <&kp F5>; key-positions = <4 16>; layers = <0>; };
-        combos_F6 { bindings = <&kp F6>; key-positions = <5 17>; layers = <0>; };
-        combos_F7 { bindings = <&kp F7>; key-positions = <6 18>; layers = <0>; };
-        combos_F8 { bindings = <&kp F8>; key-positions = <7 19>; layers = <0>; };
-        combos_F9 { bindings = <&kp F9>; key-positions = <8 20>; layers = <0>; };
-        combos_F10 { bindings = <&kp F10>; key-positions = <9 21>; layers = <0>; };
-        combos_F11 { bindings = <&kp F11>; key-positions = <10 22>; layers = <0>; };
-        combos_F12 { bindings = <&kp F12>; key-positions = <11 23>; layers = <0>; };
+        combos_1_13 { bindings = <&kp EXCL>; key-positions = <1 13>; layers = <0>; };
+        combos_2_14 { bindings = <&kp AT>; key-positions = <2 14>; layers = <0>; };
+        combos_3_15 { bindings = <&kp HASH>; key-positions = <3 15>; layers = <0>; };
+        combos_4_16 { bindings = <&kp DLLR>; key-positions = <4 16>; layers = <0>; };
+        combos_5_17 { bindings = <&kp PRCNT>; key-positions = <5 17>; layers = <0>; };
+        combos_6_18 { bindings = <&kp CARET>; key-positions = <6 18>; layers = <0>; };
+        combos_7_19 { bindings = <&kp AMPS>; key-positions = <7 19>; layers = <0>; };
+        combos_8_20 { bindings = <&kp KP_MULTIPLY>; key-positions = <8 20>; layers = <0>; };
+        combos_9_21 { bindings = <&kp LPAR>; key-positions = <9 21>; layers = <0>; };
+        combos_10_22 { bindings = <&kp RPAR>; key-positions = <10 22>; layers = <0>; };
 
     };
     keymap {
