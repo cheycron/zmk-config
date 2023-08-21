@@ -16,15 +16,6 @@
 
 / {
     behaviors {
-        as: auto_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "AUTO_SHIFT";
-            #binding-cells = <2>;
-            tapping_term_ms = <183>;
-            quick_tap_ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
     };
     combos {
         compatible = "zmk,combos";
@@ -33,6 +24,8 @@
         combos_insert { bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <0>; };
         combos_caps { bindings = <&kp CAPS>; key-positions = <24 25>; layers = <0>; };
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; };
+        combos_btclr { bindings = <&bt BT_CLR>; key-positions = <37 38 39 40>; };
+
         combos_F1 { bindings = <&kp F1>; key-positions = <0 12>; layers = <0>; };
         combos_F2 { bindings = <&kp F2>; key-positions = <1 13>; layers = <0>; };
         combos_F3 { bindings = <&kp F3>; key-positions = <2 14>; layers = <0>; };
@@ -45,7 +38,7 @@
         combos_F10 { bindings = <&kp F10>; key-positions = <9 21>; layers = <0>; };
         combos_F11 { bindings = <&kp F11>; key-positions = <10 22>; layers = <0>; };
         combos_F12 { bindings = <&kp F12>; key-positions = <11 23>; layers = <0>; };
-        combos_btclr { bindings = <&bt BT_CLR>; key-positions = <37 38 39 40>; };
+
     };
     keymap {
         compatible = "zmk,keymap";
@@ -71,6 +64,14 @@
   &kp TAB     &trans  &trans     &trans    &trans     &trans    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH   &kp GRAVE
   &kp LSHFT   &trans  &trans     &trans    &trans     &trans    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE   &kp TILDE
                              &kp LCTRL  &kp LWIN  &kp SPACE       &trans     &trans         &kp RALT
+            >;
+        };
+                test_layer {
+            bindings = <
+  &kp ESC    &kp F1   &kp F2        &kp F3        &kp F4        &kp F5        &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &kp N7  &kp N8  &kp N9
+  &kp TAB    &kp F6   &kp F7        &kp F8        &kp F9       &kp F10        &kp LEFT     &kp DOWN      &kp RIGHT  &kp N4  &kp N5  &kp N6
+  &kp LSHFT  &kp F11  &kp F12  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &kp HOME     &kp END         &kp N0  &kp N1  &kp N2  &kp N3
+                                &kp LCTRL      &kp LWIN     &kp SPACE         &trans       &trans       &kp RALT
             >;
         };
     };
