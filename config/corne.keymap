@@ -8,7 +8,7 @@
         compatible = "zmk,combos";
         combos_delete { bindings = <&kp DELETE>; key-positions = <10 11>; layers = <0>; };
         combos_enter { bindings = <&kp ENTER>; key-positions = <22 23>; layers = <0>; };
-        combos_enter { bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <0>; };
+        combos_insert { bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <0>; };
         combos_super { bindings = <&kp CAPS>; key-positions = <24 25>; layers = <0>; };
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; };
         combos_F1 { bindings = <&kp F1>; key-positions = <0 12>; layers = <0>; };
