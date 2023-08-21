@@ -7,22 +7,22 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combosdelete   { bindings = <&kp DELETE>;  key-positions = <10 11>;   layers = <0>; };
-        combosenter    { bindings = <&kp ENTER>;   key-positions = <22 23>;   layers = <0>; };
-        combossuper    { bindings = <&kp CAPS>;    key-positions = <24 25>;   layers = <0>; };
-        ccombosF1      { bindings = <&kp F1>;      key-positions = <0 12>;    layers = <0>; };
-        combosF2       { bindings = <&kp F2>;      key-positions = <1 13>;    layers = <0>; };
-        combosF3       { bindings = <&kp F3>;      key-positions = <2 14>;    layers = <0>; };
-        combosF4       { bindings = <&kp F4>;      key-positions = <3 15>;    layers = <0>; };
-        combosF5       { bindings = <&kp F5>;      key-positions = <4 16>;    layers = <0>; };
-        combosF6       { bindings = <&kp F6>;      key-positions = <5 17>;    layers = <0>; };
-        combosF7       { bindings = <&kp F7>;      key-positions = <6 18>;    layers = <0>; };
-        combosF8       { bindings = <&kp F8>;      key-positions = <7 19>;    layers = <0>; };
-        combosF9       { bindings = <&kp F9>;      key-positions = <8 20>;    layers = <0>; };
-        combosF10      { bindings = <&kp F10>;     key-positions = <9 21>;    layers = <0>; };
-        combosF11      { bindings = <&kp F11>;     key-positions = <10 22>;   layers = <0>; };
-        combosF12      { bindings = <&kp F12>;     key-positions = <11 23>;   layers = <0>; };
-        combosbtclr    { bindings = <&bt BT_CLR>;  key-positions = <37 38 39 40>; };
+        combos-delete   { bindings = <&kp DELETE>;  key-positions = <10 11>;   layers = <0>; };
+        combos-enter    { bindings = <&kp ENTER>;   key-positions = <22 23>;   layers = <0>; };
+        combos-super    { bindings = <&kp CAPS>;    key-positions = <24 25>;   layers = <0>; };
+        ccombos-F1      { bindings = <&kp F1>;      key-positions = <0 12>;    layers = <0>; };
+        combos-F2       { bindings = <&kp F2>;      key-positions = <1 13>;    layers = <0>; };
+        combos-F3       { bindings = <&kp F3>;      key-positions = <2 14>;    layers = <0>; };
+        combos-F4       { bindings = <&kp F4>;      key-positions = <3 15>;    layers = <0>; };
+        combos-F5       { bindings = <&kp F5>;      key-positions = <4 16>;    layers = <0>; };
+        combos-F6       { bindings = <&kp F6>;      key-positions = <5 17>;    layers = <0>; };
+        combos-F7       { bindings = <&kp F7>;      key-positions = <6 18>;    layers = <0>; };
+        combos-F8       { bindings = <&kp F8>;      key-positions = <7 19>;    layers = <0>; };
+        combos-F9       { bindings = <&kp F9>;      key-positions = <8 20>;    layers = <0>; };
+        combos-F10      { bindings = <&kp F10>;     key-positions = <9 21>;    layers = <0>; };
+        combos-F11      { bindings = <&kp F11>;     key-positions = <10 22>;   layers = <0>; };
+        combos-F12      { bindings = <&kp F12>;     key-positions = <11 23>;   layers = <0>; };
+        combos-btclr    { bindings = <&bt BT_CLR>;  key-positions = <37 38 39 40>; };
     };
 
     keymap {
