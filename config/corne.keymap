@@ -31,11 +31,11 @@
         combos_caps { bindings = <&kp CAPS>; key-positions = <24 25>; layers = <0>; };
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; };
         combos_btclr { bindings = <&bt BT_CLR>; key-positions = <37 38 39 40>; };
-        combos_cut { bindings = <&kp K_CUT>; key-positions = <25 26>; };
-        combos_copy { bindings = <&kp K_COPY>; key-positions = <26 27>; };
-        combos_paste { bindings = <&kp K_PASTE>; key-positions = <27 28>; };
-        combos_undo { bindings = <&kp K_UNDO>; key-positions = <0 1 2>; };
-        combos_redo { bindings = <&kp K_REDO>; key-positions = <9 10 11>; };
+        combos_cut { bindings = <&kp C_AC_CUT>; key-positions = <25 26>; };
+        combos_copy { bindings = <&kp C_AC_COPY>; key-positions = <26 27>; };
+        combos_paste { bindings = <&kp C_AC_PASTE>; key-positions = <27 28>; };
+        combos_undo { bindings = <&kp C_AC_UNDO>; key-positions = <0 1 2>; };
+        combos_redo { bindings = <&kp C_AC_REDO>; key-positions = <9 10 11>; };
     };
 
 
