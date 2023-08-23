@@ -14,6 +14,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // Behavior configuration
+&mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
+&lt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
+&sk { release-after-ms = <500>; quick-release; };
 
 / {
 
@@ -28,11 +31,11 @@
         combos_caps { bindings = <&kp CAPS>; key-positions = <24 25>; layers = <0>; };
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; };
         combos_btclr { bindings = <&bt BT_CLR>; key-positions = <37 38 39 40>; };
-        combos_cut { bindings = <&bt K_CUT>; key-positions = <25 26>; };
-        combos_copy { bindings = <&bt K_COPY>; key-positions = <26 27>; };
-        combos_paste { bindings = <&bt K_PASTE>; key-positions = <27 28>; };
-        combos_undo { bindings = <&bt K_UNDO>; key-positions = <0 1 2>; };
-        combos_redo { bindings = <&bt K_REDO>; key-positions = <9 10 11>; };
+        combos_cut { bindings = <&kp K_CUT>; key-positions = <25 26>; };
+        combos_copy { bindings = <&kp K_COPY>; key-positions = <26 27>; };
+        combos_paste { bindings = <&kp K_PASTE>; key-positions = <27 28>; };
+        combos_undo { bindings = <&kp K_UNDO>; key-positions = <0 1 2>; };
+        combos_redo { bindings = <&kp K_REDO>; key-positions = <9 10 11>; };
     };
 
 
