@@ -10,8 +10,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
 
 // Behavior configuration
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
