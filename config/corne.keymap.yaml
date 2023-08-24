@@ -13,8 +13,8 @@ layers:
     - O
   - - P
     - BSPC
-    - {t: TAB, h: Media}
-    - A
+    - {t: TAB, s: LA(TAB)}
+    - {t: A, h: Media}
     - S
     - D
     - F
@@ -93,8 +93,8 @@ layers:
   - ['', '', '', '', '', '', PREV, PP, NEXT, '']
   - - ''
     - VOL UP
-    - {type: held}
     - ''
+    - {type: held}
     - ''
     - ''
     - ''

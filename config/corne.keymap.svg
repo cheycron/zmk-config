@@ -122,9 +122,10 @@ path.combo {
 <text x="842.0" y="105.0" class="tap">BSPC</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="135.0" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="161.0" class="tap">TAB</text>
-<text x="58.0" y="185.0" class="hold">Media</text>
+<text x="58.0" y="137.0" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="135.0" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="161.0" class="tap">A</text>
+<text x="114.0" y="185.0" class="hold">Media</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="121.0" width="52.0" height="52.0" class="key"/>
 <text x="170.0" y="147.0" class="tap">S</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="114.0" width="52.0" height="52.0" class="key"/>
@@ -522,8 +523,8 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="816.0" y="1401.6122678357856" width="52.0" height="52.0" class="key"/>
 <text x="842.0" y="1427.6122678357856" class="tap">
 <tspan x="842.0" dy="-0.6em">VOL</tspan><tspan x="842.0" dy="1.2em">UP</tspan></text>
-<rect rx="6.0" ry="6.0" x="32.0" y="1457.6122678357856" width="52.0" height="52.0" class="held key"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="32.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="88.0" y="1457.6122678357856" width="52.0" height="52.0" class="held key"/>
 <rect rx="6.0" ry="6.0" x="144.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="200.0" y="1436.6122678357856" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="256.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
