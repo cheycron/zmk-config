@@ -203,6 +203,8 @@ path.combo {
 <tspan x="284.79999999999995" dy="-0.6em">LEFT</tspan><tspan x="284.79999999999995" dy="1.2em">ALT</tspan></text>
 <rect rx="6.0" ry="6.0" x="128.0" y="141.0" width="28.0" height="26.0" class="combo"/>
 <text x="142.0" y="154.0" class="combo tap">LC(A)</text>
+<rect rx="6.0" ry="6.0" x="184.0" y="130.5" width="28.0" height="26.0" class="combo"/>
+<text x="198.0" y="143.5" class="combo tap">LC(S)</text>
 <rect rx="6.0" ry="6.0" x="184.0" y="186.5" width="28.0" height="26.0" class="combo"/>
 <text x="198.0" y="199.5" class="combo tap">LC(X)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="186.5" width="28.0" height="26.0" class="combo"/>

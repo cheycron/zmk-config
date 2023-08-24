@@ -126,6 +126,9 @@ combos:
 - p: [13, 14]
   k: LC(A)
   l: [Home]
+- p: [14, 15]
+  k: LC(S)
+  l: [Home]
 - p: [26, 27]
   k: LC(X)
   l: [Home]
