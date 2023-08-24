@@ -34,15 +34,15 @@ layers:
     - {t: SPACE, h: Function}
   - [Extend, RALT]
   Function:
-  - [ESC, F1, F2, F3, F4, F5, PAGE UP, UP, PAGE DOWN, KP 7]
-  - [KP 8, KP 9, TAB, F6, F7, F8, F9, F10, LEFT, DOWN]
-  - [RIGHT, KP 4, KP 5, KP 6, LSHFT, F11, F12, '', '', PSCRN]
+  - [ESC, '', '', '', '', '', PAGE UP, UP, PAGE DOWN, '7']
+  - ['8', '9', TAB, '', '', '', '', '', LEFT, DOWN]
+  - [RIGHT, '4', '5', '6', LSHFT, '', '', '', '', PSCRN]
   - - HOME
     - END
-    - KP 0
-    - KP 1
-    - KP 2
-    - KP 3
+    - '0'
+    - '1'
+    - '2'
+    - '3'
     - LCTRL
     - LWIN
     - SPACE
@@ -90,7 +90,7 @@ layers:
   - ['', '', '', '', '', '', '', '', '', '']
   - ['', '']
   Media:
-  - ['', '', '', '', '', '', PREV, STOP, PP, NEXT]
+  - ['', '', '', '', '', '', PREV, PP, NEXT, '']
   - - ''
     - VOL UP
     - {type: held}
@@ -107,7 +107,7 @@ layers:
 combos:
 - p: [10, 11]
   k: DELETE
-  l: [Home]
+  l: [Home, Extend]
 - p: [22, 23]
   k: ENTER
   l: [Home]
@@ -140,4 +140,40 @@ combos:
   l: [Home]
 - p: [9, 10, 11]
   k: LC(Y)
+  l: [Home]
+- p: [0, 12]
+  k: F1
+  l: [Home]
+- p: [1, 13]
+  k: F2
+  l: [Home]
+- p: [2, 14]
+  k: F3
+  l: [Home]
+- p: [3, 15]
+  k: F4
+  l: [Home]
+- p: [4, 16]
+  k: F5
+  l: [Home]
+- p: [5, 17]
+  k: F6
+  l: [Home]
+- p: [6, 18]
+  k: F7
+  l: [Home]
+- p: [7, 19]
+  k: F8
+  l: [Home]
+- p: [8, 20]
+  k: F9
+  l: [Home]
+- p: [9, 21]
+  k: F10
+  l: [Home]
+- p: [10, 22]
+  k: F11
+  l: [Home]
+- p: [11, 23]
+  k: F12
   l: [Home]
