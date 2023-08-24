@@ -37,7 +37,6 @@
         behav_alt_f10: alt_f10 { compatible = "zmk,behavior-mod-morph"; label = "alt_f10"; #binding-cells = <0>; bindings = <&kp F10>, <&kp LA(F10)>; mods = <(MOD_RALT)>; };
         behav_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
         behav_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
-
     };
 
     combos {
@@ -49,7 +48,7 @@
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <0>; };
         combos_btclr { bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <3>; };
         combos_select_all { bindings = <&kp LC(A)>; key-positions = <13 14>; layers = <0>; };
-        combos_select_all { bindings = <&kp LC(S)>; key-positions = <14 15>; layers = <0>; };
+        combos_save { bindings = <&kp LC(S)>; key-positions = <14 15>; layers = <0>; };
         combos_cut { bindings = <&kp LC(X)>; key-positions = <26 27>; layers = <0>; };
         combos_copy { bindings = <&kp LC(C)>; key-positions = <27 28>; layers = <0>; };
         combos_paste { bindings = <&kp LC(V)>; key-positions = <28 29>; layers = <0>; };
