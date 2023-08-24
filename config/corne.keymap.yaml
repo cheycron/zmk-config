@@ -129,6 +129,9 @@ combos:
 - p: [14, 15]
   k: LC(S)
   l: [Home]
+- p: [16, 17]
+  k: LC(F)
+  l: [Home]
 - p: [26, 27]
   k: LC(X)
   l: [Home]
@@ -145,38 +148,38 @@ combos:
   k: LC(Y)
   l: [Home]
 - p: [0, 12]
-  k: F1
+  k: {t: F1, s: LA(F1)}
   l: [Home]
 - p: [1, 13]
-  k: F2
+  k: {t: F2, s: LA(F2)}
   l: [Home]
 - p: [2, 14]
-  k: F3
+  k: {t: F3, s: LA(F3)}
   l: [Home]
 - p: [3, 15]
-  k: F4
+  k: {t: F4, s: LA(F4)}
   l: [Home]
 - p: [4, 16]
-  k: F5
+  k: {t: F5, s: LA(F5)}
   l: [Home]
 - p: [5, 17]
-  k: F6
+  k: {t: F6, s: LA(F6)}
   l: [Home]
 - p: [6, 18]
-  k: F7
+  k: {t: F7, s: LA(F7)}
   l: [Home]
 - p: [7, 19]
-  k: F8
+  k: {t: F8, s: LA(F8)}
   l: [Home]
 - p: [8, 20]
-  k: F9
+  k: {t: F9, s: LA(F9)}
   l: [Home]
 - p: [9, 21]
-  k: F10
+  k: {t: F10, s: LA(F10)}
   l: [Home]
 - p: [10, 22]
-  k: F11
+  k: {t: F11, s: LA(F11)}
   l: [Home]
 - p: [11, 23]
-  k: F12
+  k: {t: F12, s: LA(F12)}
   l: [Home]
