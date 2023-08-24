@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   Home:
-  - - {t: ESC, h: Extend2}
+  - - {t: ESC, h: Bluetooth}
     - Q
     - W
     - E
@@ -13,7 +13,7 @@ layers:
     - O
   - - P
     - BSPC
-    - {t: TAB, h: Bluetooth}
+    - {t: TAB, h: Media}
     - A
     - S
     - D
@@ -51,31 +51,6 @@ layers:
     - RALT
   Extend:
   - [ESC, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
-  - [), BSPC, TAB, (, ), '[', ']', '', '-', '=']
-  - [/, \, '`', '''', LSHFT, <, '>', '{', '}', '']
-  - - _
-    - +
-    - ''
-    - '|'
-    - '~'
-    - RSHIFT
-    - LCTRL
-    - LWIN
-    - SPACE
-    - {t: ▽, type: trans}
-  - - {type: held}
-    - RALT
-  Extend2:
-  - - {t: ESC, type: held}
-    - '!'
-    - '@'
-    - '#'
-    - $
-    - '%'
-    - ^
-    - '&'
-    - KP MULTIPLY
-    - (
   - [), BSPC, TAB, '~', '', '', '', '', '-', '=']
   - [/, '[', ']', '''', LSHFT, <, '>', \, '`', '|']
   - - _
@@ -88,10 +63,10 @@ layers:
     - LWIN
     - SPACE
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - {type: held}
     - RALT
   Bluetooth:
-  - - ''
+  - - {type: held}
     - ''
     - ''
     - ''
@@ -103,7 +78,7 @@ layers:
     - {t: BT, h: '4'}
   - - {t: BT, h: '5'}
     - {t: BT, h: '6'}
-    - {type: held}
+    - ''
     - ''
     - ''
     - ''
@@ -116,7 +91,16 @@ layers:
   - ['', '']
   Media:
   - ['', '', '', '', '', '', PREV, PP, NEXT, '']
-  - ['', VOL UP, '', '', '', '', '', '', '', '']
+  - - ''
+    - VOL UP
+    - {type: held}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
   - ['', '', '', MUTE, '', '', '', '', '', '']
   - ['', '', '', '', '', VOL DN, '', '', '', '']
   - ['', '']
@@ -138,7 +122,7 @@ combos:
   l: [Home]
 - p: [39, 40, 41]
   k: BT CLR
-  l: [Extend2]
+  l: [Bluetooth]
 - p: [13, 14]
   k: LC(A)
   l: [Home]
