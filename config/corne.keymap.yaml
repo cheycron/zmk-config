@@ -1,0 +1,143 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  Home:
+  - - {t: ESC, h: Bluetooth}
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+  - - P
+    - BSPC
+    - {t: TAB, h: Media}
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+  - [K, L, ;, '''', LSHFT, Z, X, C, V, B]
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - RSHIFT
+    - LCTRL
+    - LWIN
+    - SPACE
+    - {t: SPACE, h: Function}
+  - [Extend, RALT]
+  Function:
+  - [ESC, F1, F2, F3, F4, F5, PAGE UP, UP, PAGE DOWN, KP 7]
+  - [KP 8, KP 9, TAB, F6, F7, F8, F9, F10, LEFT, DOWN]
+  - [RIGHT, KP 4, KP 5, KP 6, LSHFT, F11, F12, '', '', PSCRN]
+  - - HOME
+    - END
+    - KP 0
+    - KP 1
+    - KP 2
+    - KP 3
+    - LCTRL
+    - LWIN
+    - SPACE
+    - {type: held}
+  - - {t: ▽, type: trans}
+    - RALT
+  Extend:
+  - [ESC, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
+  - [), BSPC, TAB, (, ), '[', ']', '', '-', '=']
+  - [/, \, '`', '''', LSHFT, <, '>', '{', '}', '']
+  - - _
+    - +
+    - ''
+    - '|'
+    - '~'
+    - RSHIFT
+    - LCTRL
+    - LWIN
+    - SPACE
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - RALT
+  Bluetooth:
+  - - {type: held}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+  - - {t: BT, h: '5'}
+    - {t: BT, h: '6'}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', '']
+  Media:
+  - ['', '', '', '', '', '', PREV, STOP, PP, NEXT]
+  - - ''
+    - VOL UP
+    - {type: held}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - ['', '', '', MUTE, '', '', '', '', '', '']
+  - ['', '', '', '', '', VOL DN, '', '', '', '']
+  - ['', '']
+combos:
+- p: [10, 11]
+  k: DELETE
+  l: [Home]
+- p: [22, 23]
+  k: ENTER
+  l: [Home]
+- p: [34, 35]
+  k: INSERT
+  l: [Home]
+- p: [24, 25]
+  k: '&caps_word'
+  l: [Home]
+- p: [36, 37]
+  k: LEFT ALT
+  l: [Home]
+- p: [39, 40, 41]
+  k: BT CLR
+  l: [Bluetooth]
+- p: [13, 14]
+  k: LC(A)
+  l: [Home]
+- p: [26, 27]
+  k: LC(X)
+  l: [Home]
+- p: [27, 28]
+  k: LC(C)
+  l: [Home]
+- p: [28, 29]
+  k: LC(V)
+  l: [Home]
+- p: [0, 1, 2]
+  k: LC(Z)
+  l: [Home]
+- p: [9, 10, 11]
+  k: LC(Y)
+  l: [Home]
