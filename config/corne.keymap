@@ -64,9 +64,9 @@
         combos_f7 { bindings = <&b_alt_f7>; key-positions = <6 18>; layers = <0>; };
         combos_f8 { bindings = <&b_alt_f8>; key-positions = <7 19>; layers = <0>; };
         combos_f9 { bindings = <&b_alt_f9>; key-positions = <8 20>; layers = <0>; };
-        combos_f10 { bindings = <&b_alt_f100>; key-positions = <9 21>; layers = <0>; };
-        combos_f11 { bindings = <&b_alt_f111>; key-positions = <10 22>; layers = <0>; };
-        combos_f12 { bindings = <&b_alt_f122>; key-positions = <11 23>; layers = <0>; };
+        combos_f10 { bindings = <&b_alt_f10>; key-positions = <9 21>; layers = <0>; };
+        combos_f11 { bindings = <&b_alt_f11>; key-positions = <10 22>; layers = <0>; };
+        combos_f12 { bindings = <&b_alt_f12>; key-positions = <11 23>; layers = <0>; };
     };
 
 
