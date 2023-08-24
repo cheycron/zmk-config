@@ -13,8 +13,8 @@ layers:
     - O
   - - P
     - BSPC
-    - {t: TAB, s: LA(TAB)}
-    - {t: A, h: Media}
+    - {t: TAB, h: Media}
+    - A
     - S
     - D
     - F
@@ -93,8 +93,8 @@ layers:
   - ['', '', '', '', '', '', PREV, PP, NEXT, '']
   - - ''
     - VOL UP
-    - ''
     - {type: held}
+    - ''
     - ''
     - ''
     - ''
@@ -113,6 +113,9 @@ combos:
   l: [Home]
 - p: [34, 35]
   k: INSERT
+  l: [Home]
+- p: [12, 13]
+  k: '&LA(TAB)'
   l: [Home]
 - p: [24, 25]
   k: '&caps_word'
