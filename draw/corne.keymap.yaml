@@ -1,0 +1,289 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  Home:
+  - - {t: '$$mdi:keyboard-esc$$', h: Bluetooth}
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+  - - P
+    - {t: '$$mdi:backspace$$', type: backspace}
+    - {t: '$$mdi:keyboard-tab$$', h: Media}
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+  - - K
+    - L
+    - {t: ;, s: ':'}
+    - {t: '''', s: '"'}
+    - $$mdi:apple-keyboard-shift$$
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - - N
+    - M
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
+    - {t: /, s: '?'}
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:apple-keyboard-control$$
+    - LWIN
+    - $$mdi:keyboard-space$$
+    - {t: '$$mdi:keyboard-space$$', h: Function}
+  - [Extend, '$$mdi:apple-keyboard-option$$']
+  Function:
+  - - $$mdi:keyboard-esc$$
+    - PAGE UP
+    - $$mdi:arrow-up-bold$$
+    - HOME
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - PSCRN
+    - {t: '=', s: +}
+    - KP MULTIPLY
+    - {t: '7', s: '&'}
+    - {t: '8', s: '*'}
+  - - {t: '9', s: (}
+    - {t: '-', s: _}
+    - $$mdi:keyboard-tab$$
+    - $$mdi:arrow-left-bold$$
+    - $$mdi:arrow-down-bold$$
+    - $$mdi:arrow-right-bold$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: /, s: '?'}
+  - - {t: '4', s: $}
+    - {t: '5', s: '%'}
+    - {t: '6', s: ^}
+    - +
+    - $$mdi:apple-keyboard-shift$$
+    - PAGE DOWN
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - END
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '0', s: )}
+    - {t: '1', s: '!'}
+    - {t: '2', s: '@'}
+    - {t: '3', s: '#'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+    - $$mdi:apple-keyboard-control$$
+    - LWIN
+    - $$mdi:keyboard-space$$
+    - {type: held}
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - $$mdi:apple-keyboard-option$$
+  Extend:
+  - ['$$mdi:keyboard-esc$$', '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
+  - - )
+    - {t: '$$mdi:backspace$$', type: backspace}
+    - $$mdi:keyboard-tab$$
+    - '~'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '-', s: _}
+    - {t: '=', s: +}
+  - - {t: /, s: '?'}
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
+    - {t: '''', s: '"'}
+    - $$mdi:apple-keyboard-shift$$
+    - <
+    - '>'
+    - {t: \, s: '|'}
+    - {t: '`', s: '~'}
+    - '|'
+  - - _
+    - +
+    - {t: \, s: '|'}
+    - '{'
+    - '}'
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:apple-keyboard-control$$
+    - LWIN
+    - $$mdi:keyboard-space$$
+    - {t: '$$mdi:transfer$$', type: trans}
+  - - {type: held}
+    - $$mdi:apple-keyboard-option$$
+  Bluetooth:
+  - - {t: '$$mdi:minus-circle-outline$$', type: held}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - OUT USB
+    - OUT BLE
+    - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+    - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  Media:
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - $$mdi:skip-previous$$
+    - $$mdi:play-pause$$
+    - $$mdi:skip-next$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - $$mdi:volume-high$$
+    - {t: '$$mdi:minus-circle-outline$$', type: held}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - $$mdi:volume-off$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - $$mdi:volume-low$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [10, 11]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [Home, Extend]
+- p: [22, 23]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [Home]
+- p: [34, 35]
+  k: INSERT
+  l: [Home]
+- p: [12, 13]
+  k: LA(TAB)
+  l: [Home]
+- p: [24, 25]
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [Home]
+- p: [36, 37]
+  k: LEFT ALT
+  l: [Home]
+- p: [39, 40, 41]
+  k: $$mdi:bluetooth-off$$
+  l: [Bluetooth]
+- p: [13, 14]
+  k: LC(A)
+  l: [Home]
+- p: [14, 15]
+  k: LC(S)
+  l: [Home]
+- p: [16, 17]
+  k: LC(F)
+  l: [Home]
+- p: [26, 27]
+  k: LC(X)
+  l: [Home]
+- p: [27, 28]
+  k: LC(C)
+  l: [Home]
+- p: [28, 29]
+  k: LC(V)
+  l: [Home]
+- p: [0, 1, 2]
+  k: LC(Z)
+  l: [Home]
+- p: [9, 10, 11]
+  k: LC(Y)
+  l: [Home]
+- p: [0, 12]
+  k: {t: F1, s: LA(F1)}
+  l: [Home]
+- p: [1, 13]
+  k: {t: F2, s: LA(F2)}
+  l: [Home]
+- p: [2, 14]
+  k: {t: F3, s: LA(F3)}
+  l: [Home]
+- p: [3, 15]
+  k: {t: F4, s: LA(F4)}
+  l: [Home]
+- p: [4, 16]
+  k: {t: F5, s: LA(F5)}
+  l: [Home]
+- p: [5, 17]
+  k: {t: F6, s: LA(F6)}
+  l: [Home]
+- p: [6, 18]
+  k: {t: F7, s: LA(F7)}
+  l: [Home]
+- p: [7, 19]
+  k: {t: F8, s: LA(F8)}
+  l: [Home]
+- p: [8, 20]
+  k: {t: F9, s: LA(F9)}
+  l: [Home]
+- p: [9, 21]
+  k: {t: F10, s: LA(F10)}
+  l: [Home]
+- p: [10, 22]
+  k: {t: F11, s: LA(F11)}
+  l: [Home]
+- p: [11, 23]
+  k: {t: F12, s: LA(F12)}
+  l: [Home]

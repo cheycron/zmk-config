@@ -1,3 +1,3 @@
 
 draw:
-	     keymap parse -c 10 -z config/corne.keymap > config/corne.keymap.yaml && keymap draw config/corne.keymap.yaml > config/corne.keymap.svg
+		keymap -c draw/config.yaml parse -c 10 -z config/corne.keymap > draw/corne.keymap.yaml && keymap draw draw/corne.keymap.yaml > draw/corne.keymap.svg

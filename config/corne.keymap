@@ -112,5 +112,14 @@
                         &none   &none     &none         &none        &none        &none
             >;
         };
+        lower_layer {
+            label = "Function";
+            bindings = <
+  &kp ESC    &kp PAGE_UP    &kp UP      &kp HOME     &none       &kp PSCRN   &kp EQUAL    &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS
+  &kp TAB    &kp LEFT       &kp DOWN    &kp RIGHT    &none       &none       &none        &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS
+  &kp LSHFT  &kp PAGE_DOWN  &none       &kp END      &none       &none       &none        &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER
+                          &kp LCTRL   &kp LWIN       &kp SPACE   &trans      &trans       &kp RALT
+            >;
+        };
     };
 };

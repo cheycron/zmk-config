@@ -1,3 +1,3 @@
 # zmk-config
 
-![Alt text](https://raw.githubusercontent.com/cheycron/zmk-config/main/config/corne.keymap.svg)
+![Alt text](https://raw.githubusercontent.com/cheycron/zmk-config/main/draw/corne.keymap.svg)
