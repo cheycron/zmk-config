@@ -70,14 +70,14 @@ layers:
     - ''
     - ''
     - ''
-    - ''
-    - ''
+    - OUT USB
+    - OUT BLE
+    - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
-    - {t: BT, h: '4'}
-  - - {t: BT, h: '5'}
-    - {t: BT, h: '6'}
+  - - {t: BT, h: '4'}
+    - {t: BT, h: '5'}
     - ''
     - ''
     - ''
@@ -115,7 +115,7 @@ combos:
   k: INSERT
   l: [Home]
 - p: [12, 13]
-  k: '&LA(TAB)'
+  k: LA(TAB)
   l: [Home]
 - p: [24, 25]
   k: '&caps_word'

@@ -10,6 +10,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 // Behavior configuration
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
@@ -96,10 +97,10 @@
         bluetooth_layer {
             label = "Bluetooth";
             bindings = <
-  &none  &none   &none  &none   &none     &none         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_SEL 5
-  &none  &none   &none  &none   &none     &none         &none        &none        &none         &none        &none        &none
-  &none  &none   &none  &none   &none     &none         &none        &none        &none         &none        &none        &none
-                        &none   &none     &none         &none        &none        &none
+  &none  &none   &none  &none   &out OUT_USB   &out OUT_BLE  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_SEL 5
+  &none  &none   &none  &none   &none          &none         &none        &none        &none         &none        &none        &none
+  &none  &none   &none  &none   &none          &none         &none        &none        &none         &none        &none        &none
+                        &none   &none          &none         &none        &none        &none
             >;
         };
         media_layer {
