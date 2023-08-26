@@ -59,8 +59,7 @@
 
     combos {
         compatible = "zmk,combos";
-        combos_egaming { bindings = <&tog LAYER_GAMING>; key-positions = <11 23 35>; layers = <LAYER_HOME>; };
-        combos_dgaming { bindings = <&tog LAYER_HOME>; key-positions = <11 23 35>; layers = <LAYER_GAMING>; };
+        combos_egaming { bindings = <&tog LAYER_GAMING>; key-positions = <11 23 35>; layers = <LAYER_HOME LAYER_GAMING>; };
         combos_delete { bindings = <&kp DELETE>; key-positions = <10 11>; layers = <0 2>; };
         combos_enter { bindings = <&kp ENTER>; key-positions = <22 23>; layers = <0>; };
         combos_insert { bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <0>; };
