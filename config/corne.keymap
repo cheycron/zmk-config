@@ -42,8 +42,9 @@
         combos_caps { bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <0>; };
         combos_alt { bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <0>; };
         combos_btclr { bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <3>; };
-        combos_select_all { bindings = <&kp LC(A)>; key-positions = <13 14>; layers = <0>; };
-        combos_save { bindings = <&kp LC(S)>; key-positions = <14 15>; layers = <0>; };
+//      Bad Behavior when gaming on WASD. Maybe using a sticky layer for gaming?
+//      combos_select_all { bindings = <&kp LC(A)>; key-positions = <13 14>; layers = <0>; };
+//      combos_save { bindings = <&kp LC(S)>; key-positions = <14 15>; layers = <0>; };
         combos_find { bindings = <&kp LC(F)>; key-positions = <16 17>; layers = <0>; };
         combos_cut { bindings = <&kp LC(X)>; key-positions = <26 27>; layers = <0>; };
         combos_copy { bindings = <&kp LC(C)>; key-positions = <27 28>; layers = <0>; };
@@ -71,7 +72,7 @@
             label = "Home";
             bindings = <
   &lt 3 ESC    &kp Q  &kp W      &kp E     &kp R      &kp T          &kp Y  &kp U      &kp I      &kp O     &kp P       &kp BSPC
-  &lt 4 TAB    &kp A  &kp S      &kp D     &kp F      &kp G          &kp H  &kp J      &kp K      &kp L     &kp SEMI    &kp SQT
+  &kp TAB      &kp A  &kp S      &kp D     &kp F      &kp G          &kp H  &kp J      &kp K      &kp L     &kp SEMI    &kp SQT
   &kp LSHFT    &kp Z  &kp X      &kp C     &kp V      &kp B          &kp N  &kp M      &kp COMMA  &kp DOT   &kp FSLH    &kp RSHIFT
                            &kp LCTRL  &kp LWIN  &kp SPACE          &lt 1 SPACE  &mo 2   &kp RALT
             >;
@@ -94,24 +95,32 @@
                              &kp LCTRL          &kp LWIN   &kp SPACE   &trans      &trans      &kp RALT
             >;
         };
-        bluetooth_layer {
-            label = "Blt.";
-            bindings = <
-  &none  &none   &none  &none   &out OUT_USB   &out OUT_BLE  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_SEL 5
-  &none  &none   &none  &none   &none          &none         &none        &none        &none         &none        &none        &none
-  &none  &none   &none  &none   &none          &none         &none        &none        &none         &none        &none        &none
-                        &none   &none          &none         &none        &none        &none
-            >;
-        };
-        media_layer {
+        mediabt_layer {
             label = "Media";
             bindings = <
-  &none  &none   &none  &none   &none     &none         &kp C_PREV   &kp C_PP      &kp C_NEXT   &none        &none        &kp C_VOL_UP
-  &none  &none   &none  &none   &none     &none         &none        &none        &none         &none        &none        &kp C_MUTE
-  &none  &none   &none  &none   &none     &none         &none        &none        &none         &none        &none        &kp C_VOL_DN
-                        &none   &none     &none         &none        &none        &none
+  &kp ESC     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp C_PREV   &kp C_PP      &kp C_NEXT    &none       &kp C_VOL_UP   &kp BSPC
+  &kp TAB     &none          &none         &none         &none         &none                &none        &none         &none         &none       &kp C_MUTE     &kp SQT
+  &kp LSHFT   &none          &none         &none         &out OUT_USB  &out OUT_BLE         &none        &none         &none         &none       &kp C_VOL_DN   &kp RSHIFT
+                                           &kp LCTRL     &kp LWIN      &kp SPACE            &lt 1 SPACE  &mo 2         &kp RALT
             >;
         };
-
+        move_layer {
+            label = "Move";
+            bindings = <
+  &kp ESC    &kp PAGE_UP    &kp UP      &kp HOME     &none       &none        &none        &none   &none  &none  &none  &none
+  &kp TAB    &kp LEFT       &kp DOWN    &kp RIGHT    &none       &none        &none        &none   &none  &none  &none  &none
+  &kp LSHFT  &kp PAGE_DOWN  &none       &kp END      &none       &none        &none        &none   &none  &none  &none  &none
+                            &kp LCTRL   &kp LWIN     &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
+            >;
+        };
+        numpad_layer {
+            label = "Numpad";
+            bindings = <
+   &none  &none   &none  &none   &none     &none     &kp EQUAL    &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS
+   &none  &none   &none  &none   &none     &none     &none        &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS
+   &none  &none   &none  &none   &none     &none     &none        &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER
+                         &kp LCTRL         &kp LWIN  &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
+            >;
+        };
     };
 };
