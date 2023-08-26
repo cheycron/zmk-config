@@ -42,6 +42,7 @@
 
 / {
     behaviors {
+        // Convert right alt + F to left alt + F
         b_alt_f1: alt_f1 { compatible = "zmk,behavior-mod-morph"; label = "alt_f1"; #binding-cells = <0>; bindings = <&kp F1>, <&kp LA(F1)>; mods = <(MOD_RALT)>; };
         b_alt_f2: alt_f2 { compatible = "zmk,behavior-mod-morph"; label = "alt_f2"; #binding-cells = <0>; bindings = <&kp F2>, <&kp LA(F2)>; mods = <(MOD_RALT)>; };
         b_alt_f3: alt_f3 { compatible = "zmk,behavior-mod-morph"; label = "alt_f3"; #binding-cells = <0>; bindings = <&kp F3>, <&kp LA(F3)>; mods = <(MOD_RALT)>; };
@@ -112,46 +113,46 @@
         raise_layer {
             label = "Ext.";
             bindings = <
-  &kp ESC     &kp EXCL       &kp AT             &kp HASH   &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
-  &kp TAB     &kp TILDE      &none              &none      &none       &none       &kp MINUS   &kp EQUAL   &kp FSLH         &kp LBKT   &kp RBKT  &kp SQT
-  &kp LSHFT   &kp LESS_THAN  &kp GREATER_THAN   &kp BSLH   &kp GRAVE   &kp PIPE    &kp UNDER   &kp PLUS    &kp BSLH         &kp LBRC   &kp RBRC  &kp RSHIFT
-                             &kp LCTRL          &kp LWIN   &kp SPACE   &trans      &trans      &kp RALT
+                            &kp ESC     &kp EXCL       &kp AT             &kp HASH   &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
+                            &kp TAB     &kp TILDE      &none              &none      &none       &none       &kp MINUS   &kp EQUAL   &kp FSLH         &kp LBKT   &kp RBKT  &kp SQT
+                            &kp LSHFT   &kp LESS_THAN  &kp GREATER_THAN   &kp BSLH   &kp GRAVE   &kp PIPE    &kp UNDER   &kp PLUS    &kp BSLH         &kp LBRC   &kp RBRC  &kp RSHIFT
+                                                        &kp LCTRL          &kp LWIN   &kp SPACE   &trans      &trans      &kp RALT
             >;
         };
         mediabt_layer {
             label = "Media";
             bindings = <
-  &kp ESC     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp C_PREV   &kp C_PP      &kp C_NEXT    &none       &kp C_VOL_UP   &kp BSPC
-  &kp TAB     &none          &none         &none         &none         &none                &none        &none         &none         &none       &kp C_MUTE     &kp SQT
-  &kp LSHFT   &none          &none         &none         &out OUT_USB  &out OUT_BLE         &none        &none         &none         &none       &kp C_VOL_DN   &kp RSHIFT
-                                           &kp LCTRL     &kp LWIN      &kp SPACE            &lt 1 SPACE  &mo 2         &kp RALT
+                            &kp ESC     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp C_PREV   &kp C_PP      &kp C_NEXT    &none       &kp C_VOL_UP   &kp BSPC
+                            &kp TAB     &none          &none         &none         &none         &none                &none        &none         &none         &none       &kp C_MUTE     &kp SQT
+                            &kp LSHFT   &none          &none         &none         &out OUT_USB  &out OUT_BLE         &none        &none         &none         &none       &kp C_VOL_DN   &kp RSHIFT
+                                                                    &kp LCTRL     &kp LWIN      &kp SPACE            &lt 1 SPACE  &mo 2         &kp RALT
             >;
         };
         move_layer {
             label = "Move";
             bindings = <
-  &kp ESC    &kp PAGE_UP    &kp UP      &kp HOME     &none       &none        &none        &none   &none  &none  &none  &none
-  &kp TAB    &kp LEFT       &kp DOWN    &kp RIGHT    &none       &none        &none        &none   &none  &none  &none  &none
-  &kp LSHFT  &kp PAGE_DOWN  &none       &kp END      &none       &none        &none        &none   &none  &none  &none  &none
-                            &kp LCTRL   &kp LWIN     &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
+                            &kp ESC    &kp PAGE_UP    &kp UP      &kp HOME     &none       &none        &none        &none   &none  &none  &none  &none
+                            &kp TAB    &kp LEFT       &kp DOWN    &kp RIGHT    &none       &none        &none        &none   &none  &none  &none  &none
+                            &kp LSHFT  &kp PAGE_DOWN  &none       &kp END      &none       &none        &none        &none   &none  &none  &none  &none
+                                                        &kp LCTRL   &kp LWIN     &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
             >;
         };
         numpad_layer {
             label = "Numpad";
             bindings = <
-   &none  &none   &none  &none   &none     &none     &kp EQUAL    &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS
-   &none  &none   &none  &none   &none     &none     &none        &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS
-   &none  &none   &none  &none   &none     &none     &none        &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER
-                         &kp LCTRL         &kp LWIN  &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
+                            &none  &none   &none  &none   &none     &none     &kp EQUAL    &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS
+                            &none  &none   &none  &none   &none     &none     &none        &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS
+                            &none  &none   &none  &none   &none     &none     &none        &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER
+                                                    &kp LCTRL         &kp LWIN  &kp SPACE   &lt 1 SPACE  &mo 2        &kp RALT
             >;
         };
         gaming_layer {
             label = "Gaming";
             bindings = <
-    &kp ESC      &kp Q  &kp W      &kp E       &kp R        &kp T          &kp Y        &kp U      &kp I      &kp O     &kp P       &kp BSPC
-    &kp TAB      &kp A  &kp S      &kp D       &kp F        &kp G          &kp H        &kp J      &kp K      &kp L     &kp SEMI    &kp ENTER
-    &kp LSHFT    &kp Z  &kp X      &kp C       &kp V        &kp B          &kp N        &kp M      &kp COMMA  &kp DOT   &kp FSLH    &kp RSHIFT
-                                   &kp LCTRL   &kp LATL     &kp SPACE      &kp SPACE    &none      &kp RALT
+                            &kp ESC      &kp Q  &kp W      &kp E       &kp R        &kp T          &kp Y        &kp U      &kp I      &kp O     &kp P       &kp BSPC
+                            &kp TAB      &kp A  &kp S      &kp D       &kp F        &kp G          &kp H        &kp J      &kp K      &kp L     &kp SEMI    &kp ENTER
+                            &kp LSHFT    &kp Z  &kp X      &kp C       &kp V        &kp B          &kp N        &kp M      &kp COMMA  &kp DOT   &kp FSLH    &kp RSHIFT
+                                                           &kp LCTRL   &kp LATL     &kp SPACE      &kp SPACE    &none      &kp RALT
             >;
         };
     };
