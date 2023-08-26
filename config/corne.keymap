@@ -26,12 +26,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include "../config/keypos_42keys.h"
 
-/*
-=== === === === === === === === === === === ===
-    LAYERS DEFINITION
-=== === === === === === === === === === === ===
-*/
-
+// Layer Names
 #define LAYER_HOME 0
 #define LAYER_FUNC 1
 #define LAYER_EXT 2
@@ -40,22 +35,12 @@
 #define LAYER_NUMPAD 5
 #define LAYER_GAMING 6
 
-/*
-=== === === === === === === === === === === ===
-    CONFIGURATION
-=== === === === === === === === === === === ===
-*/
 // Behavior configuration
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &lt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <500>; quick-release; };
 
 / {
-/*
-=== === === === === === === === === === === ===
-    BEHAVRIOS
-=== === === === === === === === === === === ===
-*/
     behaviors {
         b_alt_f1: alt_f1 { compatible = "zmk,behavior-mod-morph"; label = "alt_f1"; #binding-cells = <0>; bindings = <&kp F1>, <&kp LA(F1)>; mods = <(MOD_RALT)>; };
         b_alt_f2: alt_f2 { compatible = "zmk,behavior-mod-morph"; label = "alt_f2"; #binding-cells = <0>; bindings = <&kp F2>, <&kp LA(F2)>; mods = <(MOD_RALT)>; };
@@ -70,16 +55,11 @@
         b_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
         b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
     };
-/*
-=== === === === === === === === === === === ===
-    COMBOS
-=== === === === === === === === === === === ===
-*/
+
     combos {
         compatible = "zmk,combos";
         combos_egaming { bindings = <&tog LAYER_GAMING>; key-positions = <11 23 35>; layers = <LAYER_HOME>; };
         combos_dgaming { bindings = <&tog LAYER_HOME>; key-positions = <11 23 35>; layers = <LAYER_GAMING>; };
-
         combos_delete { bindings = <&kp DELETE>; key-positions = <10 11>; layers = <0 2>; };
         combos_enter { bindings = <&kp ENTER>; key-positions = <22 23>; layers = <0>; };
         combos_insert { bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <0>; };
@@ -108,11 +88,7 @@
         combos_f11 { bindings = <&b_alt_f11>; key-positions = <10 22>; layers = <0>; };
         combos_f12 { bindings = <&b_alt_f12>; key-positions = <11 23>; layers = <0>; };
     };
-/*
-=== === === === === === === === === === === ===
-    LAYERS KEYMAP
-=== === === === === === === === === === === ===
-*/
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
