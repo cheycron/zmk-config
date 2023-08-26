@@ -274,7 +274,7 @@ layers:
     - {t: /, s: '?'}
     - $$mdi:apple-keyboard-shift$$
     - $$mdi:apple-keyboard-control$$
-    - LATL
+    - $$mdi:apple-keyboard-option$$
     - $$mdi:keyboard-space$$
     - $$mdi:keyboard-space$$
   - - {t: '$$mdi:minus-circle-outline$$', type: none}
