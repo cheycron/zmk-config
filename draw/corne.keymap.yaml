@@ -245,7 +245,46 @@ layers:
     - $$mdi:keyboard-space$$
     - {t: '$$mdi:keyboard-space$$', h: Func.}
   - [Ext., '$$mdi:apple-keyboard-option$$']
+  Gaming:
+  - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O]
+  - - P
+    - {t: '$$mdi:backspace$$', type: backspace}
+    - $$mdi:keyboard-tab$$
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+  - - K
+    - L
+    - {t: ;, s: ':'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+    - $$mdi:apple-keyboard-shift$$
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - - N
+    - M
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
+    - {t: /, s: '?'}
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:apple-keyboard-control$$
+    - LATL
+    - $$mdi:keyboard-space$$
+    - {t: '$$mdi:keyboard-space$$', h: Func.}
+  - [Ext., '$$mdi:apple-keyboard-option$$']
 combos:
+- p: [11, 23, 35]
+  k: Gaming
+  l: [Home]
+- p: [11, 23, 35]
+  k: Home
+  l: [Gaming]
 - p: [10, 11]
   k: $$mdi:backspace-reverse-outline$$
   l: [Home, Ext.]
@@ -267,6 +306,12 @@ combos:
 - p: [39, 40, 41]
   k: $$mdi:bluetooth-off$$
   l: [Media]
+- p: [13, 14]
+  k: LC(A)
+  l: [Home]
+- p: [14, 15]
+  k: LC(S)
+  l: [Home]
 - p: [16, 17]
   k: LC(F)
   l: [Home]
