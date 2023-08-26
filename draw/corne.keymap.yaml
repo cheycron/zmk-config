@@ -276,8 +276,9 @@ layers:
     - $$mdi:apple-keyboard-control$$
     - LATL
     - $$mdi:keyboard-space$$
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
+    - $$mdi:keyboard-space$$
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - $$mdi:apple-keyboard-option$$
 combos:
 - p: [11, 23, 35]
   k: Gaming
