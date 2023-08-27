@@ -13,7 +13,7 @@ layers:
     - O
   - - P
     - {t: '$$mdi:backspace$$', type: backspace}
-    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
+    - $$mdi:keyboard-tab$$
     - A
     - S
     - D
@@ -39,7 +39,7 @@ layers:
     - $$mdi:apple-keyboard-shift$$
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
+    - $$mdi:keyboard-space$$
     - {t: '$$mdi:keyboard-space$$', h: Func.}
   - [Ext., '$$mdi:apple-keyboard-option$$']
   Func.:
@@ -81,7 +81,7 @@ layers:
     - {t: '$$mdi:keyboard-return$$', type: enter}
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - {type: held}
+    - {t: '$$mdi:transfer$$', type: trans}
     - {type: held}
   - [Ext., '$$mdi:apple-keyboard-option$$']
   Ext.:
@@ -114,7 +114,7 @@ layers:
     - $$mdi:apple-keyboard-shift$$
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - {t: '$$mdi:keyboard-space$$', type: held}
+    - $$mdi:keyboard-space$$
     - {type: held}
   - - {type: held}
     - $$mdi:apple-keyboard-option$$
@@ -216,9 +216,6 @@ combos:
 - p: [36, 37]
   k: LEFT ALT
   l: [Home]
-- p: [39, 40, 41]
-  k: $$mdi:bluetooth-off$$
-  l: [Media]
 - p: [13, 14]
   k: LC(A)
   l: [Home]
@@ -243,6 +240,9 @@ combos:
 - p: [9, 10, 11]
   k: LC(Y)
   l: [Home]
+- p: [39, 40, 41]
+  k: $$mdi:bluetooth-off$$
+  l: [Media]
 - p: [0, 12]
   k: {t: F1, s: LA(F1)}
   l: [Home]
