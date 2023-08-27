@@ -156,11 +156,12 @@ layers:
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - $$mdi:volume-low$$
     - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
-    - $$mdi:keyboard-space$$
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
   Gaming:
   - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O]
   - - P
