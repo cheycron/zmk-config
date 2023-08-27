@@ -25,7 +25,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include "../config/keypos_42keys.h"
 
-// Layer Names
+// Parameters and Configuration
 #define LAYER_HOME 0
 #define LAYER_FUNC 1
 #define LAYER_EXT 2
@@ -34,7 +34,6 @@
 #define SLOW_COMBO_TIMEOUT 40
 #define FAST_COMBO_TIMEOUT 30
 
-// Behavior configuration
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &lt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <500>; quick-release; };
@@ -56,6 +55,7 @@
         b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
         // ALT TAB not work well
         b_alt_tab: alt_tab { compatible = "zmk,behavior-mod-morph"; label = "alt_tab"; #binding-cells = <0>; bindings = <&kp TAB>, <&kp LA(TAB)>; mods = <(MOD_RALT)>; };
+        ht: hold_tap { label = "hold_tap"; compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "tap-preferred"; tapping-term-ms = <220>; quick-tap-ms = <150>; global-quick-tap; bindings = <&kp>, <&kp>; };
     };
 
     combos {
@@ -94,11 +94,13 @@
         compatible = "zmk,keymap";
         default_layer {
             label = "Home";
+// &ht LSHFT A  &ht LALT S  &ht LCTRL D  &ht LGUI F
+// &ht RGUI J  &ht RCTRL K  &ht RALT L  &ht LSHFT SEMI
             bindings = <
-                            &lt 3 ESC    &kp Q  &kp W      &kp E       &kp R      &kp T          /**/      &kp Y        &kp U      &kp I      &kp O     &kp P       &kp BSPC
-                            &kp TAB      &kp A  &kp S      &kp D       &kp F      &kp G          /**/      &kp H        &kp J      &kp K      &kp L     &kp SEMI    &kp SQT
-                            &kp LSHFT    &kp Z  &kp X      &kp C       &kp V      &kp B          /**/      &kp N        &kp M      &kp COMMA  &kp DOT   &kp FSLH    &kp RSHIFT
-                                                           &kp LCTRL   &kp LWIN   &kp SPACE      /**/      &lt 1 SPACE  &mo 2      &kp RALT
+                            &lt 3 ESC    &kp Q         &kp W       &kp E        &kp R         &kp T    /**/      &kp Y        &kp U       &kp I        &kp O       &kp P           &kp BSPC
+                            &kp TAB      &ht LSHFT A   &ht LALT S  &ht LCTRL D  &ht LGUI F    &kp G    /**/      &kp H        &ht RGUI J  &ht RCTRL K  &ht RALT L  &ht LSHFT SEMI  &kp SQT
+                            &kp LSHFT    &kp Z         &kp X       &kp C        &kp V         &kp B    /**/      &kp N        &kp M       &kp COMMA    &kp DOT     &kp FSLH        &kp RSHIFT
+                                                       &kp LCTRL   &kp LWIN     &kp SPACE              /**/      &lt 1 SPACE  &mo 2       &kp RALT
             >;
         };
         lower_layer {
