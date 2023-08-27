@@ -25,7 +25,7 @@ layers:
     - {t: L, h: '$$mdi:apple-keyboard-control$$'}
     - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
     - {t: '''', s: '"'}
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - Z
     - X
     - C
@@ -36,12 +36,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - {t: /, s: '?'}
-    - $$mdi:apple-keyboard-shift$$
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - Ext.
+    - Func.
     - $$mdi:keyboard-space$$
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
+    - $$mdi:keyboard-space$$
+  - [Func., Ext.]
   Func.:
   - - $$mdi:keyboard-esc$$
     - PAGE UP
@@ -67,7 +67,7 @@ layers:
     - {t: '5', s: '%'}
     - {t: '6', s: ^}
     - +
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - PAGE DOWN
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - END
@@ -79,11 +79,12 @@ layers:
     - {t: '2', s: '@'}
     - {t: '3', s: '#'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
-    - {t: '$$mdi:transfer$$', type: trans}
+    - Ext.
     - {type: held}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
+    - $$mdi:keyboard-space$$
+    - $$mdi:keyboard-space$$
+  - - {type: held}
+    - Ext.
   Ext.:
   - ['$$mdi:keyboard-esc$$', '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
   - - )
@@ -100,7 +101,7 @@ layers:
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
     - {t: '''', s: '"'}
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - <
     - '>'
     - {t: \, s: '|'}
@@ -111,13 +112,13 @@ layers:
     - {t: \, s: '|'}
     - '{'
     - '}'
-    - $$mdi:apple-keyboard-shift$$
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
-    - $$mdi:keyboard-space$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {type: held}
-  - - {type: held}
-    - $$mdi:apple-keyboard-option$$
+    - {t: Func., type: held}
+    - $$mdi:keyboard-space$$
+    - $$mdi:keyboard-space$$
+  - - {t: Func., type: held}
+    - {type: held}
   Media:
   - - {t: '$$mdi:keyboard-esc$$', type: held}
     - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -143,7 +144,7 @@ layers:
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - $$mdi:volume-off$$
     - {t: '''', s: '"'}
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -154,7 +155,7 @@ layers:
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - $$mdi:volume-low$$
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
     - $$mdi:apple-keyboard-control$$
     - LWIN
     - $$mdi:keyboard-space$$
