@@ -13,7 +13,7 @@ layers:
     - O
   - - P
     - {t: '$$mdi:backspace$$', type: backspace}
-    - $$mdi:keyboard-tab$$
+    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
     - A
     - S
     - D
@@ -39,7 +39,7 @@ layers:
     - $$mdi:apple-keyboard-shift$$
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - $$mdi:keyboard-space$$
+    - {t: '$$mdi:keyboard-space$$', h: Func.}
     - {t: '$$mdi:keyboard-space$$', h: Func.}
   - [Ext., '$$mdi:apple-keyboard-option$$']
   Func.:
@@ -55,7 +55,7 @@ layers:
     - {t: '8', s: '*'}
   - - {t: '9', s: (}
     - {t: '-', s: _}
-    - $$mdi:keyboard-tab$$
+    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
     - $$mdi:arrow-left-bold$$
     - $$mdi:arrow-down-bold$$
     - $$mdi:arrow-right-bold$$
@@ -81,15 +81,14 @@ layers:
     - {t: '$$mdi:keyboard-return$$', type: enter}
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - $$mdi:keyboard-space$$
     - {type: held}
-  - - {t: '$$mdi:transfer$$', type: trans}
-    - $$mdi:apple-keyboard-option$$
+    - {type: held}
+  - [Ext., '$$mdi:apple-keyboard-option$$']
   Ext.:
   - ['$$mdi:keyboard-esc$$', '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
   - - )
     - {t: '$$mdi:backspace$$', type: backspace}
-    - $$mdi:keyboard-tab$$
+    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
     - '~'
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -115,8 +114,8 @@ layers:
     - $$mdi:apple-keyboard-shift$$
     - $$mdi:apple-keyboard-control$$
     - LWIN
-    - $$mdi:keyboard-space$$
-    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:keyboard-space$$', type: held}
+    - {type: held}
   - - {type: held}
     - $$mdi:apple-keyboard-option$$
   Media:
@@ -132,7 +131,7 @@ layers:
     - {t: '$$mdi:minus-circle-outline$$', type: none}
   - - $$mdi:volume-high$$
     - {t: '$$mdi:backspace$$', type: backspace}
-    - $$mdi:keyboard-tab$$
+    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
     - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -161,95 +160,11 @@ layers:
     - $$mdi:keyboard-space$$
     - {t: '$$mdi:keyboard-space$$', h: Func.}
   - [Ext., '$$mdi:apple-keyboard-option$$']
-  Move:
-  - - $$mdi:keyboard-esc$$
-    - PAGE UP
-    - $$mdi:arrow-up-bold$$
-    - HOME
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:keyboard-tab$$
-    - $$mdi:arrow-left-bold$$
-    - $$mdi:arrow-down-bold$$
-    - $$mdi:arrow-right-bold$$
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:apple-keyboard-shift$$
-    - PAGE DOWN
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - END
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
-    - $$mdi:keyboard-space$$
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
-  Numpad:
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '=', s: +}
-    - KP MULTIPLY
-    - {t: '7', s: '&'}
-    - {t: '8', s: '*'}
-  - - {t: '9', s: (}
-    - {t: '-', s: _}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: /, s: '?'}
-  - - {t: '4', s: $}
-    - {t: '5', s: '%'}
-    - {t: '6', s: ^}
-    - +
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '0', s: )}
-    - {t: '1', s: '!'}
-    - {t: '2', s: '@'}
-    - {t: '3', s: '#'}
-    - {t: '$$mdi:keyboard-return$$', type: enter}
-    - $$mdi:apple-keyboard-control$$
-    - LWIN
-    - $$mdi:keyboard-space$$
-    - {t: '$$mdi:keyboard-space$$', h: Func.}
-  - [Ext., '$$mdi:apple-keyboard-option$$']
   Gaming:
   - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O]
   - - P
     - {t: '$$mdi:backspace$$', type: backspace}
-    - $$mdi:keyboard-tab$$
+    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
     - A
     - S
     - D
@@ -282,10 +197,7 @@ layers:
 combos:
 - p: [11, 23, 35]
   k: Gaming
-  l: [Home]
-- p: [11, 23, 35]
-  k: Home
-  l: [Gaming]
+  l: [Home, Gaming]
 - p: [10, 11]
   k: $$mdi:backspace-reverse-outline$$
   l: [Home, Ext.]

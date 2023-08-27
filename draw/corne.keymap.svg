@@ -1,55 +1,31 @@
-<svg width="900.0" height="2370.5714687126247" viewBox="0 0 900.0 2370.5714687126247" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900.0" height="1709.265334794732" viewBox="0 0 900.0 1709.265334794732" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
-<svg id="mdi:backspace">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace" viewBox="0 0 24 24"><path d="M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.31,21 7,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12" /></svg>
-</svg>
-<svg id="mdi:minus-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
-</svg>
-<svg id="mdi:keyboard-return">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
-</svg>
-<svg id="mdi:skip-previous">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
-</svg>
-<svg id="mdi:keyboard-tab">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
-</svg>
-<svg id="mdi:volume-off">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
-</svg>
-<svg id="mdi:transfer">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
-</svg>
-<svg id="mdi:apple-keyboard-caps">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
-</svg>
-<svg id="mdi:arrow-right-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
-</svg>
-<svg id="mdi:bluetooth-connect">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
-</svg>
-<svg id="mdi:arrow-up-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
-</svg>
-<svg id="mdi:volume-high">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+<svg id="mdi:arrow-left-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
-<svg id="mdi:apple-keyboard-option">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
+<svg id="mdi:keyboard-esc">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
+</svg>
+<svg id="mdi:play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+</svg>
+<svg id="mdi:backspace">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace" viewBox="0 0 24 24"><path d="M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.31,21 7,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12" /></svg>
 </svg>
 <svg id="mdi:keyboard-space">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-space" viewBox="0 0 24 24"><path d="M3 15H5V19H19V15H21V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V15Z" /></svg>
 </svg>
+<svg id="mdi:volume-high">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+</svg>
+<svg id="mdi:volume-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
+</svg>
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
-</svg>
-<svg id="mdi:arrow-left-bold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
@@ -57,23 +33,44 @@
 <svg id="mdi:apple-keyboard-shift">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
 </svg>
-<svg id="mdi:keyboard-esc">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
+<svg id="mdi:arrow-right-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
 </svg>
-<svg id="mdi:gesture-tap-hold">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-gesture-tap-hold" viewBox="0 0 24 24"><path d="M10,9A1,1 0 0,1 11,8A1,1 0 0,1 12,9V13.47L13.21,13.6L18.15,15.79C18.68,16.03 19,16.56 19,17.14V21.5C18.97,22.32 18.32,22.97 17.5,23H11C10.62,23 10.26,22.85 10,22.57L5.1,18.37L5.84,17.6C6.03,17.39 6.3,17.28 6.58,17.28H6.8L10,19V9M9,12.44V9A2,2 0 0,1 11,7A2,2 0 0,1 13,9V12.44C14.19,11.75 15,10.47 15,9A4,4 0 0,0 11,5A4,4 0 0,0 7,9C7,10.47 7.81,11.75 9,12.44Z" /></svg>
+<svg id="mdi:skip-next">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-next" viewBox="0 0 24 24"><path d="M16,18H18V6H16M6,18L14.5,12L6,6V18Z" /></svg>
 </svg>
-<svg id="mdi:backspace-reverse-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse-outline" viewBox="0 0 24 24"><path d="M5,15.59L6.41,17L10,13.41L13.59,17L15,15.59L11.41,12L15,8.41L13.59,7L10,10.59L6.41,7L5,8.41L8.59,12L5,15.59M2,3A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21H17C17.69,21 18.23,20.64 18.59,20.11L24,12L18.59,3.88C18.23,3.35 17.69,3 17,3H2M2,5H17L21.72,12L17,19H2V5Z" /></svg>
+<svg id="mdi:minus-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
 </svg>
-<svg id="mdi:play-pause">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
+<svg id="mdi:apple-keyboard-option">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
+</svg>
+<svg id="mdi:skip-previous">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
 </svg>
 <svg id="mdi:volume-low">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-low" viewBox="0 0 24 24"><path d="M7,9V15H11L16,20V4L11,9H7Z" /></svg>
 </svg>
-<svg id="mdi:skip-next">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-next" viewBox="0 0 24 24"><path d="M16,18H18V6H16M6,18L14.5,12L6,6V18Z" /></svg>
+<svg id="mdi:backspace-reverse-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse-outline" viewBox="0 0 24 24"><path d="M5,15.59L6.41,17L10,13.41L13.59,17L15,15.59L11.41,12L15,8.41L13.59,7L10,10.59L6.41,7L5,8.41L8.59,12L5,15.59M2,3A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21H17C17.69,21 18.23,20.64 18.59,20.11L24,12L18.59,3.88C18.23,3.35 17.69,3 17,3H2M2,5H17L21.72,12L17,19H2V5Z" /></svg>
+</svg>
+<svg id="mdi:apple-keyboard-caps">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
+</svg>
+<svg id="mdi:bluetooth-connect">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-tab">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
+</svg>
+<svg id="mdi:gesture-tap-hold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-gesture-tap-hold" viewBox="0 0 24 24"><path d="M10,9A1,1 0 0,1 11,8A1,1 0 0,1 12,9V13.47L13.21,13.6L18.15,15.79C18.68,16.03 19,16.56 19,17.14V21.5C18.97,22.32 18.32,22.97 17.5,23H11C10.62,23 10.26,22.85 10,22.57L5.1,18.37L5.84,17.6C6.03,17.39 6.3,17.28 6.58,17.28H6.8L10,19V9M9,12.44V9A2,2 0 0,1 11,7A2,2 0 0,1 13,9V12.44C14.19,11.75 15,10.47 15,9A4,4 0 0,0 11,5A4,4 0 0,0 7,9C7,10.47 7.81,11.75 9,12.44Z" /></svg>
+</svg>
+<svg id="mdi:keyboard-return">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
+</svg>
+<svg id="mdi:arrow-up-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags*/
@@ -199,6 +196,7 @@ path.combo {
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="835.0" y="98.0" height="14" width="14.0" class="backspace tap glyph mdi:backspace"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="135.0" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="154.0" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
+<text x="58.0" y="137.0" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="135.0" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="161.0" class="tap">A</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="121.0" width="52.0" height="52.0" class="key"/>
@@ -259,6 +257,7 @@ path.combo {
 <g transform="rotate(30.0, 381.12, 280.28)">
 <rect rx="6.0" ry="6.0" x="355.12" y="240.27999999999997" width="52.0" height="80.0" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="273.28" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
+<text x="381.12" y="318.28" class="hold">Func.</text>
 </g>
 <g transform="rotate(-30.0, 518.88, 280.28)">
 <rect rx="6.0" ry="6.0" x="492.88" y="240.27999999999997" width="52.0" height="80.0" class="key"/>
@@ -381,6 +380,7 @@ path.combo {
 <text x="842.0" y="411.6530669589464" class="shifted">_</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="465.6530669589464" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="484.6530669589464" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
+<text x="58.0" y="467.6530669589464" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="465.6530669589464" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="107.0" y="484.6530669589464" height="14" width="14.0" class="tap glyph mdi:arrow-left-bold"/>
 <rect rx="6.0" ry="6.0" x="144.0" y="451.6530669589464" width="52.0" height="52.0" class="key"/>
@@ -443,15 +443,14 @@ path.combo {
 <text x="315.59999999999997" y="599.7330669589464" class="tap">LWIN</text>
 </g>
 <g transform="rotate(30.0, 381.12, 610.9330669589464)">
-<rect rx="6.0" ry="6.0" x="355.12" y="570.9330669589464" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="603.9330669589464" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
+<rect rx="6.0" ry="6.0" x="355.12" y="570.9330669589464" width="52.0" height="80.0" class="held key"/>
 </g>
 <g transform="rotate(-30.0, 518.88, 610.9330669589464)">
 <rect rx="6.0" ry="6.0" x="492.88" y="570.9330669589464" width="52.0" height="80.0" class="held key"/>
 </g>
 <g transform="rotate(-15.0, 584.4, 599.7330669589464)">
-<rect rx="6.0" ry="6.0" x="558.4" y="573.7330669589464" width="52.0" height="52.0" class="trans key"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="577.4" y="592.7330669589464" height="14" width="14.0" class="trans tap glyph mdi:transfer"/>
+<rect rx="6.0" ry="6.0" x="558.4" y="573.7330669589464" width="52.0" height="52.0" class="key"/>
+<text x="584.4" y="599.7330669589464" class="tap">Ext.</text>
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="565.5010669589464" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="639.0" y="584.5010669589464" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
@@ -485,6 +484,7 @@ path.combo {
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="835.0" y="759.3061339178928" height="14" width="14.0" class="backspace tap glyph mdi:backspace"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="796.3061339178928" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="815.3061339178928" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
+<text x="58.0" y="798.3061339178928" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="796.3061339178928" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="822.3061339178928" class="tap">~</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="782.3061339178928" width="52.0" height="52.0" class="none key"/>
@@ -547,12 +547,11 @@ path.combo {
 <text x="315.59999999999997" y="930.3861339178928" class="tap">LWIN</text>
 </g>
 <g transform="rotate(30.0, 381.12, 941.5861339178928)">
-<rect rx="6.0" ry="6.0" x="355.12" y="901.5861339178928" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="934.5861339178928" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
+<rect rx="6.0" ry="6.0" x="355.12" y="901.5861339178928" width="52.0" height="80.0" class="held key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="934.5861339178928" height="14" width="14.0" class="held tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="rotate(-30.0, 518.88, 941.5861339178928)">
-<rect rx="6.0" ry="6.0" x="492.88" y="901.5861339178928" width="52.0" height="80.0" class="trans key"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="511.88" y="934.5861339178928" height="14" width="14.0" class="trans tap glyph mdi:transfer"/>
+<rect rx="6.0" ry="6.0" x="492.88" y="901.5861339178928" width="52.0" height="80.0" class="held key"/>
 </g>
 <g transform="rotate(-15.0, 584.4, 930.3861339178928)">
 <rect rx="6.0" ry="6.0" x="558.4" y="904.3861339178928" width="52.0" height="52.0" class="held key"/>
@@ -595,6 +594,7 @@ path.combo {
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="835.0" y="1089.959200876839" height="14" width="14.0" class="backspace tap glyph mdi:backspace"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="1145.959200876839" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
+<text x="58.0" y="1128.959200876839" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1126.959200876839" width="52.0" height="52.0" class="none key"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="107.0" y="1145.959200876839" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
 <rect rx="6.0" ry="6.0" x="144.0" y="1112.959200876839" width="52.0" height="52.0" class="none key"/>
@@ -670,87 +670,90 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="569.0933333333332" y="1249.0285342101724" width="28.0" height="26.0" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="576.0933333333332" y="1255.0285342101724" height="14" width="14.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="layer-Move">
-<text x="30.0" y="1350.6122678357856" class="label">Move:</text>
+<g class="layer-Gaming">
+<text x="30.0" y="1350.6122678357856" class="label">Gaming:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1401.6122678357856" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="51.0" y="1420.6122678357856" height="14" width="14.0" class="tap glyph mdi:keyboard-esc"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1401.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1427.6122678357856" class="tap">
-<tspan x="114.0" dy="-0.6em">PAGE</tspan><tspan x="114.0" dy="1.2em">UP</tspan></text>
+<text x="114.0" y="1427.6122678357856" class="tap">Q</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1387.6122678357856" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="163.0" y="1406.6122678357856" height="14" width="14.0" class="tap glyph mdi:arrow-up-bold"/>
+<text x="170.0" y="1413.6122678357856" class="tap">W</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1380.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1406.6122678357856" class="tap">HOME</text>
-<rect rx="6.0" ry="6.0" x="256.0" y="1387.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1406.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1394.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1413.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1394.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="555.0" y="1413.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="592.0" y="1387.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="611.0" y="1406.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="648.0" y="1380.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="667.0" y="1399.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="704.0" y="1387.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="723.0" y="1406.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="760.0" y="1401.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="779.0" y="1420.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="816.0" y="1401.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="835.0" y="1420.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
+<text x="226.0" y="1406.6122678357856" class="tap">E</text>
+<rect rx="6.0" ry="6.0" x="256.0" y="1387.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="1413.6122678357856" class="tap">R</text>
+<rect rx="6.0" ry="6.0" x="312.0" y="1394.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="338.0" y="1420.6122678357856" class="tap">T</text>
+<rect rx="6.0" ry="6.0" x="536.0" y="1394.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="562.0" y="1420.6122678357856" class="tap">Y</text>
+<rect rx="6.0" ry="6.0" x="592.0" y="1387.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="1413.6122678357856" class="tap">U</text>
+<rect rx="6.0" ry="6.0" x="648.0" y="1380.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="674.0" y="1406.6122678357856" class="tap">I</text>
+<rect rx="6.0" ry="6.0" x="704.0" y="1387.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="730.0" y="1413.6122678357856" class="tap">O</text>
+<rect rx="6.0" ry="6.0" x="760.0" y="1401.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="786.0" y="1427.6122678357856" class="tap">P</text>
+<rect rx="6.0" ry="6.0" x="816.0" y="1401.6122678357856" width="52.0" height="52.0" class="backspace key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="835.0" y="1420.6122678357856" height="14" width="14.0" class="backspace tap glyph mdi:backspace"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="1476.6122678357856" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
+<text x="58.0" y="1459.6122678357856" class="shifted">LA(TAB)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="107.0" y="1476.6122678357856" height="14" width="14.0" class="tap glyph mdi:arrow-left-bold"/>
+<text x="114.0" y="1483.6122678357856" class="tap">A</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="163.0" y="1462.6122678357856" height="14" width="14.0" class="tap glyph mdi:arrow-down-bold"/>
+<text x="170.0" y="1469.6122678357856" class="tap">S</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1436.6122678357856" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="219.0" y="1455.6122678357856" height="14" width="14.0" class="tap glyph mdi:arrow-right-bold"/>
-<rect rx="6.0" ry="6.0" x="256.0" y="1443.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1462.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1450.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1469.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1450.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="555.0" y="1469.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="592.0" y="1443.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="611.0" y="1462.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="648.0" y="1436.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="667.0" y="1455.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="704.0" y="1443.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="723.0" y="1462.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="760.0" y="1457.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="779.0" y="1476.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="816.0" y="1457.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="835.0" y="1476.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
+<text x="226.0" y="1462.6122678357856" class="tap">D</text>
+<rect rx="6.0" ry="6.0" x="256.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="1469.6122678357856" class="tap">F</text>
+<rect rx="6.0" ry="6.0" x="312.0" y="1450.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="338.0" y="1476.6122678357856" class="tap">G</text>
+<rect rx="6.0" ry="6.0" x="536.0" y="1450.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="562.0" y="1476.6122678357856" class="tap">H</text>
+<rect rx="6.0" ry="6.0" x="592.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="1469.6122678357856" class="tap">J</text>
+<rect rx="6.0" ry="6.0" x="648.0" y="1436.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="674.0" y="1462.6122678357856" class="tap">K</text>
+<rect rx="6.0" ry="6.0" x="704.0" y="1443.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="730.0" y="1469.6122678357856" class="tap">L</text>
+<rect rx="6.0" ry="6.0" x="760.0" y="1457.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="786.0" y="1483.6122678357856" class="tap">;</text>
+<text x="786.0" y="1459.6122678357856" class="shifted">:</text>
+<rect rx="6.0" ry="6.0" x="816.0" y="1457.6122678357856" width="52.0" height="52.0" class="enter key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="835.0" y="1476.6122678357856" height="14" width="14.0" class="enter tap glyph mdi:keyboard-return"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="1513.6122678357856" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="51.0" y="1532.6122678357856" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-shift"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1513.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1539.6122678357856" class="tap">
-<tspan x="114.0" dy="-0.6em">PAGE</tspan><tspan x="114.0" dy="1.2em">DOWN</tspan></text>
-<rect rx="6.0" ry="6.0" x="144.0" y="1499.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="163.0" y="1518.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
+<text x="114.0" y="1539.6122678357856" class="tap">Z</text>
+<rect rx="6.0" ry="6.0" x="144.0" y="1499.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="170.0" y="1525.6122678357856" class="tap">X</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1492.6122678357856" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1518.6122678357856" class="tap">END</text>
-<rect rx="6.0" ry="6.0" x="256.0" y="1499.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1518.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1506.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1525.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1506.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="555.0" y="1525.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="592.0" y="1499.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="611.0" y="1518.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="648.0" y="1492.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="667.0" y="1511.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="704.0" y="1499.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="723.0" y="1518.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="760.0" y="1513.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="779.0" y="1532.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="816.0" y="1513.6122678357856" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="835.0" y="1532.6122678357856" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
+<text x="226.0" y="1518.6122678357856" class="tap">C</text>
+<rect rx="6.0" ry="6.0" x="256.0" y="1499.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="1525.6122678357856" class="tap">V</text>
+<rect rx="6.0" ry="6.0" x="312.0" y="1506.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="338.0" y="1532.6122678357856" class="tap">B</text>
+<rect rx="6.0" ry="6.0" x="536.0" y="1506.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="562.0" y="1532.6122678357856" class="tap">N</text>
+<rect rx="6.0" ry="6.0" x="592.0" y="1499.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="1525.6122678357856" class="tap">M</text>
+<rect rx="6.0" ry="6.0" x="648.0" y="1492.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="674.0" y="1518.6122678357856" class="tap">,</text>
+<text x="674.0" y="1494.6122678357856" class="shifted">&lt;</text>
+<rect rx="6.0" ry="6.0" x="704.0" y="1499.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="730.0" y="1525.6122678357856" class="tap">.</text>
+<text x="730.0" y="1501.6122678357856" class="shifted">&gt;</text>
+<rect rx="6.0" ry="6.0" x="760.0" y="1513.6122678357856" width="52.0" height="52.0" class="key"/>
+<text x="786.0" y="1539.6122678357856" class="tap">/</text>
+<text x="786.0" y="1515.6122678357856" class="shifted">?</text>
+<rect rx="6.0" ry="6.0" x="816.0" y="1513.6122678357856" width="52.0" height="52.0" class="key"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="835.0" y="1532.6122678357856" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-shift"/>
 <rect rx="6.0" ry="6.0" x="228.0" y="1557.4602678357855" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="247.0" y="1576.4602678357855" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-control"/>
 <g transform="rotate(15.0, 315.59999999999997, 1591.6922678357855)">
 <rect rx="6.0" ry="6.0" x="289.59999999999997" y="1565.6922678357855" width="52.0" height="52.0" class="key"/>
-<text x="315.59999999999997" y="1591.6922678357855" class="tap">LWIN</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="308.59999999999997" y="1584.6922678357855" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="rotate(30.0, 381.12, 1602.8922678357856)">
 <rect rx="6.0" ry="6.0" x="355.12" y="1562.8922678357856" width="52.0" height="80.0" class="key"/>
@@ -759,226 +762,16 @@ path.combo {
 <g transform="rotate(-30.0, 518.88, 1602.8922678357856)">
 <rect rx="6.0" ry="6.0" x="492.88" y="1562.8922678357856" width="52.0" height="80.0" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="511.88" y="1595.8922678357856" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
-<text x="518.88" y="1640.8922678357856" class="hold">Func.</text>
 </g>
 <g transform="rotate(-15.0, 584.4, 1591.6922678357855)">
-<rect rx="6.0" ry="6.0" x="558.4" y="1565.6922678357855" width="52.0" height="52.0" class="key"/>
-<text x="584.4" y="1591.6922678357855" class="tap">Ext.</text>
+<rect rx="6.0" ry="6.0" x="558.4" y="1565.6922678357855" width="52.0" height="52.0" class="none key"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="577.4" y="1584.6922678357855" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="1557.4602678357855" width="52.0" height="52.0" class="key"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="639.0" y="1576.4602678357855" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="layer-Numpad">
-<text x="30.0" y="1681.265334794732" class="label">Numpad:</text>
-<rect rx="6.0" ry="6.0" x="32.0" y="1732.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="51.0" y="1751.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="1732.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="107.0" y="1751.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="144.0" y="1718.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="163.0" y="1737.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="200.0" y="1711.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="219.0" y="1730.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="256.0" y="1718.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1737.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1725.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1744.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1725.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="1751.265334794732" class="tap">=</text>
-<text x="562.0" y="1727.265334794732" class="shifted">+</text>
-<rect rx="6.0" ry="6.0" x="592.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1744.265334794732" class="tap" style="font-size: 88%">
-<tspan x="618.0" dy="-0.6em">KP</tspan><tspan x="618.0" dy="1.2em">MULTIPLY</tspan></text>
-<rect rx="6.0" ry="6.0" x="648.0" y="1711.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1737.265334794732" class="tap">7</text>
-<text x="674.0" y="1713.265334794732" class="shifted">&amp;</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1744.265334794732" class="tap">8</text>
-<text x="730.0" y="1720.265334794732" class="shifted">*</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="1758.265334794732" class="tap">9</text>
-<text x="786.0" y="1734.265334794732" class="shifted">(</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="842.0" y="1758.265334794732" class="tap">-</text>
-<text x="842.0" y="1734.265334794732" class="shifted">_</text>
-<rect rx="6.0" ry="6.0" x="32.0" y="1788.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="51.0" y="1807.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="1788.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="107.0" y="1807.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="144.0" y="1774.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="163.0" y="1793.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="200.0" y="1767.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="219.0" y="1786.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="256.0" y="1774.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1793.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1781.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1800.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1781.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="555.0" y="1800.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="592.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1800.265334794732" class="tap">/</text>
-<text x="618.0" y="1776.265334794732" class="shifted">?</text>
-<rect rx="6.0" ry="6.0" x="648.0" y="1767.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1793.265334794732" class="tap">4</text>
-<text x="674.0" y="1769.265334794732" class="shifted">$</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1800.265334794732" class="tap">5</text>
-<text x="730.0" y="1776.265334794732" class="shifted">%</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="1814.265334794732" class="tap">6</text>
-<text x="786.0" y="1790.265334794732" class="shifted">^</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="842.0" y="1814.265334794732" class="tap">+</text>
-<rect rx="6.0" ry="6.0" x="32.0" y="1844.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="51.0" y="1863.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="1844.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="107.0" y="1863.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="144.0" y="1830.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="163.0" y="1849.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="200.0" y="1823.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="219.0" y="1842.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="256.0" y="1830.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="275.0" y="1849.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="312.0" y="1837.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="331.0" y="1856.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="536.0" y="1837.265334794732" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="555.0" y="1856.265334794732" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-<rect rx="6.0" ry="6.0" x="592.0" y="1830.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="1856.265334794732" class="tap">0</text>
-<text x="618.0" y="1832.265334794732" class="shifted">)</text>
-<rect rx="6.0" ry="6.0" x="648.0" y="1823.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="1849.265334794732" class="tap">1</text>
-<text x="674.0" y="1825.265334794732" class="shifted">!</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="1830.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="1856.265334794732" class="tap">2</text>
-<text x="730.0" y="1832.265334794732" class="shifted">@</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="1844.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="1870.265334794732" class="tap">3</text>
-<text x="786.0" y="1846.265334794732" class="shifted">#</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="1844.265334794732" width="52.0" height="52.0" class="enter key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="835.0" y="1863.265334794732" height="14" width="14.0" class="enter tap glyph mdi:keyboard-return"/>
-<rect rx="6.0" ry="6.0" x="228.0" y="1888.113334794732" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="247.0" y="1907.113334794732" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-control"/>
-<g transform="rotate(15.0, 315.59999999999997, 1922.345334794732)">
-<rect rx="6.0" ry="6.0" x="289.59999999999997" y="1896.345334794732" width="52.0" height="52.0" class="key"/>
-<text x="315.59999999999997" y="1922.345334794732" class="tap">LWIN</text>
-</g>
-<g transform="rotate(30.0, 381.12, 1933.545334794732)">
-<rect rx="6.0" ry="6.0" x="355.12" y="1893.545334794732" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="1926.545334794732" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
-</g>
-<g transform="rotate(-30.0, 518.88, 1933.545334794732)">
-<rect rx="6.0" ry="6.0" x="492.88" y="1893.545334794732" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="511.88" y="1926.545334794732" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
-<text x="518.88" y="1971.545334794732" class="hold">Func.</text>
-</g>
-<g transform="rotate(-15.0, 584.4, 1922.345334794732)">
-<rect rx="6.0" ry="6.0" x="558.4" y="1896.345334794732" width="52.0" height="52.0" class="key"/>
-<text x="584.4" y="1922.345334794732" class="tap">Ext.</text>
-</g>
-<rect rx="6.0" ry="6.0" x="620.0" y="1888.113334794732" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="639.0" y="1907.113334794732" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g class="layer-Gaming">
-<text x="30.0" y="2011.9184017536786" class="label">Gaming:</text>
-<rect rx="6.0" ry="6.0" x="32.0" y="2062.9184017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="51.0" y="2081.9184017536786" height="14" width="14.0" class="tap glyph mdi:keyboard-esc"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="2062.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="2088.9184017536786" class="tap">Q</text>
-<rect rx="6.0" ry="6.0" x="144.0" y="2048.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="2074.9184017536786" class="tap">W</text>
-<rect rx="6.0" ry="6.0" x="200.0" y="2041.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="2067.9184017536786" class="tap">E</text>
-<rect rx="6.0" ry="6.0" x="256.0" y="2048.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="2074.9184017536786" class="tap">R</text>
-<rect rx="6.0" ry="6.0" x="312.0" y="2055.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="2081.9184017536786" class="tap">T</text>
-<rect rx="6.0" ry="6.0" x="536.0" y="2055.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="2081.9184017536786" class="tap">Y</text>
-<rect rx="6.0" ry="6.0" x="592.0" y="2048.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="2074.9184017536786" class="tap">U</text>
-<rect rx="6.0" ry="6.0" x="648.0" y="2041.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="2067.9184017536786" class="tap">I</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="2048.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="2074.9184017536786" class="tap">O</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="2062.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="2088.9184017536786" class="tap">P</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="2062.9184017536786" width="52.0" height="52.0" class="backspace key"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="835.0" y="2081.9184017536786" height="14" width="14.0" class="backspace tap glyph mdi:backspace"/>
-<rect rx="6.0" ry="6.0" x="32.0" y="2118.9184017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="51.0" y="2137.9184017536786" height="14" width="14.0" class="tap glyph mdi:keyboard-tab"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="2118.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="2144.9184017536786" class="tap">A</text>
-<rect rx="6.0" ry="6.0" x="144.0" y="2104.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="2130.9184017536786" class="tap">S</text>
-<rect rx="6.0" ry="6.0" x="200.0" y="2097.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="2123.9184017536786" class="tap">D</text>
-<rect rx="6.0" ry="6.0" x="256.0" y="2104.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="2130.9184017536786" class="tap">F</text>
-<rect rx="6.0" ry="6.0" x="312.0" y="2111.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="2137.9184017536786" class="tap">G</text>
-<rect rx="6.0" ry="6.0" x="536.0" y="2111.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="2137.9184017536786" class="tap">H</text>
-<rect rx="6.0" ry="6.0" x="592.0" y="2104.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="2130.9184017536786" class="tap">J</text>
-<rect rx="6.0" ry="6.0" x="648.0" y="2097.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="2123.9184017536786" class="tap">K</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="2104.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="2130.9184017536786" class="tap">L</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="2118.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="2144.9184017536786" class="tap">;</text>
-<text x="786.0" y="2120.9184017536786" class="shifted">:</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="2118.9184017536786" width="52.0" height="52.0" class="enter key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="835.0" y="2137.9184017536786" height="14" width="14.0" class="enter tap glyph mdi:keyboard-return"/>
-<rect rx="6.0" ry="6.0" x="32.0" y="2174.9184017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="51.0" y="2193.9184017536786" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-shift"/>
-<rect rx="6.0" ry="6.0" x="88.0" y="2174.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="2200.9184017536786" class="tap">Z</text>
-<rect rx="6.0" ry="6.0" x="144.0" y="2160.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="2186.9184017536786" class="tap">X</text>
-<rect rx="6.0" ry="6.0" x="200.0" y="2153.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="2179.9184017536786" class="tap">C</text>
-<rect rx="6.0" ry="6.0" x="256.0" y="2160.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="2186.9184017536786" class="tap">V</text>
-<rect rx="6.0" ry="6.0" x="312.0" y="2167.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="2193.9184017536786" class="tap">B</text>
-<rect rx="6.0" ry="6.0" x="536.0" y="2167.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="2193.9184017536786" class="tap">N</text>
-<rect rx="6.0" ry="6.0" x="592.0" y="2160.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="2186.9184017536786" class="tap">M</text>
-<rect rx="6.0" ry="6.0" x="648.0" y="2153.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="674.0" y="2179.9184017536786" class="tap">,</text>
-<text x="674.0" y="2155.9184017536786" class="shifted">&lt;</text>
-<rect rx="6.0" ry="6.0" x="704.0" y="2160.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="2186.9184017536786" class="tap">.</text>
-<text x="730.0" y="2162.9184017536786" class="shifted">&gt;</text>
-<rect rx="6.0" ry="6.0" x="760.0" y="2174.9184017536786" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="2200.9184017536786" class="tap">/</text>
-<text x="786.0" y="2176.9184017536786" class="shifted">?</text>
-<rect rx="6.0" ry="6.0" x="816.0" y="2174.9184017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="835.0" y="2193.9184017536786" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-shift"/>
-<rect rx="6.0" ry="6.0" x="228.0" y="2218.7664017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="247.0" y="2237.7664017536786" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-control"/>
-<g transform="rotate(15.0, 315.59999999999997, 2252.9984017536785)">
-<rect rx="6.0" ry="6.0" x="289.59999999999997" y="2226.9984017536785" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="308.59999999999997" y="2245.9984017536785" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
-</g>
-<g transform="rotate(30.0, 381.12, 2264.198401753679)">
-<rect rx="6.0" ry="6.0" x="355.12" y="2224.198401753679" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="374.12" y="2257.198401753679" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
-</g>
-<g transform="rotate(-30.0, 518.88, 2264.198401753679)">
-<rect rx="6.0" ry="6.0" x="492.88" y="2224.198401753679" width="52.0" height="80.0" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="511.88" y="2257.198401753679" height="14" width="14.0" class="tap glyph mdi:keyboard-space"/>
-</g>
-<g transform="rotate(-15.0, 584.4, 2252.9984017536785)">
-<rect rx="6.0" ry="6.0" x="558.4" y="2226.9984017536785" width="52.0" height="52.0" class="none key"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="577.4" y="2245.9984017536785" height="14" width="14.0" class="none tap glyph mdi:minus-circle-outline"/>
-</g>
-<rect rx="6.0" ry="6.0" x="620.0" y="2218.7664017536786" width="52.0" height="52.0" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="639.0" y="2237.7664017536786" height="14" width="14.0" class="tap glyph mdi:apple-keyboard-option"/>
-<path d="M842.0,2144.9184017536786 l0.0,-37.33333333333333" class="combo"/>
-<path d="M842.0,2144.9184017536786 l0.0,37.33333333333333" class="combo"/>
-<rect rx="6.0" ry="6.0" x="828.0" y="2131.9184017536786" width="28.0" height="26.0" class="combo"/>
-<text x="842.0" y="2144.9184017536786" class="combo tap">Home</text>
+<path d="M842.0,1483.6122678357856 l0.0,-37.33333333333333" class="combo"/>
+<path d="M842.0,1483.6122678357856 l0.0,37.33333333333333" class="combo"/>
+<rect rx="6.0" ry="6.0" x="828.0" y="1470.6122678357856" width="28.0" height="26.0" class="combo"/>
+<text x="842.0" y="1483.6122678357856" class="combo tap">Gaming</text>
 </g>
 </svg>
