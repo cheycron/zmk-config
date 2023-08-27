@@ -7,12 +7,6 @@
               ╰────────────╯ ╰────────────╯
 */
 
-// TODO:
-// Implementar Home Row.
-// Con homerow activado, sobran teclas para layers.
-// Con las teclas que sobran para layers, tratar de que los activadores de layers esten en ambas manos.
-// Buscar como hacer double tap rapido para cambiar el behavior de la tecla.
-
 /*
 === === === === === === === === === === === ===
     INCLUDES
@@ -53,7 +47,6 @@
         b_alt_f10: alt_f10 { compatible = "zmk,behavior-mod-morph"; label = "alt_f10"; #binding-cells = <0>; bindings = <&kp F10>, <&kp LA(F10)>; mods = <(MOD_RALT)>; };
         b_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
         b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
-        // ALT TAB not work well
         b_alt_tab: alt_tab { compatible = "zmk,behavior-mod-morph"; label = "alt_tab"; #binding-cells = <0>; bindings = <&kp TAB>, <&kp LA(TAB)>; mods = <(MOD_RALT)>; };
         ht: hold_tap { label = "hold_tap"; compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "tap-preferred"; tapping-term-ms = <180>; quick-tap-ms = <150>; global-quick-tap; bindings = <&kp>, <&kp>; };
     };
