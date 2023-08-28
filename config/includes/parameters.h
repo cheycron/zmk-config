@@ -1,11 +1,12 @@
 #pragma once
 
 // Layer Names
-#define LAYER_HOME 0
-#define LAYER_FUNC 1
-#define LAYER_EXT 2
-#define LAYER_MEDIA 3
-#define LAYER_GAMING 4
+#define L_HOME 0
+#define L_NUM 1
+#define L_FUNC 2
+#define L_EXT  3
+#define L_MEDIA 4
+#define L_GAMING 5
 
 // Settings
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };

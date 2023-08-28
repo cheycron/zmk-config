@@ -1,219 +1,165 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   Home:
-  - - {t: '$$mdi:keyboard-esc$$', h: Media}
-    - Q
-    - W
-    - E
-    - R
-    - T
-    - Y
-    - U
-    - I
-    - O
+  - [ESC, Q, W, E, R, T, Y, U, I, O]
   - - P
-    - {t: '$$mdi:backspace$$', type: backspace}
-    - $$mdi:keyboard-tab$$
-    - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: D, h: LGUI}
-    - {t: F, h: '$$mdi:apple-keyboard-option$$'}
+    - BSPC
+    - TAB
+    - {t: A, h: LGUI}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LSHFT}
     - G
     - H
-    - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - - {t: K, h: RGUI}
-    - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
-    - {t: '''', s: '"'}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: J, h: RSHFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - ''
     - Z
     - X
     - C
     - V
     - B
-  - - N
-    - M
-    - {t: ',', s: <}
-    - {t: ., s: '>'}
-    - {t: /, s: '?'}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - Ext.
-    - Func.
-    - $$mdi:keyboard-space$$
-    - $$mdi:keyboard-space$$
-  - [Func., Ext.]
-  Func.:
-  - - $$mdi:keyboard-esc$$
-    - PAGE UP
-    - $$mdi:arrow-up-bold$$
-    - HOME
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - PSCRN
-    - {t: '=', s: +}
-    - KP MULTIPLY
-    - {t: '7', s: '&'}
-    - {t: '8', s: '*'}
-  - - {t: '9', s: (}
-    - {t: '-', s: _}
-    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
-    - $$mdi:arrow-left-bold$$
-    - $$mdi:arrow-down-bold$$
-    - $$mdi:arrow-right-bold$$
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: /, s: '?'}
-  - - {t: '4', s: $}
-    - {t: '5', s: '%'}
-    - {t: '6', s: ^}
-    - +
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - PAGE DOWN
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - END
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '0', s: )}
-    - {t: '1', s: '!'}
-    - {t: '2', s: '@'}
-    - {t: '3', s: '#'}
-    - {t: '$$mdi:keyboard-return$$', type: enter}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {type: held}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-  - - {type: held}
-    - {t: '$$mdi:transfer$$', type: trans}
-  Ext.:
-  - ['$$mdi:keyboard-esc$$', '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
-  - - )
-    - {t: '$$mdi:backspace$$', type: backspace}
-    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
-    - '~'
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '-', s: _}
-    - {t: '=', s: +}
-  - - {t: /, s: '?'}
-    - {t: '[', s: '{'}
-    - {t: ']', s: '}'}
-    - {t: '''', s: '"'}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - <
+  - [N, M, ',', ., /, '', Func., Numeric, SPACE, SPACE]
+  - [Ext., Media]
+  Numeric:
+  - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
+  - - '-'
+    - '='
+    - {t: ▽, type: trans}
+    - LGUI
+    - LALT
+    - LCTRL
+    - LSHFT
+    - ''
+    - /
+    - '4'
+  - ['5', '6', +, <, '', '', '', '', '', '']
+  - - '0'
+    - '1'
+    - '2'
+    - '3'
+    - ENTER
     - '>'
-    - {t: \, s: '|'}
-    - {t: '`', s: '~'}
-    - '|'
-  - - _
-    - +
-    - {t: \, s: '|'}
-    - '{'
-    - '}'
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - ''
     - {type: held}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-  - - {t: '$$mdi:transfer$$', type: trans}
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Func.:
+  - ['', '', '', '', '', '', '&b_alt_f1', '&b_alt_f2', '&b_alt_f3', '&b_alt_f4']
+  - - '&b_alt_f5'
+    - '&b_alt_f6'
+    - {t: ▽, type: trans}
+    - LGUI
+    - LALT
+    - LCTRL
+    - LSHFT
+    - ''
+    - '&b_alt_f7'
+    - '&b_alt_f8'
+  - ['&b_alt_f9', '&b_alt_f10', '&b_alt_f11', '&b_alt_f12', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - '%'
     - {type: held}
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Ext.:
+  - ['', '!', '@', '#', $, '%', ^, '&', '', '']
+  - ['', '', '~', (, ), /, '[', ']', '', RSHFT]
+  - [RCTRL, RALT, RGUI, '', _, '{', '}', \, '`', '|']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
   Media:
-  - - {t: '$$mdi:keyboard-esc$$', type: held}
-    - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-    - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-    - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-    - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-    - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-    - $$mdi:skip-previous$$
-    - $$mdi:play-pause$$
-    - $$mdi:skip-next$$
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - $$mdi:volume-high$$
-    - {t: '$$mdi:backspace$$', type: backspace}
-    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:volume-off$$
-    - {t: '''', s: '"'}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - OUT USB
-    - OUT BLE
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:volume-low$$
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-  - - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
+  - - ''
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - ''
+    - ''
+    - ''
+    - ''
+  - [PREV, VOL UP, '', '', '', '', '', '', '', '']
+  - ['', '', PP, MUTE, '', '', '', '', OUT USB, OUT BLE]
+  - - ''
+    - ''
+    - ''
+    - ''
+    - NEXT
+    - VOL DN
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
   Gaming:
-  - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O]
-  - - P
-    - {t: '$$mdi:backspace$$', type: backspace}
-    - {t: '$$mdi:keyboard-tab$$', s: LA(TAB)}
-    - A
-    - S
-    - D
-    - F
-    - G
-    - H
-    - J
-  - - K
-    - L
-    - {t: ;, s: ':'}
-    - {t: '$$mdi:keyboard-return$$', type: enter}
-    - $$mdi:apple-keyboard-shift$$
-    - Z
-    - X
-    - C
-    - V
-    - B
-  - - N
-    - M
-    - {t: ',', s: <}
-    - {t: ., s: '>'}
-    - {t: /, s: '?'}
-    - $$mdi:apple-keyboard-shift$$
-    - $$mdi:apple-keyboard-control$$
-    - $$mdi:apple-keyboard-option$$
-    - $$mdi:keyboard-space$$
-    - $$mdi:keyboard-space$$
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - $$mdi:apple-keyboard-option$$
+  - [ESC, Q, W, E, R, T, Y, U, I, O]
+  - [P, BSPC, TAB, A, S, D, F, G, H, J]
+  - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
+  - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
+  - ['', RALT]
 combos:
+- p: [8, 20]
+  k: UP
+  l: [Home]
+- p: [20, 32]
+  k: DOWN
+  l: [Home]
+- p: [19, 20]
+  k: LEFT
+  l: [Home]
+- p: [20, 21]
+  k: RIGHT
+  l: [Home]
+- p: [7, 19]
+  k: PAGE UP
+  l: [Home]
+- p: [19, 31]
+  k: PAGE DOWN
+  l: [Home]
+- p: [9, 21]
+  k: HOME
+  l: [Home]
+- p: [21, 33]
+  k: END
+  l: [Home]
 - p: [11, 23, 35]
   k: Gaming
   l: [Home, Gaming]
 - p: [10, 11]
-  k: $$mdi:backspace-reverse-outline$$
+  k: DELETE
   l: [Home, Ext.]
 - p: [22, 23]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  k: ENTER
   l: [Home]
 - p: [34, 35]
   k: INSERT
   l: [Home]
-- p: [12, 13]
-  k: LA(TAB)
-  l: [Home]
 - p: [24, 25]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: CAPSLOCK, h: sticky}
   l: [Home]
 - p: [36, 37]
   k: LEFT ALT
@@ -243,41 +189,5 @@ combos:
   k: LC(Y)
   l: [Home]
 - p: [39, 40, 41]
-  k: $$mdi:bluetooth-off$$
+  k: BT CLR
   l: [Media]
-- p: [0, 12]
-  k: {t: F1, s: LA(F1)}
-  l: [Home]
-- p: [1, 13]
-  k: {t: F2, s: LA(F2)}
-  l: [Home]
-- p: [2, 14]
-  k: {t: F3, s: LA(F3)}
-  l: [Home]
-- p: [3, 15]
-  k: {t: F4, s: LA(F4)}
-  l: [Home]
-- p: [4, 16]
-  k: {t: F5, s: LA(F5)}
-  l: [Home]
-- p: [5, 17]
-  k: {t: F6, s: LA(F6)}
-  l: [Home]
-- p: [6, 18]
-  k: {t: F7, s: LA(F7)}
-  l: [Home]
-- p: [7, 19]
-  k: {t: F8, s: LA(F8)}
-  l: [Home]
-- p: [8, 20]
-  k: {t: F9, s: LA(F9)}
-  l: [Home]
-- p: [9, 21]
-  k: {t: F10, s: LA(F10)}
-  l: [Home]
-- p: [10, 22]
-  k: {t: F11, s: LA(F11)}
-  l: [Home]
-- p: [11, 23]
-  k: {t: F12, s: LA(F12)}
-  l: [Home]

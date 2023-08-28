@@ -10,7 +10,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include "../config/includes/keypos_42keys.h"
 #include "../config/includes/parameters.h"
-#include "../config/includes/combos_functions_keys.dtsi"
 #include "../config/includes/combos_movement.dtsi"
 
 / {
@@ -20,21 +19,21 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_egaming { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&tog LAYER_GAMING>; key-positions = <11 23 35>; layers = <LAYER_HOME LAYER_GAMING>; };
-        combo_delete { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp DELETE>; key-positions = <10 11>; layers = <LAYER_HOME LAYER_EXT>; };
-        combo_enter { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp ENTER>; key-positions = <22 23>; layers = <LAYER_HOME>; };
-        combo_insert { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <LAYER_HOME>; };
-        combo_caps { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <LAYER_HOME>; };
-        combo_alt { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <LAYER_HOME>; };
-        combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(A)>; key-positions = <13 14>; layers = <LAYER_HOME>; };
-        combo_save { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(S)>; key-positions = <14 15>; layers = <LAYER_HOME>; };
-        combo_find { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(F)>; key-positions = <16 17>; layers = <LAYER_HOME>; };
-        combo_cut { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(X)>; key-positions = <26 27>; layers = <LAYER_HOME>; };
-        combo_copy { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(C)>; key-positions = <27 28>; layers = <LAYER_HOME>; };
-        combo_paste { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(V)>; key-positions = <28 29>; layers = <LAYER_HOME>; };
-        combo_undo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(Z)>; key-positions = <0 1 2>; layers = <LAYER_HOME>; };
-        combo_redo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(Y)>; key-positions = <9 10 11>; layers = <LAYER_HOME>; };
-        combo_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <LAYER_MEDIA>; };
+        combo_egaming { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&tog L_GAMING>; key-positions = <11 23 35>; layers = <L_HOME L_GAMING>; };
+        combo_delete { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp DELETE>; key-positions = <10 11>; layers = <L_HOME L_EXT>; };
+        combo_enter { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp ENTER>; key-positions = <22 23>; layers = <L_HOME>; };
+        combo_insert { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp INSERT>; key-positions = <34 35>; layers = <L_HOME>; };
+        combo_caps { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <L_HOME>; };
+        combo_alt { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <L_HOME>; };
+        combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SELECT_ALL>; key-positions = <13 14>; layers = <L_HOME>; };
+        combo_save { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SAVE>; key-positions = <14 15>; layers = <L_HOME>; };
+        combo_find { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_FIND>; key-positions = <16 17>; layers = <L_HOME>; };
+        combo_cut { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_CUT>; key-positions = <26 27>; layers = <L_HOME>; };
+        combo_copy { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_COPY>; key-positions = <27 28>; layers = <L_HOME>; };
+        combo_paste { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_PASTE>; key-positions = <28 29>; layers = <L_HOME>; };
+        combo_undo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_UNDO>; key-positions = <0 1 2>; layers = <L_HOME>; };
+        combo_redo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_REDO>; key-positions = <9 10 11>; layers = <L_HOME>; };
+        combo_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <L_MEDIA>; };
         };
 
     keymap {
@@ -42,37 +41,46 @@
         default_layer {
             label = "Home";
             bindings = <
-                            &lt 3 ESC    &kp Q         &kp W        &kp E        &kp R         &kp T       /**/      &kp Y          &kp U       &kp I        &kp O        &kp P             &kp BSPC
-                            &kp TAB      &ht LGUI A    &ht LALT S   &ht LCTRL D  &ht LSHFT F   &kp G       /**/      &kp H          &ht RSHFT J &ht RCTRL K  &ht RALT L   &ht RGUI SEMI     &kp SQT
-                            &none        &kp Z         &kp X        &kp C        &kp V         &kp B       /**/      &kp N          &kp M       &kp COMMA    &kp DOT      &kp FSLH          &none
-                                                                    &mo 2        &mo 1         &kp SPACE   /**/      &kp SPACE      &mo 1       &mo 2
+                    &kp ESC    &kp Q       &kp W      &kp E       &kp R       &kp T     /**/ &kp Y     &kp U       &kp I       &kp O      &kp P         &kp BSPC
+                    &kp TAB    &ht LGUI A  &ht LALT S &ht LCTRL D &ht LSHFT F &kp G     /**/ &kp H     &ht RSHFT J &ht RCTRL K &ht RALT L &ht RGUI SEMI &kp SQT
+                    &none      &kp Z       &kp X      &kp C       &kp V       &kp B     /**/ &kp N     &kp M       &kp COMMA   &kp DOT    &kp FSLH      &none
+                                                      &mo L_FUNC  &mo L_NUM   &kp SPACE /**/ &kp SPACE &mo L_EXT   &mo L_MEDIA
             >;
         };
-        lower_layer {
+        numeric_layer {
+            label = "Numeric";
+            bindings = <
+                    &none  &none    &none    &none      &none      &none    /**/  &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS   &kp EQUAL
+                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS    &kp LESS_THAN
+                    &none  &none    &none    &none      &none      &none    /**/  &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER   &kp GREATER_THAN
+                                             &none      &none      &none    /**/  &trans            &trans  &trans
+            >;
+        };
+        func_layer {
             label = "Func.";
             bindings = <
-                            &kp ESC    &kp PAGE_UP    &kp UP      &kp HOME     &none      /**/     &kp PSCRN    &kp EQUAL    &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS
-                            &kp TAB    &kp LEFT       &kp DOWN    &kp RIGHT    &none      /**/     &none        &none        &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS
-                            &none      &kp PAGE_DOWN  &none       &kp END      &none      /**/     &none        &none        &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER
-                                                      &trans      &trans       &trans     /**/     &trans    &trans       &trans
+                    &none  &none    &none    &none      &none      &none    /**/  &b_alt_f1 &b_alt_f2 &b_alt_f3 &b_alt_f4  &b_alt_f5  &b_alt_f6
+                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &b_alt_f7 &b_alt_f8 &b_alt_f9 &b_alt_f10 &b_alt_f11 &b_alt_f12
+                    &none  &none    &none    &none      &none      &none    /**/  &none     &none     &none     &none      &none      &kp PRCNT
+                                             &none      &none      &none    /**/  &trans    &trans    &trans
             >;
         };
-        raise_layer {
+        ext_layer {
             label = "Ext.";
             bindings = <
-                            &kp ESC     &kp EXCL       &kp AT             &kp HASH   &kp DLLR    /**/   &kp PRCNT   &kp CARET   &kp AMPS    &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
-                            &kp TAB     &kp TILDE      &none              &none      &none       /**/   &none       &kp MINUS   &kp EQUAL   &kp FSLH         &kp LBKT   &kp RBKT  &kp SQT
-                            &none       &kp LESS_THAN  &kp GREATER_THAN   &kp BSLH   &kp GRAVE   /**/   &kp PIPE    &kp UNDER   &kp PLUS    &kp BSLH         &kp LBRC   &kp RBRC  &none
-                                                       &trans             &trans     &trans      /**/   &trans   &trans      &trans
+                    &none     &kp EXCL  &kp AT    &kp HASH  &kp DLLR   &kp PRCNT  /**/   &kp CARET &kp AMPS  &none     &none    &none    &none
+                    &kp TILDE &kp LPAR  &kp RPAR  &kp FSLH  &kp LBKT   &kp RBKT   /**/   &none     &kp RSHFT &kp RCTRL &kp RALT &kp RGUI &none
+                    &kp UNDER &kp LBRC  &kp RBRC  &kp BSLH  &kp GRAVE  &kp PIPE   /**/   &none     &none     &none     &none    &none    &none
+                                                  &trans    &trans     &trans     /**/   &trans    &trans    &trans
             >;
         };
-        mediabt_layer {
+        media_layer {
             label = "Media";
             bindings = <
-                            &kp ESC     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    /**/     &kp C_PREV   &kp C_PP      &kp C_NEXT    &none       &kp C_VOL_UP   &kp BSPC
-                            &kp TAB     &none          &none         &none         &none         &none           /**/     &none        &none         &none         &none       &kp C_MUTE     &kp SQT
-                            &none       &none          &none         &none         &out OUT_USB  &out OUT_BLE    /**/     &none        &none         &none         &none       &kp C_VOL_DN   &none
-                                                                     &trans        &trans        &trans          /**/     &trans       &trans        &trans
+                    &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4  /**/  &none  &none  &none  &none &kp C_PREV &kp C_VOL_UP
+                    &none &none        &none        &none        &none         &none         /**/  &none  &none  &none  &none &kp C_PP &kp C_MUTE
+                    &none &none        &none        &none        &out OUT_USB  &out OUT_BLE  /**/  &none  &none  &none  &none &kp C_NEXT &kp C_VOL_DN
+                                                    &trans       &trans        &trans        /**/  &trans &trans &trans
             >;
         };
         gaming_layer {
@@ -84,5 +92,6 @@
                                                            &kp LCTRL   &kp LALT     &kp SPACE      /**/    &kp SPACE    &none      &kp RALT
             >;
         };
+
     };
 };
