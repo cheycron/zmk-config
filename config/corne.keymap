@@ -50,10 +50,10 @@
         func_layer {
             label = "Func.";
             bindings = <
-                    &none  &none    &none    &none      &none      &none    /**/  &b_alt_f1 &b_alt_f2 &b_alt_f3 &b_alt_f4  &b_alt_f5  &b_alt_f6
-                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &b_alt_f7 &b_alt_f8 &b_alt_f9 &b_alt_f10 &b_alt_f11 &b_alt_f12
-                    &none  &none    &none    &none      &none      &none    /**/  &none     &none     &none     &none      &none      &kp PRCNT
-                                             &none      &none      &none    /**/  &trans    &trans    &trans
+                    &none  &none    &none    &none      &none      &none    /**/  &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
+                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &kp F7   &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
+                    &none  &none    &none    &none      &none      &none    /**/  &none    &none   &none   &none   &none   &kp PRCNT
+                                             &none      &none      &none    /**/  &trans   &trans  &trans
             >;
         };
         ext_layer {
