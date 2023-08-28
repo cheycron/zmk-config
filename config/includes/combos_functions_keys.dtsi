@@ -17,17 +17,17 @@
 
     combos {
         compatible = "zmk,combos";
-        combos_f1 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f1>; key-positions = <0 12>; layers = <LAYER_HOME>; };
-        combos_f2 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f2>; key-positions = <1 13>; layers = <LAYER_HOME>; };
-        combos_f3 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f3>; key-positions = <2 14>; layers = <LAYER_HOME>; };
-        combos_f4 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f4>; key-positions = <3 15>; layers = <LAYER_HOME>; };
-        combos_f5 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f5>; key-positions = <4 16>; layers = <LAYER_HOME>; };
-        combos_f6 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f6>; key-positions = <5 17>; layers = <LAYER_HOME>; };
-        combos_f7 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f7>; key-positions = <6 18>; layers = <LAYER_HOME>; };
-        combos_f8 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f8>; key-positions = <7 19>; layers = <LAYER_HOME>; };
-        combos_f9 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f9>; key-positions = <8 20>; layers = <LAYER_HOME>; };
-        combos_f10 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f10>; key-positions = <9 21>; layers = <LAYER_HOME>; };
-        combos_f11 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f11>; key-positions = <10 22>; layers = <LAYER_HOME>; };
-        combos_f12 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f12>; key-positions = <11 23>; layers = <LAYER_HOME>; };
+        combos_f1 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f1>; key-positions = <LT5 LM5>; layers = <LAYER_HOME>; };
+        combos_f2 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f2>; key-positions = <LT4 LM4>; layers = <LAYER_HOME>; };
+        combos_f3 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f3>; key-positions = <LT3 LM3>; layers = <LAYER_HOME>; };
+        combos_f4 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f4>; key-positions = <LT2 LM2>; layers = <LAYER_HOME>; };
+        combos_f5 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f5>; key-positions = <LT1 LM1>; layers = <LAYER_HOME>; };
+        combos_f6 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f6>; key-positions = <LT0 LM0>; layers = <LAYER_HOME>; };
+        combos_f7 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f7>; key-positions = <RT0 RM0>; layers = <LAYER_HOME>; };
+        combos_f8 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f8>; key-positions = <RT1 RM1>; layers = <LAYER_HOME>; };
+        combos_f9 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f9>; key-positions = <RT2 RM2>; layers = <LAYER_HOME>; };
+        combos_f10 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f10>; key-positions = <RT3 RM3>; layers = <LAYER_HOME>; };
+        combos_f11 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f11>; key-positions = <RT4 RM4>; layers = <LAYER_HOME>; };
+        combos_f12 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f12>; key-positions = <RT5 RM5>; layers = <LAYER_HOME>; };
     };
 };
