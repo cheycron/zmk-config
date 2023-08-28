@@ -1,7 +1,3 @@
-// Parameters and Configuration
-#define SLOW_COMBO_TIMEOUT 40
-#define FAST_COMBO_TIMEOUT 30
-
 / {
     behaviors {
         // Convert right alt + F to left alt + F
@@ -17,7 +13,6 @@
         b_alt_f10: alt_f10 { compatible = "zmk,behavior-mod-morph"; label = "alt_f10"; #binding-cells = <0>; bindings = <&kp F10>, <&kp LA(F10)>; mods = <(MOD_RALT)>; };
         b_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
         b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
-        b_alt_tab: alt_tab { compatible = "zmk,behavior-mod-morph"; label = "alt_tab"; #binding-cells = <0>; bindings = <&kp TAB>, <&kp LA(TAB)>; mods = <(MOD_RALT)>; };
     };
 
     combos {

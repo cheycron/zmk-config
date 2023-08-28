@@ -10,23 +10,24 @@
 #include <dt-bindings/zmk/outputs.h>
 #include "../config/keypos_42keys.h"
 #include "../config/includes/parameters.h"
+#include "../config/includes/combos_functions_keys.dtsi"
 
 / {
     behaviors {
         // Convert right alt + F to left alt + F
-        b_alt_f1: alt_f1 { compatible = "zmk,behavior-mod-morph"; label = "alt_f1"; #binding-cells = <0>; bindings = <&kp F1>, <&kp LA(F1)>; mods = <(MOD_RALT)>; };
-        b_alt_f2: alt_f2 { compatible = "zmk,behavior-mod-morph"; label = "alt_f2"; #binding-cells = <0>; bindings = <&kp F2>, <&kp LA(F2)>; mods = <(MOD_RALT)>; };
-        b_alt_f3: alt_f3 { compatible = "zmk,behavior-mod-morph"; label = "alt_f3"; #binding-cells = <0>; bindings = <&kp F3>, <&kp LA(F3)>; mods = <(MOD_RALT)>; };
-        b_alt_f4: alt_f4 { compatible = "zmk,behavior-mod-morph"; label = "alt_f4"; #binding-cells = <0>; bindings = <&kp F4>, <&kp LA(F4)>; mods = <(MOD_RALT)>; };
-        b_alt_f5: alt_f5 { compatible = "zmk,behavior-mod-morph"; label = "alt_f5"; #binding-cells = <0>; bindings = <&kp F5>, <&kp LA(F5)>; mods = <(MOD_RALT)>; };
-        b_alt_f6: alt_f6 { compatible = "zmk,behavior-mod-morph"; label = "alt_f6"; #binding-cells = <0>; bindings = <&kp F6>, <&kp LA(F6)>; mods = <(MOD_RALT)>; };
-        b_alt_f7: alt_f7 { compatible = "zmk,behavior-mod-morph"; label = "alt_f7"; #binding-cells = <0>; bindings = <&kp F7>, <&kp LA(F7)>; mods = <(MOD_RALT)>; };
-        b_alt_f8: alt_f8 { compatible = "zmk,behavior-mod-morph"; label = "alt_f8"; #binding-cells = <0>; bindings = <&kp F8>, <&kp LA(F8)>; mods = <(MOD_RALT)>; };
-        b_alt_f9: alt_f9 { compatible = "zmk,behavior-mod-morph"; label = "alt_f9"; #binding-cells = <0>; bindings = <&kp F9>, <&kp LA(F9)>; mods = <(MOD_RALT)>; };
-        b_alt_f10: alt_f10 { compatible = "zmk,behavior-mod-morph"; label = "alt_f10"; #binding-cells = <0>; bindings = <&kp F10>, <&kp LA(F10)>; mods = <(MOD_RALT)>; };
-        b_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
-        b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
-        b_alt_tab: alt_tab { compatible = "zmk,behavior-mod-morph"; label = "alt_tab"; #binding-cells = <0>; bindings = <&kp TAB>, <&kp LA(TAB)>; mods = <(MOD_RALT)>; };
+        //b_alt_f1: alt_f1 { compatible = "zmk,behavior-mod-morph"; label = "alt_f1"; #binding-cells = <0>; bindings = <&kp F1>, <&kp LA(F1)>; mods = <(MOD_RALT)>; };
+        //b_alt_f2: alt_f2 { compatible = "zmk,behavior-mod-morph"; label = "alt_f2"; #binding-cells = <0>; bindings = <&kp F2>, <&kp LA(F2)>; mods = <(MOD_RALT)>; };
+        //b_alt_f3: alt_f3 { compatible = "zmk,behavior-mod-morph"; label = "alt_f3"; #binding-cells = <0>; bindings = <&kp F3>, <&kp LA(F3)>; mods = <(MOD_RALT)>; };
+        //b_alt_f4: alt_f4 { compatible = "zmk,behavior-mod-morph"; label = "alt_f4"; #binding-cells = <0>; bindings = <&kp F4>, <&kp LA(F4)>; mods = <(MOD_RALT)>; };
+        //b_alt_f5: alt_f5 { compatible = "zmk,behavior-mod-morph"; label = "alt_f5"; #binding-cells = <0>; bindings = <&kp F5>, <&kp LA(F5)>; mods = <(MOD_RALT)>; };
+        //b_alt_f6: alt_f6 { compatible = "zmk,behavior-mod-morph"; label = "alt_f6"; #binding-cells = <0>; bindings = <&kp F6>, <&kp LA(F6)>; mods = <(MOD_RALT)>; };
+        //b_alt_f7: alt_f7 { compatible = "zmk,behavior-mod-morph"; label = "alt_f7"; #binding-cells = <0>; bindings = <&kp F7>, <&kp LA(F7)>; mods = <(MOD_RALT)>; };
+        //b_alt_f8: alt_f8 { compatible = "zmk,behavior-mod-morph"; label = "alt_f8"; #binding-cells = <0>; bindings = <&kp F8>, <&kp LA(F8)>; mods = <(MOD_RALT)>; };
+        //b_alt_f9: alt_f9 { compatible = "zmk,behavior-mod-morph"; label = "alt_f9"; #binding-cells = <0>; bindings = <&kp F9>, <&kp LA(F9)>; mods = <(MOD_RALT)>; };
+        //b_alt_f10: alt_f10 { compatible = "zmk,behavior-mod-morph"; label = "alt_f10"; #binding-cells = <0>; bindings = <&kp F10>, <&kp LA(F10)>; mods = <(MOD_RALT)>; };
+        //b_alt_f11: alt_f11 { compatible = "zmk,behavior-mod-morph"; label = "alt_f11"; #binding-cells = <0>; bindings = <&kp F11>, <&kp LA(F11)>; mods = <(MOD_RALT)>; };
+        //b_alt_f12: alt_f12 { compatible = "zmk,behavior-mod-morph"; label = "alt_f12"; #binding-cells = <0>; bindings = <&kp F12>, <&kp LA(F12)>; mods = <(MOD_RALT)>; };
+        //b_alt_tab: alt_tab { compatible = "zmk,behavior-mod-morph"; label = "alt_tab"; #binding-cells = <0>; bindings = <&kp TAB>, <&kp LA(TAB)>; mods = <(MOD_RALT)>; };
         ht: hold_tap { label = "hold_tap"; compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "tap-preferred"; tapping-term-ms = <180>; quick-tap-ms = <150>; global-quick-tap; bindings = <&kp>, <&kp>; };
     };
 
@@ -36,7 +37,6 @@
         combos_delete { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp DELETE>; key-positions = <10 11>; layers = <LAYER_HOME LAYER_EXT>; };
         combos_enter { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp ENTER>; key-positions = <22 23>; layers = <LAYER_HOME>; };
         combos_insert { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp  INSERT>; key-positions = <34 35>; layers = <LAYER_HOME>; };
-        combos_tab { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LA(TAB)>; key-positions = <12 13>; layers = <LAYER_HOME>; };
         combos_caps { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <LAYER_HOME>; };
         combos_alt { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <LAYER_HOME>; };
         combos_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(A)>; key-positions = <13 14>; layers = <LAYER_HOME>; };
@@ -48,18 +48,18 @@
         combos_undo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(Z)>; key-positions = <0 1 2>; layers = <LAYER_HOME>; };
         combos_redo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LC(Y)>; key-positions = <9 10 11>; layers = <LAYER_HOME>; };
         combos_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <LAYER_MEDIA>; };
-        combos_f1 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f1>; key-positions = <0 12>; layers = <LAYER_HOME>; };
-        combos_f2 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f2>; key-positions = <1 13>; layers = <LAYER_HOME>; };
-        combos_f3 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f3>; key-positions = <2 14>; layers = <LAYER_HOME>; };
-        combos_f4 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f4>; key-positions = <3 15>; layers = <LAYER_HOME>; };
-        combos_f5 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f5>; key-positions = <4 16>; layers = <LAYER_HOME>; };
-        combos_f6 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f6>; key-positions = <5 17>; layers = <LAYER_HOME>; };
-        combos_f7 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f7>; key-positions = <6 18>; layers = <LAYER_HOME>; };
-        combos_f8 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f8>; key-positions = <7 19>; layers = <LAYER_HOME>; };
-        combos_f9 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f9>; key-positions = <8 20>; layers = <LAYER_HOME>; };
-        combos_f10 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f10>; key-positions = <9 21>; layers = <LAYER_HOME>; };
-        combos_f11 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f11>; key-positions = <10 22>; layers = <LAYER_HOME>; };
-        combos_f12 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f12>; key-positions = <11 23>; layers = <LAYER_HOME>; };
+        //combos_f1 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f1>; key-positions = <0 12>; layers = <LAYER_HOME>; };
+        //combos_f2 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f2>; key-positions = <1 13>; layers = <LAYER_HOME>; };
+        //combos_f3 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f3>; key-positions = <2 14>; layers = <LAYER_HOME>; };
+        //combos_f4 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f4>; key-positions = <3 15>; layers = <LAYER_HOME>; };
+        //combos_f5 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f5>; key-positions = <4 16>; layers = <LAYER_HOME>; };
+        //combos_f6 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f6>; key-positions = <5 17>; layers = <LAYER_HOME>; };
+        //combos_f7 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f7>; key-positions = <6 18>; layers = <LAYER_HOME>; };
+        //combos_f8 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f8>; key-positions = <7 19>; layers = <LAYER_HOME>; };
+        //combos_f9 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f9>; key-positions = <8 20>; layers = <LAYER_HOME>; };
+        //combos_f10 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f10>; key-positions = <9 21>; layers = <LAYER_HOME>; };
+        //combos_f11 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f11>; key-positions = <10 22>; layers = <LAYER_HOME>; };
+        //combos_f12 { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&b_alt_f12>; key-positions = <11 23>; layers = <LAYER_HOME>; };
     };
 
     keymap {
