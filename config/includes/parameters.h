@@ -18,3 +18,7 @@
 #define C_CUT LG(X)
 #define C_COPY LG(C)
 #define C_PASTE LG(V)
+
+// Timeouts
+#define SLOW_COMBO_TIMEOUT 40
+#define FAST_COMBO_TIMEOUT 30
