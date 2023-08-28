@@ -20,7 +20,8 @@
 #include "../config/keypos_42keys.h"
 #include "../config/includes/parameters.dtsi"
 
-/ {
+/
+{
     behaviors {
         // Convert right alt + F to left alt + F
         b_alt_f1: alt_f1 { compatible = "zmk,behavior-mod-morph"; label = "alt_f1"; #binding-cells = <0>; bindings = <&kp F1>, <&kp LA(F1)>; mods = <(MOD_RALT)>; };
