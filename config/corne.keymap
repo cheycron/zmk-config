@@ -20,7 +20,6 @@
 #include "../config/keypos_42keys.h"
 #include "../config/includes/parameters.dtsi"
 
-/
 {
     behaviors {
         // Convert right alt + F to left alt + F
