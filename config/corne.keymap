@@ -17,8 +17,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "../config/keypos_42keys.h"
-#include "../config/includes/parameters.h"
+#include "config/keypos_42keys.h"
+#include "config/includes/parameters.h"
 
 / {
     behaviors {
