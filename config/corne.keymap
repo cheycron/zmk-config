@@ -24,15 +24,6 @@
         combo_enter { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp ENTER>; key-positions = <22 23>; layers = <L_HOME>; };
         combo_insert { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp INSERT>; key-positions = <34 35>; layers = <L_HOME>; };
         combo_caps { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <L_HOME>; };
-        combo_alt { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT_ALT>; key-positions = <36 37>; layers = <L_HOME>; };
-        combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SELECT_ALL>; key-positions = <13 14>; layers = <L_HOME>; };
-        combo_save { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SAVE>; key-positions = <14 15>; layers = <L_HOME>; };
-        combo_find { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_FIND>; key-positions = <16 17>; layers = <L_HOME>; };
-        combo_cut { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_CUT>; key-positions = <26 27>; layers = <L_HOME>; };
-        combo_copy { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_COPY>; key-positions = <27 28>; layers = <L_HOME>; };
-        combo_paste { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_PASTE>; key-positions = <28 29>; layers = <L_HOME>; };
-        combo_undo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_UNDO>; key-positions = <0 1 2>; layers = <L_HOME>; };
-        combo_redo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_REDO>; key-positions = <9 10 11>; layers = <L_HOME>; };
         combo_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <L_MEDIA>; };
         };
 
