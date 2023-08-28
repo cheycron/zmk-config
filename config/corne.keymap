@@ -11,6 +11,7 @@
 #include "../config/includes/keypos_42keys.h"
 #include "../config/includes/parameters.h"
 #include "../config/includes/combos_movement.dtsi"
+#include "../config/includes/combos_shortcuts.dtsi"
 
 / {
     behaviors {

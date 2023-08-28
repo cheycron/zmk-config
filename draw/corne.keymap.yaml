@@ -50,18 +50,18 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   Func.:
-  - ['', '', '', '', '', '', '&b_alt_f1', '&b_alt_f2', '&b_alt_f3', '&b_alt_f4']
-  - - '&b_alt_f5'
-    - '&b_alt_f6'
+  - ['', '', '', '', '', '', F1, F2, F3, F4]
+  - - F5
+    - F6
     - {t: ▽, type: trans}
     - LGUI
     - LALT
     - LCTRL
     - LSHFT
     - ''
-    - '&b_alt_f7'
-    - '&b_alt_f8'
-  - ['&b_alt_f9', '&b_alt_f10', '&b_alt_f11', '&b_alt_f12', '', '', '', '', '', '']
+    - F7
+    - F8
+  - [F9, F10, F11, F12, '', '', '', '', '', '']
   - - ''
     - ''
     - ''
@@ -122,47 +122,29 @@ layers:
   - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
   - ['', RALT]
 combos:
-- p: [8, 20]
+- p: [7, 19]
   k: UP
   l: [Home]
-- p: [20, 32]
+- p: [19, 31]
   k: DOWN
   l: [Home]
-- p: [19, 20]
+- p: [18, 19]
   k: LEFT
   l: [Home]
-- p: [20, 21]
+- p: [19, 20]
   k: RIGHT
   l: [Home]
-- p: [7, 19]
+- p: [6, 18]
   k: PAGE UP
   l: [Home]
-- p: [19, 31]
+- p: [18, 30]
   k: PAGE DOWN
   l: [Home]
-- p: [9, 21]
+- p: [8, 20]
   k: HOME
   l: [Home]
-- p: [21, 33]
+- p: [20, 32]
   k: END
-  l: [Home]
-- p: [11, 23, 35]
-  k: Gaming
-  l: [Home, Gaming]
-- p: [10, 11]
-  k: DELETE
-  l: [Home, Ext.]
-- p: [22, 23]
-  k: ENTER
-  l: [Home]
-- p: [34, 35]
-  k: INSERT
-  l: [Home]
-- p: [24, 25]
-  k: {t: CAPSLOCK, h: sticky}
-  l: [Home]
-- p: [36, 37]
-  k: LEFT ALT
   l: [Home]
 - p: [13, 14]
   k: LC(A)
@@ -187,6 +169,21 @@ combos:
   l: [Home]
 - p: [9, 10, 11]
   k: LC(Y)
+  l: [Home]
+- p: [11, 23, 35]
+  k: Gaming
+  l: [Home, Gaming]
+- p: [10, 11]
+  k: DELETE
+  l: [Home, Ext.]
+- p: [22, 23]
+  k: ENTER
+  l: [Home]
+- p: [34, 35]
+  k: INSERT
+  l: [Home]
+- p: [24, 25]
+  k: {t: CAPSLOCK, h: sticky}
   l: [Home]
 - p: [39, 40, 41]
   k: BT CLR
