@@ -1,0 +1,13 @@
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_arrow_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp UP>; key-positions = <8 20>; layers = <LAYER_HOME>; };
+        combo_arrow_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp DOWN>; key-positions = <20 32>; layers = <LAYER_HOME>; };
+        combo_arrow_left { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT>; key-positions = <19 20>; layers = <LAYER_HOME>; };
+        combo_arrow_right { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp RIGHT>; key-positions = <20 21>; layers = <LAYER_HOME>; };
+        combo_page_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_UP>; key-positions = <19 7>; layers = <LAYER_HOME>; };
+        combo_page_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_DOWN>; key-positions = <19 31>; layers = <LAYER_HOME>; };
+        combo_home { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp HOME>; key-positions = <21 9>; layers = <LAYER_HOME>; };
+        combo_end { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp END>; key-positions = <21 33>; layers = <LAYER_HOME>; };
+    };
+};
