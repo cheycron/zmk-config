@@ -1,3 +1,5 @@
+#pragma once
+
 // Layer Names
 #define LAYER_HOME 0
 #define LAYER_FUNC 1
