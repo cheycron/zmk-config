@@ -36,12 +36,12 @@ layers:
     - ''
     - /
     - '4'
-  - ['5', '6', +, <, '', '', '', '', '', '']
+  - ['5', '6', +, ENTER, '', '', '', '', '', '']
   - - '0'
     - '1'
     - '2'
     - '3'
-    - ENTER
+    - <
     - '>'
     - ''
     - {type: held}
@@ -122,6 +122,24 @@ layers:
   - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
   - ['', RALT]
 combos:
+- p: [11, 23, 35]
+  k: Gaming
+  l: [Home, Gaming]
+- p: [10, 11]
+  k: DELETE
+  l: [Home, Ext.]
+- p: [22, 23]
+  k: ENTER
+  l: [Home]
+- p: [34, 35]
+  k: INSERT
+  l: [Home]
+- p: [24, 25]
+  k: CAPSLOCK
+  l: [Home]
+- p: [0, 12, 24]
+  k: BT CLR
+  l: [Media]
 - p: [7, 19]
   k: UP
   l: [Home]
@@ -170,21 +188,3 @@ combos:
 - p: [9, 10, 11]
   k: LC(Y)
   l: [Home]
-- p: [11, 23, 35]
-  k: Gaming
-  l: [Home, Gaming]
-- p: [10, 11]
-  k: DELETE
-  l: [Home, Ext.]
-- p: [22, 23]
-  k: ENTER
-  l: [Home]
-- p: [34, 35]
-  k: INSERT
-  l: [Home]
-- p: [24, 25]
-  k: {t: CAPSLOCK, h: sticky}
-  l: [Home]
-- p: [39, 40, 41]
-  k: BT CLR
-  l: [Media]

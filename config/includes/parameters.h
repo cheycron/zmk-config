@@ -9,14 +9,17 @@
 #define L_GAMING 5
 
 // Settings
-&mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
-&lt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
-&sk { release-after-ms = <500>; quick-release; };
 #define COMBO_HOOK global-quick-tap-ms = <150>;
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 #define SLOW_COMBO_TIMEOUT 40
 #define FAST_COMBO_TIMEOUT 30
+#define QUICK_TAP_MS 175
+
+&mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
+&sk { release-after-ms = <900>; quick-release; };
+&sl { ignore-modifiers; };
+&lt { flavor = "balanced"; tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>; };
 
 // Shortcuts
 #define C_SELECT_ALL LC(A)
