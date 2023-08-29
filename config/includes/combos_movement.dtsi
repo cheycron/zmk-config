@@ -1,3 +1,13 @@
+
+// ZMK_COMBO(arrow_up,   &kp UP,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(arrow_down,   &kp DOWN,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(arrow_left,   &kp LEFT,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(arrow_right,   &kp RIGHT,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(page_up,   &kp PAGE_UP,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(page_down,   &kp PAGE_DOWN,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(home,   &kp HOME,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+// ZMK_COMBO(end,   &kp END,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+
 / {
     combos {
         compatible = "zmk,combos";
