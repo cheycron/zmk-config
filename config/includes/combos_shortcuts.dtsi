@@ -1,5 +1,5 @@
 
-ZMK_COMBO(select_all,   &kp C_SELECT_ALL,       13 14,     L_HOME, COMBO_TERM_FAST)
+// ZMK_COMBO(select_all,   &kp C_SELECT_ALL,       13 14,     L_HOME, COMBO_TERM_FAST)
 
 / {
     combos {
