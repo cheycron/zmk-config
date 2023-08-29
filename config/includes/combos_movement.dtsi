@@ -1,8 +1,0 @@
-ZMK_COMBO(arrow_up,     &kp UP,             RT1 RM1,        L_HOME,                 COMBO_TERM_SLOW)
-ZMK_COMBO(arrow_down,   &kp DOWN,           RM1 RB1,        L_HOME,                 COMBO_TERM_SLOW)
-ZMK_COMBO(arrow_left,   &kp LEFT,           RM0 RM1,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(arrow_right,  &kp RIGHT,          RM1 RM2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(page_up,      &kp PAGE_UP,        RT0 RM0,        L_HOME,                 COMBO_TERM_SLOW)
-ZMK_COMBO(page_down,    &kp PAGE_DOWN,      RM0 RB0,        L_HOME,                 COMBO_TERM_SLOW)
-ZMK_COMBO(home,         &kp HOME,           RT2 RM2,        L_HOME,                 COMBO_TERM_SLOW)
-ZMK_COMBO(end,          &kp END,            RM2 RB2,        L_HOME,                 COMBO_TERM_SLOW)

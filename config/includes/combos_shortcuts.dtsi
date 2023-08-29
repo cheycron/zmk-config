@@ -1,8 +1,0 @@
-ZMK_COMBO(select_all,   &kp C_SELECT_ALL,   LM4 LM3,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(save,         &kp C_SAVE,         LM3 LM2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(find,         &kp C_FIND,         LM1 LM0,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(cut,          &kp C_CUT,          LB3 LB2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(copy,         &kp C_COPY,         LB2 LB1,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(paste,        &kp C_PASTE,        LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(undo,         &kp C_UNDO,         LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,                 COMBO_TERM_FAST)
