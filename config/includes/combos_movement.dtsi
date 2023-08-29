@@ -1,23 +1,23 @@
 
-// ZMK_COMBO(arrow_up,   &kp UP,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(arrow_down,   &kp DOWN,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(arrow_left,   &kp LEFT,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(arrow_right,   &kp RIGHT,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(page_up,   &kp PAGE_UP,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(page_down,   &kp PAGE_DOWN,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(home,   &kp HOME,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
-// ZMK_COMBO(end,   &kp END,       LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(arrow_up,     &kp UP,         RT1 RM1,     L_HOME, COMBO_TERM_SLOW)
+ZMK_COMBO(arrow_down,   &kp DOWN,       RM1 RB1,     L_HOME, COMBO_TERM_SLOW)
+ZMK_COMBO(arrow_left,   &kp LEFT,       RM0 RM1,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(arrow_right,  &kp RIGHT,      RM1 RM2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(page_up,      &kp PAGE_UP,    RT0 RM0,     L_HOME, COMBO_TERM_SLOW)
+ZMK_COMBO(page_down,    &kp PAGE_DOWN,  RM0 RB0,     L_HOME, COMBO_TERM_SLOW)
+ZMK_COMBO(home,         &kp HOME,       RT2 RM2,     L_HOME, COMBO_TERM_SLOW)
+ZMK_COMBO(end,          &kp END,        RM2 RB2,     L_HOME, COMBO_TERM_SLOW)
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_arrow_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp UP>; key-positions = <RT1 RM1>; layers = <L_HOME>; };
-        combo_arrow_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp DOWN>; key-positions = <RM1 RB1>; layers = <L_HOME>; };
-        combo_arrow_left { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT>; key-positions = <RM0 RM1>; layers = <L_HOME>; };
-        combo_arrow_right { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp RIGHT>; key-positions = <RM1 RM2>; layers = <L_HOME>; };
-        combo_page_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_UP>; key-positions = <RT0 RM0>; layers = <L_HOME>; };
-        combo_page_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_DOWN>; key-positions = <RM0 RB0>; layers = <L_HOME>; };
-        combo_home { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp HOME>; key-positions = <RT2 RM2>; layers = <L_HOME>; };
-        combo_end { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp END>; key-positions = <RM2 RB2>; layers = <L_HOME>; };
-    };
-};
+// / {
+//     combos {
+//         compatible = "zmk,combos";
+//         combo_arrow_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp UP>; key-positions = <RT1 RM1>; layers = <L_HOME>; };
+//         combo_arrow_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp DOWN>; key-positions = <RM1 RB1>; layers = <L_HOME>; };
+//         combo_arrow_left { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp LEFT>; key-positions = <RM0 RM1>; layers = <L_HOME>; };
+//         combo_arrow_right { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp RIGHT>; key-positions = <RM1 RM2>; layers = <L_HOME>; };
+//         combo_page_up { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_UP>; key-positions = <RT0 RM0>; layers = <L_HOME>; };
+//         combo_page_down { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp PAGE_DOWN>; key-positions = <RM0 RB0>; layers = <L_HOME>; };
+//         combo_home { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp HOME>; key-positions = <RT2 RM2>; layers = <L_HOME>; };
+//         combo_end { timeout-ms = <SLOW_COMBO_TIMEOUT>; bindings = <&kp END>; key-positions = <RM2 RB2>; layers = <L_HOME>; };
+//     };
+// };
