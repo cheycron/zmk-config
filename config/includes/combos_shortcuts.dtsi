@@ -1,16 +1,7 @@
-
-// ZMK_COMBO(select_all,   &kp C_SELECT_ALL,       13 14,     L_HOME, COMBO_TERM_FAST)
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        //combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SELECT_ALL>; key-positions = <13 14>; layers = <L_HOME>; };
-        combo_save { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SAVE>; key-positions = <14 15>; layers = <L_HOME>; };
-        combo_find { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_FIND>; key-positions = <16 17>; layers = <L_HOME>; };
-        combo_cut { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_CUT>; key-positions = <26 27>; layers = <L_HOME>; };
-        combo_copy { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_COPY>; key-positions = <27 28>; layers = <L_HOME>; };
-        combo_paste { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_PASTE>; key-positions = <28 29>; layers = <L_HOME>; };
-        combo_undo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_UNDO>; key-positions = <0 1 2>; layers = <L_HOME>; };
-        combo_redo { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_REDO>; key-positions = <9 10 11>; layers = <L_HOME>; };
-    };
-};
+ZMK_COMBO(save,  &kp C_SAVE,     RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(find,  &kp C_FIND,     RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(cut,   &kp C_CUT,      RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(copy,  &kp C_COPY,     RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(paste, &kp C_PASTE,    RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(undo,  &kp C_UNDO,     RM2 RB2,     L_HOME, COMBO_TERM_FAST)
+ZMK_COMBO(redo,  &kp C_REDO,     RM2 RB2,     L_HOME, COMBO_TERM_FAST)
