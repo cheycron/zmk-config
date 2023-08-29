@@ -1,7 +1,10 @@
+
+ZMK_COMBO(select_all,   &kp C_SELECT_ALL,       13 14,     L_HOME, COMBO_TERM_FAST)
+
 / {
     combos {
         compatible = "zmk,combos";
-        combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SELECT_ALL>; key-positions = <13 14>; layers = <L_HOME>; };
+        //combo_select_all { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SELECT_ALL>; key-positions = <13 14>; layers = <L_HOME>; };
         combo_save { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_SAVE>; key-positions = <14 15>; layers = <L_HOME>; };
         combo_find { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_FIND>; key-positions = <16 17>; layers = <L_HOME>; };
         combo_cut { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp C_CUT>; key-positions = <26 27>; layers = <L_HOME>; };

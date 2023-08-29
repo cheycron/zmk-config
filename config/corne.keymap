@@ -22,7 +22,7 @@
         combo_enter { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp ENTER>; key-positions = <22 23>; layers = <L_HOME>; };
         combo_insert { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&kp INSERT>; key-positions = <34 35>; layers = <L_HOME>; };
         combo_caps { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&sk CAPSLOCK>; key-positions = <24 25>; layers = <L_HOME>; };
-        combo_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <39 40  41>; layers = <L_MEDIA>; };
+        combo_btclr { timeout-ms = <FAST_COMBO_TIMEOUT>; bindings = <&bt BT_CLR>; key-positions = <LT5 LM5 LB5>; layers = <L_MEDIA>; };
         };
 
     keymap {
@@ -39,9 +39,9 @@
         numeric_layer {
             label = "Numeric";
             bindings = <
-                    &none  &none    &none    &none      &none      &none    /**/  &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS   &kp EQUAL
-                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS    &kp LESS_THAN
-                    &none  &none    &none    &none      &none      &none    /**/  &kp N0            &kp N1  &kp N2  &kp N3  &kp ENTER   &kp GREATER_THAN
+                    &none  &none    &none    &none      &none      &none    /**/  &kp KP_MULTIPLY   &kp N7  &kp N8  &kp N9  &kp MINUS      &kp EQUAL
+                    &trans &kp LGUI &kp LALT &kp LCTRL  &kp LSHFT  &none    /**/  &kp FSLH          &kp N4  &kp N5  &kp N6  &kp PLUS       &kp ENTER
+                    &none  &none    &none    &none      &none      &none    /**/  &kp N0            &kp N1  &kp N2  &kp N3  &kp LESS_THAN  &kp GREATER_THAN
                                              &none      &none      &none    /**/  &trans            &trans  &trans
             >;
         };
