@@ -20,7 +20,7 @@ ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
 ZMK_BEHAVIOR(mt_end,  hold_tap,  bindings = <&masked_end>, <&kp>; MT_CORE)
 //=========================
 //  COMBO DEFINITION
-//=========================zx
+//=========================
 ZMK_COMBO(egaming,      &tog L_GAMING,      RT5 RM5 RB5,    L_HOME L_GAMING,        COMBO_TERM_SLOW)
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT,           COMBO_TERM_FAST)
 ZMK_COMBO(enter,        &kp ENTER,          RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)

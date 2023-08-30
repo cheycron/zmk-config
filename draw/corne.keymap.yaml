@@ -129,9 +129,9 @@ layers:
   - - ''
     - ''
     - ''
-    - '&mt_home 0 LEFT'
+    - {t: LEFT, h: '&masked_home'}
     - {t: DOWN, h: LC(END)}
-    - '&mt_end 0 RIGHT'
+    - {t: RIGHT, h: '&masked_end'}
     - ''
     - ''
     - ''
