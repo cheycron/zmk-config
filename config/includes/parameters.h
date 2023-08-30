@@ -16,6 +16,9 @@
 #define QUICK_TAP_MS 175
 #define MT_CORE \
     flavor = "tap-preferred"; \
+    tapping-term-ms = <220>; \
+    quick-tap-ms = <220>; \
+    hold-trigger-key-positions = <0>;
 
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <900>; quick-release; };
