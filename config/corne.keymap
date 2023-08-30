@@ -70,7 +70,7 @@ ZMK_LAYER(function,
                                                         &none         &none         &none       /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(ext,
-                &kp TILDE   &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT   /**/    &kp CARET       &kp AMPS     &kp LPAR     &kp RPAR    &kp GRAVE        &none
+                &kp TILDE   &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT   /**/    &kp CARET       &kp AMPS     &kp LPAR     &kp RPAR    &kp GRAVE        &kp ASTRK
                 &kp MINUS   &kp LBKT      &kp RBKT      &kp FSLH      &kp LT        &kp GT      /**/    &none           &kp RSHFT    &kp RCTRL    &kp RALT    &kp RGUI         &none
                 &kp UNDER   &kp LBRC      &kp RBRC      &kp BSLH      &none         &kp PIPE    /**/    &none           &none        &none        &none       &none            &none
                                                         &trans        &trans        &trans      /**/    &trans          &trans       &trans
