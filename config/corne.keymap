@@ -11,12 +11,12 @@
 #include "../config/includes/parameters.h"
 #include "../config/includes/helper.h"
 #include "../config/includes/keypos_42keys.h"
-#include "../config/includes/behaviours_homerow_mods.dtsi"
-#include "../config/includes/mouse.dtsi"
 
 //=========================
 //  BEHAVIORS DEFINITION
 //=========================
+MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
+MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
 ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
 ZMK_BEHAVIOR(mt_end,  hold_tap,  bindings = <&masked_end>, <&kp>; MT_CORE)
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)

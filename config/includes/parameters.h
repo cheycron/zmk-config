@@ -9,17 +9,33 @@
 #define L_MOVE 5
 #define L_GAMING 6
 
+// Key Groups
+#define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LB5
+#define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4 RB5
+#define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2
+
 // Settings
 #define COMBO_HOOK global-quick-tap-ms = <150>;
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 #define QUICK_TAP_MS 175
+#define HM_TAPPING_TERM 300
+#define HM_TAPPING_TERM_FAST 200
 #define MT_CORE \
     flavor = "tap-preferred"; \
     tapping-term-ms = <220>; \
     quick-tap-ms = <220>; \
     hold-trigger-key-positions = <0>;
-
+#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
+    ZMK_BEHAVIOR(NAME, hold_tap, \
+        flavor = "balanced"; \
+        tapping-term-ms = <280>; \
+        quick-tap-ms = <QUICK_TAP_MS>; \
+        global-quick-tap-ms = <150>; \
+        bindings = <HOLD>, <TAP>; \
+        hold-trigger-key-positions = <TRIGGER_POS>; \
+        hold-trigger-on-release; \
+    )
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <900>; quick-release; };
 &sl { ignore-modifiers; };
