@@ -8,6 +8,7 @@
 #define L_MEDIA 4
 #define L_MOVE 5
 #define L_GAMING 6
+#define L_MOUSE 7
 
 // Settings
 #define COMBO_HOOK global-quick-tap-ms = <150>;

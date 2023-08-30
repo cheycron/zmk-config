@@ -12,6 +12,7 @@
 #include "../config/includes/helper.h"
 #include "../config/includes/keypos_42keys.h"
 #include "../config/includes/behaviours_homerow_mods.dtsi"
+#include "../config/includes/mouse.dtsi"
 
 //=========================
 //  BEHAVIORS DEFINITION
@@ -54,20 +55,20 @@ ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,             
 ZMK_LAYER(home,
                 &kp ESC     &kp Q         &kp W         &kp E         &kp R         &kp T       /**/    &kp Y           &kp U        &kp I        &kp O       &kp P            &kp BSPC
                 &kp TAB     &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G       /**/    &kp H           &hmr RSHFT J &hmr RCTRL K &hmr RALT L &hmr RGUI SEMI   &kp SQT
-                &none       &kp Z         &kp X         &kp C         &kp V         &kp B       /**/    &kp N           &kp M        &kp COMMA    &kp DOT     &kp FSLH         &mo L_MEDIA
+                &mo L_MOUSE &kp Z         &kp X         &kp C         &kp V         &kp B       /**/    &kp N           &kp M        &kp COMMA    &kp DOT     &kp FSLH         &mo L_MEDIA
                                                         &mo L_FUNC    &mo L_NUM     &kp SPACE   /**/    &kp SPACE       &mo L_EXT    &mo L_MOVE
 ) //===================================================================================================================================================================================
 ZMK_LAYER(numeric,
                 &none       &none         &none         &none         &none         &none       /**/    &kp KP_MULTIPLY &kp N7       &kp N8       &kp N9      &kp MINUS        &kp EQUAL
                 &none       &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none       /**/    &kp FSLH        &kp N4       &kp N5       &kp N6      &kp PLUS         &kp ENTER
                 &none       &none         &none         &none         &none         &none       /**/    &kp N0          &kp N1       &kp N2       &kp N3      &kp LT           &kp GT
-                                                        &none         &none         &none       /**/    &trans          &trans       &trans
+                                                        &trans        &trans        &trans      /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(function,
                 &none       &none         &none         &none         &none         &none       /**/    &kp F1          &kp F2       &kp F3       &kp F4      &kp F5           &kp F6
                 &none       &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none       /**/    &kp F7          &kp F8       &kp F9       &kp F10     &kp F11          &kp F12
                 &none       &none         &none         &none         &none         &none       /**/    &none           &none        &none        &none       &none            &kp PRCNT
-                                                        &none         &none         &none       /**/    &trans          &trans       &trans
+                                                        &trans        &trans        &trans      /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(ext,
                 &kp TILDE   &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT   /**/    &kp CARET       &kp AMPS     &kp LPAR     &kp RPAR    &kp GRAVE        &kp ASTRK
@@ -82,14 +83,20 @@ ZMK_LAYER(media,
                                                         &trans        &trans        &trans       /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(move,
-                &none       &kp PAGE_UP   NAV_UP        &kp HOME      &none         &none        /**/    &none           &none        &none        &none       &none           &none
-                &none       NAV_LEFT      NAV_DOWN      NAV_RIGHT     &none         &none        /**/    &none           &kp RSHFT    &kp RCTRL    &kp RALT    &kp RGUI        &none
-                &none       &kp PAGE_DOWN &none         &kp END       &none         &none        /**/    &none           &none        &none        &none       &none           &none
-                                                        &trans        &trans        &trans       /**/    &trans          &trans       &trans
+                &none       &none         &none         &none         &none         &none       /**/    &none           &none        &none        &none       &none            &none
+                &none       &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none       /**/    &none           &none        &none        &none       &none            &none
+                &none       &none         &none         &none         &none         &none       /**/    &none           &none        &none        &none       &none            &none
+                                                        &trans        &trans        &trans      /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(gaming,
                 &kp ESC     &kp Q         &kp W         &kp E         &kp R           &kp T      /**/    &kp Y           &kp U        &kp I        &kp O       &kp P           &kp BSPC
                 &kp TAB     &kp A         &kp S         &kp D         &kp F           &kp G      /**/    &kp H           &kp J        &kp K        &kp L       &kp SEMI        &kp ENTER
                 &kp LSHFT   &kp Z         &kp X         &kp C         &kp V           &kp B      /**/    &kp N           &kp M        &kp COMMA    &kp DOT     &kp FSLH        &kp RSHIFT
                                                         &kp LCTRL     &kp LALT        &kp SPACE  /**/    &kp SPACE       &none        &kp RALT
+) //===================================================================================================================================================================================
+ZMK_LAYER(mouse,
+                &none       &none         &none         &none         &none           &none      /**/    &none           U_WH_D       U_MS_U       U_WH_U      &none           U_WH_U
+                &none       &none         &none         &none         &none           &none      /**/    &none           U_MS_L       U_MS_D       U_MS_R      &none           &none
+                &none       &none         &none         &none         &none           &none      /**/    &none           &none        &none        &none       &none           U_WH_D
+                                                        &trans        &trans          &trans     /**/    U_BTN2          U_BTN1       U_BTN3
 ) //===================================================================================================================================================================================
