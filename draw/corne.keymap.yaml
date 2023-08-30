@@ -16,7 +16,7 @@ layers:
     - {t: L, h: RALT}
     - {t: ;, h: RGUI}
     - ''''
-    - mouse
+    - ''
     - Z
     - X
     - C
@@ -98,9 +98,27 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   move:
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', '', LGUI, LALT, LCTRL, LSHFT, '', '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - PAGE UP
+    - {t: UP, h: LC(HOME)}
+    - HOME
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - ''
+    - ''
+    - ''
+    - {t: LEFT, h: HOME}
+    - {t: DOWN, h: LC(END)}
+    - {t: RIGHT, h: END}
+    - ''
+    - ''
+    - ''
+    - RSHFT
+  - [RCTRL, RALT, RGUI, '', '', PAGE DOWN, '', END, '', '']
   - - ''
     - ''
     - ''
@@ -119,30 +137,6 @@ layers:
   - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
   - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
   - ['', RALT]
-  mouse:
-  - ['', '', '', '', '', '', '', '&mwh SCROLL_VERT(-100)', '&mmv MOVE_VERT(-1250)', '&mwh SCROLL_VERT(100)']
-  - ['', '&mwh SCROLL_VERT(100)', '', '', '', '', '', '', '', '&mmv MOVE_HOR(-1250)']
-  - - '&mmv MOVE_VERT(1250)'
-    - '&mmv MOVE_HOR(1250)'
-    - ''
-    - ''
-    - {type: held}
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-  - - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - '&mwh SCROLL_VERT(-100)'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '&mkp MB2'
-  - ['&mkp MB1', '&mkp MB3']
 combos:
 - p: [11, 23, 35]
   k: gaming

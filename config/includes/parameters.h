@@ -8,7 +8,6 @@
 #define L_MEDIA 4
 #define L_MOVE 5
 #define L_GAMING 6
-#define L_MOUSE 7
 
 // Settings
 #define COMBO_HOOK global-quick-tap-ms = <150>;
@@ -38,8 +37,6 @@
 #define C_UNDO          LC(Z)
 #define C_REDO          LC(Y)
 // mic mute maybe?
-
-
 
 // Alias Definitions
 #define NAV_LEFT  &mt_home 0   LEFT    // tap: left  | long-tap: beginning of line
