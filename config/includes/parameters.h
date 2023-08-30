@@ -54,14 +54,6 @@
 #define C_REDO          LC(Y)
 // mic mute maybe?
 
-// Alias Definitions
-#define NAV_LEFT  &mt_home 0   LEFT    // tap: left  | long-tap: beginning of line
-#define NAV_RIGHT &mt_end 0    RIGHT   // tap: right | long-tap: end       of line
-#define NAV_UP    &mt LC(HOME) UP      // tap: up    | long-tap: beginning of document
-#define NAV_DOWN  &mt LC(END)  DOWN    // tap: down  | long-tap: end       of document
-#define NAV_BSPC  &mt LC(BSPC) BSPC    // tap: bspc  | long-tap: delete word backward
-#define NAV_DEL   &mt LC(DEL)  DEL     // tap: del   | long-tap: delete word forward
-
 // Custom Functions
 #define MASK_MODS(NAME, MODS, BINDING) \
     ZMK_BEHAVIOR(NAME, mod_morph, \

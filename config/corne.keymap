@@ -74,8 +74,8 @@ ZMK_LAYER(media,
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(move,
-                &none         &kp PAGE_UP   NAV_UP        &kp HOME      &none         &none             &none         &none         &none         &none         &none          &kp BSPC
-                &none         NAV_LEFT      NAV_DOWN      NAV_RIGHT     &none         &none             &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &none
+                &none         &kp PAGE_UP   &kp UP        &kp HOME      &none         &none             &none         &none         &none         &none         &none          &kp BSPC
+                &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none             &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &none
                 &none         &kp PAGE_DOWN &none         &kp END       &none         &none             &none         &none         &none         &none         &none          &none
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
