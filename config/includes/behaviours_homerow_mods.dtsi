@@ -17,4 +17,3 @@
 
 MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
 MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
-MAKE_HRM(hml_repeat, &kp, &key_repeat, KEYS_R KEYS_T)

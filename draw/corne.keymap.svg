@@ -572,13 +572,13 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="32.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="1814.265334794732" class="tap">LEFT</text>
-<text x="114.0" y="1838.265334794732" class="hold" style="font-size: 60%">&amp;masked_home</text>
+<text x="114.0" y="1838.265334794732" class="hold">HOME</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="170.0" y="1800.265334794732" class="tap">DOWN</text>
 <text x="170.0" y="1824.265334794732" class="hold">LC(END)</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1767.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="226.0" y="1793.265334794732" class="tap">RIGHT</text>
-<text x="226.0" y="1817.265334794732" class="hold" style="font-size: 64%">&amp;masked_end</text>
+<text x="226.0" y="1817.265334794732" class="hold">END</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="312.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
