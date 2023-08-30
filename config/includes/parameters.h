@@ -14,11 +14,14 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 #define QUICK_TAP_MS 175
+#define MT_CORE \
+    flavor = "tap-preferred"; \
 
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <900>; quick-release; };
 &sl { ignore-modifiers; };
 &lt { flavor = "balanced"; tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>; };
+&mt { MT_CORE };
 &caps_word { /delete-property/ ignore-modifiers; };
 
 // Shortcuts
@@ -33,8 +36,11 @@
 // mic mute maybe?
 
 
+
 // Alias Definitions
 #define NAV_LEFT  &mt_home 0   LEFT    // tap: left  | long-tap: beginning of line
 #define NAV_RIGHT &mt_end 0    RIGHT   // tap: right | long-tap: end       of line
 #define NAV_UP    &mt LC(HOME) UP      // tap: up    | long-tap: beginning of document
 #define NAV_DOWN  &mt LC(END)  DOWN    // tap: down  | long-tap: end       of document
+#define NAV_BSPC  &mt LC(BSPC) BSPC    // tap: bspc  | long-tap: delete word backward
+#define NAV_DEL   &mt LC(DEL)  DEL     // tap: del   | long-tap: delete word forward
