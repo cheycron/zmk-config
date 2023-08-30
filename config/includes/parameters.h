@@ -22,12 +22,19 @@
 &caps_word { /delete-property/ ignore-modifiers; };
 
 // Shortcuts
-#define C_SELECT_ALL LC(A)
-#define C_SAVE  LC(S)
-#define C_FIND  LC(F)
-#define C_CUT LC(X)
-#define C_COPY LC(C)
-#define C_PASTE  LC(V)
-#define C_UNDO  LC(Z)
-#define C_REDO  LC(Y)
+#define C_SELECT_ALL    LC(A)
+#define C_SAVE          LC(S)
+#define C_FIND          LC(F)
+#define C_CUT           LC(X)
+#define C_COPY          LC(C)
+#define C_PASTE         LC(V)
+#define C_UNDO          LC(Z)
+#define C_REDO          LC(Y)
 // mic mute maybe?
+
+
+// Alias Definitions
+#define NAV_LEFT  &mt_home 0   LEFT    // tap: left  | long-tap: beginning of line
+#define NAV_RIGHT &mt_end 0    RIGHT   // tap: right | long-tap: end       of line
+#define NAV_UP    &mt LC(HOME) UP      // tap: up    | long-tap: beginning of document
+#define NAV_DOWN  &mt LC(END)  DOWN    // tap: down  | long-tap: end       of document

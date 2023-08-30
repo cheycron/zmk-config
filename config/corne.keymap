@@ -19,7 +19,7 @@
 
 //=========================
 //  COMBO DEFINITION
-//=========================
+//=========================zx
 ZMK_COMBO(egaming,      &tog L_GAMING,      RT5 RM5 RB5,    L_HOME L_GAMING,        COMBO_TERM_SLOW)
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT,           COMBO_TERM_FAST)
 ZMK_COMBO(enter,        &kp ENTER,          RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)

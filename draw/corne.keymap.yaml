@@ -1,0 +1,200 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  home:
+  - [ESC, Q, W, E, R, T, Y, U, I, O]
+  - - P
+    - BSPC
+    - TAB
+    - {t: A, h: LGUI}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LSHFT}
+    - G
+    - H
+    - {t: J, h: RSHFT}
+  - - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: ;, h: RGUI}
+    - ''''
+    - ''
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - [N, M, ',', ., /, media, function, numeric, SPACE, SPACE]
+  - [ext, move]
+  numeric:
+  - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
+  - - '-'
+    - '='
+    - {t: ▽, type: trans}
+    - LGUI
+    - LALT
+    - LCTRL
+    - LSHFT
+    - ''
+    - /
+    - '4'
+  - ['5', '6', +, ENTER, '', '', '', '', '', '']
+  - - '0'
+    - '1'
+    - '2'
+    - '3'
+    - <
+    - '>'
+    - ''
+    - {type: held}
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  function:
+  - ['', '', '', '', '', '', F1, F2, F3, F4]
+  - - F5
+    - F6
+    - {t: ▽, type: trans}
+    - LGUI
+    - LALT
+    - LCTRL
+    - LSHFT
+    - ''
+    - F7
+    - F8
+  - [F9, F10, F11, F12, '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - '%'
+    - {type: held}
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  ext:
+  - ['', '!', '@', '#', $, '%', ^, '&', '', '']
+  - ['', '', '~', (, ), /, '[', ']', '', RSHFT]
+  - [RCTRL, RALT, RGUI, '', _, '{', '}', \, '`', '|']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
+  media:
+  - - ''
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - ''
+    - ''
+    - ''
+    - PREV
+  - [VOL UP, '', '', '', '', '', '', '', '', '']
+  - ['', PP, MUTE, '', '', '', '', '', OUT USB, OUT BLE]
+  - - ''
+    - ''
+    - ''
+    - NEXT
+    - VOL DN
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  move:
+  - - ''
+    - PAGE UP
+    - {t: UP, h: LC(HOME)}
+    - HOME
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - ''
+    - ''
+    - ''
+    - '&mt_home 0 LEFT'
+    - {t: DOWN, h: LC(END)}
+    - '&mt_end 0 RIGHT'
+    - ''
+    - ''
+    - ''
+    - RSHFT
+  - [RCTRL, RALT, RGUI, '', '', PAGE DOWN, '', END, '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
+  gaming:
+  - [ESC, Q, W, E, R, T, Y, U, I, O]
+  - [P, BSPC, TAB, A, S, D, F, G, H, J]
+  - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
+  - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
+  - ['', RALT]
+combos:
+- p: [11, 23, 35]
+  k: gaming
+  l: [home, gaming]
+- p: [10, 11]
+  k: DELETE
+  l: [home, ext]
+- p: [22, 23]
+  k: ENTER
+  l: [home]
+- p: [34, 35]
+  k: INSERT
+  l: [home]
+- p: [24, 25]
+  k: CAPSLOCK
+  l: [home]
+- p: [0, 12, 24]
+  k: BT CLR
+  l: [media]
+- p: [13, 14]
+  k: LC(A)
+  l: [home]
+- p: [14, 15]
+  k: LC(S)
+  l: [home]
+- p: [16, 17]
+  k: LC(F)
+  l: [home]
+- p: [26, 27]
+  k: LC(X)
+  l: [home]
+- p: [27, 28]
+  k: LC(C)
+  l: [home]
+- p: [28, 29]
+  k: LC(V)
+  l: [home]
+- p: [0, 1, 2]
+  k: LC(Z)
+  l: [home]
+- p: [9, 10, 11]
+  k: LC(Y)
+  l: [home]
