@@ -83,10 +83,10 @@ ZMK_LAYER(media,
                                                         &trans        &trans        &trans       /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(move,
-                &none       &none         &none         &none         &none         &none       /**/    &none           &none        &none        &none       &none            &none
-                &none       &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none       /**/    &none           &none        &none        &none       &none            &none
-                &none       &none         &none         &none         &none         &none       /**/    &none           &none        &none        &none       &none            &none
-                                                        &trans        &trans        &trans      /**/    &trans          &trans       &trans
+                &none       &kp PAGE_UP   NAV_UP        &kp HOME      &none         &none        /**/    &none           &none        &none        &none       &none           &none
+                &none       NAV_LEFT      NAV_DOWN      NAV_RIGHT     &none         &none        /**/    &none           &kp RSHFT    &kp RCTRL    &kp RALT    &kp RGUI        &none
+                &none       &kp PAGE_DOWN &none         &kp END       &none         &none        /**/    &none           &none        &none        &none       &none           &none
+                                                        &trans        &trans        &trans       /**/    &trans          &trans       &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(gaming,
                 &kp ESC     &kp Q         &kp W         &kp E         &kp R           &kp T      /**/    &kp Y           &kp U        &kp I        &kp O       &kp P           &kp BSPC
