@@ -6,7 +6,8 @@
 #define L_FUNC 2
 #define L_EXT  3
 #define L_MEDIA 4
-#define L_GAMING 5
+#define L_MOVE 5
+#define L_GAMING 6
 
 // Settings
 #define COMBO_HOOK global-quick-tap-ms = <150>;
