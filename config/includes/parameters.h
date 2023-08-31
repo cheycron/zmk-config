@@ -8,7 +8,6 @@
 #define L_MEDIA 4
 #define L_MOVE 5
 #define L_GAMING 6
-#define L_SPECIAL 7
 
 // Key Groups
 #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LB5
