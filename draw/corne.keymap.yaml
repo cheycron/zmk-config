@@ -15,7 +15,7 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RALT}
     - {t: ;, h: RGUI}
-    - ''''
+    - {t: RALT, h: ''''}
     - ''
     - Z
     - X
