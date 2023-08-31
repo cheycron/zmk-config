@@ -22,7 +22,16 @@ layers:
     - C
     - V
     - B
-  - [N, M, ',', ., /, media, '&l_func', '&l_num', SPACE, SPACE]
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - media
+    - '&l_func'
+    - '&l_num'
+    - {t: SPACE, s: .}
+    - {t: SPACE, s: ','}
   - ['&l_ext', '&l_move']
   numeric:
   - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
@@ -114,6 +123,12 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   gaming:
+  - [ESC, Q, W, E, R, T, Y, U, I, O]
+  - [P, BSPC, TAB, A, S, D, F, G, H, J]
+  - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
+  - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
+  - [RALT, RCTRL]
+  special:
   - [ESC, Q, W, E, R, T, Y, U, I, O]
   - [P, BSPC, TAB, A, S, D, F, G, H, J]
   - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
