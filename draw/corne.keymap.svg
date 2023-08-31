@@ -119,6 +119,7 @@ path.combo {
 <text x="786.0" y="105.0" class="tap">P</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="79.0" width="52.0" height="52.0" class="key"/>
 <text x="842.0" y="105.0" class="tap">BSPC</text>
+<text x="842.0" y="81.0" class="shifted">DEL</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="135.0" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="161.0" class="tap">TAB</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="135.0" width="52.0" height="52.0" class="key"/>
@@ -362,7 +363,7 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="704.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="760.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="816.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
-<text x="842.0" y="878.3061339178928" class="tap">%</text>
+<text x="842.0" y="878.3061339178928" class="tap">PSCRN</text>
 <rect rx="6.0" ry="6.0" x="228.0" y="896.1541339178928" width="52.0" height="52.0" class="held key"/>
 <g transform="rotate(15.0, 315.59999999999997, 930.3861339178928)">
 <rect rx="6.0" ry="6.0" x="289.59999999999997" y="904.3861339178928" width="52.0" height="52.0" class="trans key"/>
@@ -408,7 +409,7 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="760.0" y="1070.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1096.959200876839" class="tap">`</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1070.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="842.0" y="1096.959200876839" class="tap">*</text>
+<text x="842.0" y="1096.959200876839" class="tap">BSPC</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="1152.959200876839" class="tap">-</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
@@ -431,6 +432,7 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="760.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="1152.959200876839" class="tap">RGUI</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
+<text x="842.0" y="1152.959200876839" class="tap">*</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1182.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="1208.959200876839" class="tap">_</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1182.959200876839" width="52.0" height="52.0" class="key"/>
@@ -440,6 +442,7 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="200.0" y="1161.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="226.0" y="1187.959200876839" class="tap">\</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1168.959200876839" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="1194.959200876839" class="tap">=</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1175.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="338.0" y="1201.959200876839" class="tap">|</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1175.959200876839" width="52.0" height="52.0" class="key"/>
@@ -564,7 +567,6 @@ path.combo {
 <tspan x="114.0" dy="-0.6em">PAGE</tspan><tspan x="114.0" dy="1.2em">UP</tspan></text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="170.0" y="1744.265334794732" class="tap">UP</text>
-<text x="170.0" y="1768.265334794732" class="hold" style="font-size: 88%">LC(HOME)</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1711.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="226.0" y="1737.265334794732" class="tap">HOME</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
@@ -575,16 +577,14 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="704.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="760.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="816.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
+<text x="842.0" y="1758.265334794732" class="tap">BSPC</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="1814.265334794732" class="tap">LEFT</text>
-<text x="114.0" y="1838.265334794732" class="hold">HOME</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="170.0" y="1800.265334794732" class="tap">DOWN</text>
-<text x="170.0" y="1824.265334794732" class="hold">LC(END)</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1767.265334794732" width="52.0" height="52.0" class="key"/>
 <text x="226.0" y="1793.265334794732" class="tap">RIGHT</text>
-<text x="226.0" y="1817.265334794732" class="hold">END</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="312.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
@@ -631,6 +631,8 @@ path.combo {
 <text x="584.4" y="1922.345334794732" class="trans tap">▽</text>
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="1888.113334794732" width="52.0" height="52.0" class="held key"/>
+<rect rx="6.0" ry="6.0" x="800.0" y="1745.265334794732" width="28.0" height="26.0" class="combo"/>
+<text x="814.0" y="1758.265334794732" class="combo tap">DELETE</text>
 </g>
 <g class="layer-gaming">
 <text x="30.0" y="2011.9184017536786" class="label">gaming:</text>
@@ -722,9 +724,10 @@ path.combo {
 </g>
 <g transform="rotate(-15.0, 584.4, 2252.9984017536785)">
 <rect rx="6.0" ry="6.0" x="558.4" y="2226.9984017536785" width="52.0" height="52.0" class="key"/>
+<text x="584.4" y="2252.9984017536785" class="tap">RALT</text>
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="2218.7664017536786" width="52.0" height="52.0" class="key"/>
-<text x="646.0" y="2244.7664017536786" class="tap">RALT</text>
+<text x="646.0" y="2244.7664017536786" class="tap">RCTRL</text>
 <path d="M842.0,2144.9184017536786 l0.0,-37.33333333333333" class="combo"/>
 <path d="M842.0,2144.9184017536786 l0.0,37.33333333333333" class="combo"/>
 <rect rx="6.0" ry="6.0" x="828.0" y="2131.9184017536786" width="28.0" height="26.0" class="combo"/>

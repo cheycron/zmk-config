@@ -17,10 +17,10 @@
 //=========================
 MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
 MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
-ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
-ZMK_BEHAVIOR(mt_end,  hold_tap,  bindings = <&masked_end>, <&kp>; MT_CORE)
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
+ZMK_BEHAVIOR(bs_del, mod_morph, bindings = <&kp BSPC>, <&kp DEL>; mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <MOD_RSFT|MOD_LCTL|MOD_RCTL>; )
+
 //=========================
 //  COMBO DEFINITION
 //=========================
@@ -44,7 +44,7 @@ ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,             
 //  LAYERS DEFINITION
 //=========================
 ZMK_LAYER(home,
-                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BSPC
+                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
                 &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp SQT
                 &none         &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &mo L_MEDIA
                                                           &mo L_FUNC    &mo L_NUM     &kp SPACE         &kp SPACE     &mo L_EXT     &mo L_MOVE
