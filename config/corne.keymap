@@ -18,7 +18,7 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
 MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
 
-ZMK_BEHAVIOR(bs_del, mod_morph, bindings = <&kp BSPC>, <&kp DEL>; mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <MOD_RSFT|MOD_LCTL|MOD_RCTL>; )
+ZMK_BEHAVIOR(bs_del, mod_morph, bindings = <&kp BSPC>, <&kp DEL>; mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <(MOD_RSFT|MOD_LCTL|MOD_RCTL)>; )
 ZMK_BEHAVIOR(sp_dot, mod_morph, bindings = <&kp SPACE>, <&kp DOT>; mods = <(MOD_LSFT|MOD_RSFT)>)
 ZMK_BEHAVIOR(sp_comma, mod_morph, bindings = <&kp SPACE>, <&kp COMMA>; mods = <(MOD_LSFT|MOD_RSFT)>)
 ZMK_BEHAVIOR(l_func, tap_dance, tapping-term-ms = <200>; bindings = <&tog L_FUNC>, <&mo L_FUNC>; )
