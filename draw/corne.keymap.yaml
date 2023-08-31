@@ -22,8 +22,8 @@ layers:
     - C
     - V
     - B
-  - [N, M, ',', ., /, media, function, numeric, SPACE, SPACE]
-  - [ext, move]
+  - [N, M, ',', ., /, media, '&l_func', '&l_num', SPACE, SPACE]
+  - ['&l_ext', '&l_move']
   numeric:
   - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
   - ['-', '=', '', LGUI, LALT, LCTRL, LSHFT, '', /, '4']
@@ -35,7 +35,7 @@ layers:
     - <
     - '>'
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
@@ -50,7 +50,7 @@ layers:
     - ''
     - ''
     - PSCRN
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -70,7 +70,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   media:
   - - ''
@@ -112,7 +112,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
   gaming:
   - [ESC, Q, W, E, R, T, Y, U, I, O]
   - [P, BSPC, TAB, A, S, D, F, G, H, J]
