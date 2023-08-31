@@ -50,7 +50,7 @@ ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,             
 //=========================
 ZMK_LAYER(home,
                 &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
-                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &sqt_alt SQT RALT
+                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp SQT
                 &none         &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &mo L_MEDIA
                                                           &l_func       &l_num        &sp_escl          sd&sp_admi       &l_ext        &l_move
 ) //===================================================================================================================================================================================
