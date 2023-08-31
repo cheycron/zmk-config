@@ -30,8 +30,8 @@ layers:
     - media
     - '&l_func'
     - '&l_num'
-    - {t: SPACE, s: .}
     - {t: SPACE, s: ','}
+    - {t: SPACE, s: .}
   - ['&l_ext', '&l_move']
   numeric:
   - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
@@ -67,7 +67,16 @@ layers:
     - {t: ▽, type: trans}
   ext:
   - ['~', '!', '@', '#', $, '%', ^, '&', (, )]
-  - ['`', BSPC, '-', '[', ']', /, <, '>', '', RSHFT]
+  - - '`'
+    - {t: BSPC, s: DEL}
+    - '-'
+    - '['
+    - ']'
+    - /
+    - <
+    - '>'
+    - ''
+    - RSHFT
   - [RCTRL, RALT, RGUI, '*', _, '{', '}', \, '=', '|']
   - - ''
     - ''
@@ -108,7 +117,16 @@ layers:
     - {t: ▽, type: trans}
   move:
   - ['', PAGE UP, UP, HOME, '', '', '', '', '', '']
-  - ['', BSPC, '', LEFT, DOWN, RIGHT, '', '', '', RSHFT]
+  - - ''
+    - {t: BSPC, s: DEL}
+    - ''
+    - LEFT
+    - DOWN
+    - RIGHT
+    - ''
+    - ''
+    - ''
+    - RSHFT
   - [RCTRL, RALT, RGUI, '', '', PAGE DOWN, '', END, '', '']
   - - ''
     - ''
