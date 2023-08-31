@@ -56,9 +56,9 @@ ZMK_LAYER(home,
                                                           &l_func       &l_num        &sp_comma         &sp_dot       &l_ext        &l_move
 ) //===================================================================================================================================================================================
 ZMK_LAYER(numeric,
-                &none         &none         &none         &none         &none         &none             &kp KP_MULTIPLY &kp N7      &kp N8        &kp N9        &kp MINUS      &kp EQUAL
+                &none         &none         &none         &none         &none         &none             &kp KP_MULTIPLY &kp N7      &kp N8        &kp N9        &kp MINUS      &bs_del
                 &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp FSLH        &kp N4      &kp N5        &kp N6        &kp PLUS       &kp ENTER
-                &none         &none         &none         &none         &none         &none             &kp N0          &kp N1      &kp N2        &kp N3        &kp LT         &kp GT
+                &none         &none         &none         &none         &none         &kp EQUAL         &kp N0          &kp N1      &kp N2        &kp N3        &kp LT         &kp GT
                                                           &trans        &trans        &trans            &trans          &trans      &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(function,
