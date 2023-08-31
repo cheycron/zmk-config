@@ -30,13 +30,22 @@ layers:
     - media
     - '&l_func'
     - '&l_num'
-    - {t: SPACE, s: ','}
-    - {t: SPACE, s: .}
+    - {t: SPACE, s: '!'}
+    - {t: SPACE, s: LSHFT(FSLH)}
   - ['&l_ext', '&l_move']
   numeric:
   - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
-  - ['-', '=', '', LGUI, LALT, LCTRL, LSHFT, '', /, '4']
-  - ['5', '6', +, ENTER, '', '', '', '', '', '']
+  - - '-'
+    - {t: BSPC, s: DEL}
+    - ''
+    - LGUI
+    - LALT
+    - LCTRL
+    - LSHFT
+    - ''
+    - /
+    - '4'
+  - ['5', '6', +, ENTER, '', '', '', '', '', '=']
   - - '0'
     - '1'
     - '2'
