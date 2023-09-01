@@ -87,10 +87,10 @@ ZMK_LAYER(move,
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(gaming,
-                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &none         U_MS_U        &none         &none         U_WH_U         &none
-                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             U_MS_L        U_MS_D        U_MS_R        U_WH_L        U_WH_D         U_WH_R
+                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &none         &none         &none         &none         &none          &none
+                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             &none         &none         &none         &none         &none          &none
                 &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &none         &none         &none         &none         &none          &none
-                                                          &kp LCTRL     &kp LALT      &kp SPACE         U_BTN1        U_BTN3        U_BTN2
+                                                          &kp LCTRL     &kp LALT      &kp SPACE         &none         &none         &none
 ) //===================================================================================================================================================================================
 ZMK_LAYER(mouse,
                 &none         &none         &none         &none         &none         &none             &none         U_MS_U        &none         &none         U_WH_U         &none
