@@ -86,14 +86,14 @@ ZMK_LAYER(move,
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(gaming,
-                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BSPC
-                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI       &kp ENTER
-                &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHIFT
-                                                          &kp LCTRL     &kp LALT      &kp SPACE         &kp SPACE     &kp RALT      &kp RCTRL
+                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &none         U_MS_U        &none         &none         U_WH_U         &none
+                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             U_MS_L        U_MS_D        U_MS_R        U_WH_L        U_WH_D         U_WH_R
+                &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &none         &none         &none         &none         &none          &none
+                                                          &kp LCTRL     &kp LALT      &kp SPACE         U_BTN1        U_BTN3        U_BTN2
 ) //===================================================================================================================================================================================
 ZMK_LAYER(mouse,
-                &none         &none         &none         &none         &none         &none             &none         U_MS_U        &none         &none         &none          U_WH_U
-                &none         &none         &none         &none         &none         &none             U_MS_L        U_MS_D        U_MS_R        &none         &none          &none
-                &trans        &none         &none         &none         &none         &none             &none         &none         &none         &none         &none          U_WH_D
-                                                          &trans        &trans        &trans            U_BTN1        U_BTN2        U_BTN3
+                &none         &none         &none         &none         &none         &none             &none         U_MS_U        &none         &none         U_WH_U         &none
+                &none         &none         &none         &none         &none         &none             U_MS_L        U_MS_D        U_MS_R        U_WH_L        U_WH_D         U_WH_R
+                &trans        &none         &none         &none         &none         &none             &none         &none         &none         &none         &none          &none
+                                                          &trans        &trans        &trans            U_BTN1        U_BTN3        U_BTN2
 ) //===================================================================================================================================================================================
