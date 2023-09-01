@@ -87,10 +87,10 @@ ZMK_LAYER(move,
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(gaming,
-                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &none         &none         &none         &none         &none          &none
-                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             &none         &none         &none         &none         &none          &none
-                &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &none         &none         &none         &none         &none          &none
-                                                          &kp LCTRL     &kp LALT      &kp SPACE         &none         &none         &none
+                &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BSPC
+                &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI       &kp ENTER
+                &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHIFT
+                                                          &kp LCTRL     &kp LALT      &kp SPACE         &kp SPACE     &kp RALT      &kp RCTRL
 ) //===================================================================================================================================================================================
 ZMK_LAYER(mouse,
                 &none         &none         &none         &none         &none         &none             &none         U_MS_U        &none         &none         U_WH_U         &none
