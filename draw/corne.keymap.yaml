@@ -27,17 +27,17 @@ layers:
     - ','
     - .
     - /
-    - media
+    - '&l_media'
     - '&l_func'
     - '&l_num'
     - {t: SPACE, s: '!'}
     - {t: SPACE, s: '?'}
   - ['&l_ext', '&l_move']
   numeric:
-  - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
+  - [ESC, '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
   - - '-'
     - {t: BSPC, s: DEL}
-    - ''
+    - TAB
     - LGUI
     - LALT
     - LCTRL
@@ -117,7 +117,7 @@ layers:
     - ''
     - NEXT
     - VOL DN
-    - {type: held}
+    - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -156,20 +156,29 @@ layers:
   - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
   - [RALT, RCTRL]
   mouse:
-  - ['', '', '', '', '', '', '', '&U_MS_U', '', '']
-  - ['', '&U_WH_U', '', '', '', '', '', '', '&U_MS_L', '&U_MS_D']
-  - ['&U_MS_R', '', '', '', '&tran', '', '', '', '', '']
+  - ['', '', '', '', '', '', '', '&mmv MOVE_VERT(-1250)', '', '']
+  - ['&mwh SCROLL_VERT(100)', '', '', '', '', '', '', '', '&mmv MOVE_HOR(-1250)', '&mmv MOVE_VERT(1250)']
+  - - '&mmv MOVE_HOR(1250)'
+    - '&mwh SCROLL_HOR(-100)'
+    - '&mwh SCROLL_VERT(-100)'
+    - '&mwh SCROLL_HOR(100)'
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
   - - ''
     - ''
     - ''
     - ''
     - ''
-    - '&U_WH_D'
+    - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&U_BTN1'
-  - ['&U_BTN2', '&U_BTN3']
+    - '&mkp MB1'
+  - ['&mkp MB3', '&mkp MB2']
 combos:
 - p: [11, 23, 35]
   k: gaming
