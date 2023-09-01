@@ -57,8 +57,8 @@ ZMK_LAYER(home,
                                                           &l_func       &l_num        &sp_escl          &sp_admi      &l_ext        &l_move
 ) //===================================================================================================================================================================================
 ZMK_LAYER(numeric,
-                &none         &none         &none         &none         &none         &none             &kp KP_MULTIPLY &kp N7      &kp N8        &kp N9        &kp MINUS      &bs_del
-                &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp FSLH        &kp N4      &kp N5        &kp N6        &kp PLUS       &kp ENTER
+                &kp ESC       &none         &none         &none         &none         &none             &kp KP_MULTIPLY &kp N7      &kp N8        &kp N9        &kp MINUS      &bs_del
+                &kp TAB       &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp FSLH        &kp N4      &kp N5        &kp N6        &kp PLUS       &kp ENTER
                 &none         &none         &none         &none         &none         &kp EQUAL         &kp N0          &kp N1      &kp N2        &kp N3        &kp LT         &kp GT
                                                           &trans        &trans        &trans            &trans          &trans      &trans
 ) //===================================================================================================================================================================================
@@ -67,7 +67,7 @@ ZMK_LAYER(function,
                 &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp F7        &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
                 &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none          &kp PSCRN
                                                           &trans        &trans        &trans            &trans        &trans        &trans
-) //===================================================================================================================================================================================
+// ) //==================================================================================================================================================================================
 ZMK_LAYER(ext,
                 &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET     &kp AMPS      &kp LPAR      &kp RPAR      &kp GRAVE      &bs_del
                 &kp MINUS     &kp LBKT      &kp RBKT      &kp FSLH      &kp LT        &kp GT            &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &kp ASTRK
