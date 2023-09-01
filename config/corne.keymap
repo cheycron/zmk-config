@@ -11,6 +11,7 @@
 #include "../config/includes/parameters.h"
 #include "../config/includes/helper.h"
 #include "../config/includes/keypos_42keys.h"
+#include "../config/includes/mouse.dtsi"
 
 //=========================
 //  BEHAVIORS DEFINITION
