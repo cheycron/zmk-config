@@ -15,8 +15,8 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RALT}
     - {t: ;, h: RGUI}
-    - {t: RALT, h: ''''}
-    - ''
+    - {t: '''', h: RALT}
+    - '&l_mouse'
     - Z
     - X
     - C
@@ -31,7 +31,7 @@ layers:
     - '&l_func'
     - '&l_num'
     - {t: SPACE, s: '!'}
-    - {t: SPACE, s: LSHFT(FSLH)}
+    - {t: SPACE, s: '?'}
   - ['&l_ext', '&l_move']
   numeric:
   - ['', '', '', '', '', '', KP MULTIPLY, '7', '8', '9']
@@ -155,6 +155,21 @@ layers:
   - [K, L, ;, ENTER, LSHFT, Z, X, C, V, B]
   - [N, M, ',', ., /, RSHIFT, LCTRL, LALT, SPACE, SPACE]
   - [RALT, RCTRL]
+  mouse:
+  - ['', '', '', '', '', '', '', '&U_MS_U', '', '']
+  - ['', '&U_WH_U', '', '', '', '', '', '', '&U_MS_L', '&U_MS_D']
+  - ['&U_MS_R', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - '&U_WH_D'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&U_BTN1'
+  - ['&U_BTN2', '&U_BTN3']
 combos:
 - p: [11, 23, 35]
   k: gaming

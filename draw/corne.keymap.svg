@@ -1,4 +1,4 @@
-<svg width="900.0" height="2370.5714687126247" viewBox="0 0 900.0 2370.5714687126247" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900.0" height="2701.224535671571" viewBox="0 0 900.0 2701.224535671571" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style>/* inherit to force styles through use tags*/
 svg path {
     fill: inherit;
@@ -151,9 +151,10 @@ path.combo {
 <text x="786.0" y="161.0" class="tap">;</text>
 <text x="786.0" y="185.0" class="hold">RGUI</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="135.0" width="52.0" height="52.0" class="key"/>
-<text x="842.0" y="161.0" class="tap">RALT</text>
-<text x="842.0" y="185.0" class="hold">&#x27;</text>
+<text x="842.0" y="161.0" class="tap">&#x27;</text>
+<text x="842.0" y="185.0" class="hold">RALT</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="191.0" width="52.0" height="52.0" class="key"/>
+<text x="58.0" y="217.0" class="tap" style="font-size: 88%">&amp;l_mouse</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="191.0" width="52.0" height="52.0" class="key"/>
 <text x="114.0" y="217.0" class="tap">Z</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="177.0" width="52.0" height="52.0" class="key"/>
@@ -190,7 +191,7 @@ path.combo {
 <g transform="rotate(-30.0, 518.88, 280.28)">
 <rect rx="6.0" ry="6.0" x="492.88" y="240.27999999999997" width="52.0" height="80.0" class="key"/>
 <text x="518.88" y="280.28" class="tap">SPACE</text>
-<text x="518.88" y="242.27999999999997" class="shifted" style="font-size: 64%">LSHFT(FSLH)</text>
+<text x="518.88" y="242.27999999999997" class="shifted">?</text>
 </g>
 <g transform="rotate(-15.0, 584.4, 269.08000000000004)">
 <rect rx="6.0" ry="6.0" x="558.4" y="243.08000000000004" width="52.0" height="52.0" class="key"/>
@@ -743,5 +744,70 @@ path.combo {
 <path d="M842.0,2144.9184017536786 l0.0,37.33333333333333" class="combo"/>
 <rect rx="6.0" ry="6.0" x="828.0" y="2131.9184017536786" width="28.0" height="26.0" class="combo"/>
 <text x="842.0" y="2144.9184017536786" class="combo tap">gaming</text>
+</g>
+<g class="layer-mouse">
+<text x="30.0" y="2342.571468712625" class="label">mouse:</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="2393.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="88.0" y="2393.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="144.0" y="2379.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="200.0" y="2372.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="256.0" y="2379.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="312.0" y="2386.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="536.0" y="2386.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="592.0" y="2379.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="2405.571468712625" class="tap">&amp;U_MS_U</text>
+<rect rx="6.0" ry="6.0" x="648.0" y="2372.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="704.0" y="2379.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="760.0" y="2393.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="816.0" y="2393.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="842.0" y="2419.571468712625" class="tap">&amp;U_WH_U</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="2449.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="88.0" y="2449.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="144.0" y="2435.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="200.0" y="2428.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="256.0" y="2435.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="312.0" y="2442.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="536.0" y="2442.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="562.0" y="2468.571468712625" class="tap">&amp;U_MS_L</text>
+<rect rx="6.0" ry="6.0" x="592.0" y="2435.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="2461.571468712625" class="tap">&amp;U_MS_D</text>
+<rect rx="6.0" ry="6.0" x="648.0" y="2428.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="674.0" y="2454.571468712625" class="tap">&amp;U_MS_R</text>
+<rect rx="6.0" ry="6.0" x="704.0" y="2435.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="760.0" y="2449.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="816.0" y="2449.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="32.0" y="2505.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="88.0" y="2505.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="144.0" y="2491.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="200.0" y="2484.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="256.0" y="2491.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="312.0" y="2498.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="536.0" y="2498.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="592.0" y="2491.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="648.0" y="2484.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="704.0" y="2491.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="760.0" y="2505.571468712625" width="52.0" height="52.0" class="key"/>
+<rect rx="6.0" ry="6.0" x="816.0" y="2505.571468712625" width="52.0" height="52.0" class="key"/>
+<text x="842.0" y="2531.571468712625" class="tap">&amp;U_WH_D</text>
+<rect rx="6.0" ry="6.0" x="228.0" y="2549.419468712625" width="52.0" height="52.0" class="trans key"/>
+<text x="254.0" y="2575.419468712625" class="trans tap">▽</text>
+<g transform="rotate(15.0, 315.59999999999997, 2583.651468712625)">
+<rect rx="6.0" ry="6.0" x="289.59999999999997" y="2557.651468712625" width="52.0" height="52.0" class="trans key"/>
+<text x="315.59999999999997" y="2583.651468712625" class="trans tap">▽</text>
+</g>
+<g transform="rotate(30.0, 381.12, 2594.8514687126253)">
+<rect rx="6.0" ry="6.0" x="355.12" y="2554.8514687126253" width="52.0" height="80.0" class="trans key"/>
+<text x="381.12" y="2594.8514687126253" class="trans tap">▽</text>
+</g>
+<g transform="rotate(-30.0, 518.88, 2594.8514687126253)">
+<rect rx="6.0" ry="6.0" x="492.88" y="2554.8514687126253" width="52.0" height="80.0" class="key"/>
+<text x="518.88" y="2594.8514687126253" class="tap">&amp;U_BTN1</text>
+</g>
+<g transform="rotate(-15.0, 584.4, 2583.651468712625)">
+<rect rx="6.0" ry="6.0" x="558.4" y="2557.651468712625" width="52.0" height="52.0" class="key"/>
+<text x="584.4" y="2583.651468712625" class="tap">&amp;U_BTN2</text>
+</g>
+<rect rx="6.0" ry="6.0" x="620.0" y="2549.419468712625" width="52.0" height="52.0" class="key"/>
+<text x="646.0" y="2575.419468712625" class="tap">&amp;U_BTN3</text>
 </g>
 </svg>

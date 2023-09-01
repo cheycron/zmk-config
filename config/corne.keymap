@@ -25,7 +25,7 @@ ZMK_BEHAVIOR(l_func,          tap_dance,    tapping-term-ms = <200>; bindings = 
 ZMK_BEHAVIOR(l_num,           tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_NUM>, <&tog L_NUM>; )
 ZMK_BEHAVIOR(l_ext,           tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_EXT>, <&tog L_EXT>; )
 ZMK_BEHAVIOR(l_move,          tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_MOVE>, <&tog L_MOVE>; )
-
+ZMK_BEHAVIOR(l_mouse,         tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_MOUSE>, <&tog L_MOUSE>; )
 //=========================
 //  COMBO DEFINITION
 //=========================
@@ -50,8 +50,8 @@ ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,             
 //=========================
 ZMK_LAYER(home,
                 &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
-                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &sqt_alt SQT RALT
-                &none         &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &mo L_MEDIA
+                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &sqt_alt RALT SQT
+                &l_mouse      &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &mo L_MEDIA
                                                           &l_func       &l_num        &sp_escl          &sp_admi      &l_ext        &l_move
 ) //===================================================================================================================================================================================
 ZMK_LAYER(numeric,
@@ -89,4 +89,11 @@ ZMK_LAYER(gaming,
                 &kp TAB       &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI       &kp ENTER
                 &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHIFT
                                                           &kp LCTRL     &kp LALT      &kp SPACE         &kp SPACE     &kp RALT      &kp RCTRL
+) //===================================================================================================================================================================================
+) //===================================================================================================================================================================================
+ZMK_LAYER(mouse,
+                &none         &none         &none         &none         &none         &none             &none         &U_MS_U       &none         &none         &none         &U_WH_U
+                &none         &none         &none         &none         &none         &none             &U_MS_L       &U_MS_D       &U_MS_R       &none         &none         &none
+                &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none         &U_WH_D
+                                                          &trans        &trans        &trans            &U_BTN1       &U_BTN2       &U_BTN3
 ) //===================================================================================================================================================================================
