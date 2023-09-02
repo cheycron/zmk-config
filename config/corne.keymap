@@ -52,7 +52,7 @@ ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,             
 //=========================
 ZMK_LAYER(home,
                 &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
-                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &sqt_alt RALT SQT
+                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp ENTER
                 &l_mouse      &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &l_media
                                                           &l_func       &l_num        &sp_escl          &sp_admi      &l_ext        &l_move
 ) //===================================================================================================================================================================================
@@ -69,7 +69,7 @@ ZMK_LAYER(function,
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(ext,
-                &kp TILDE     &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET     &kp AMPS      &kp LPAR      &kp RPAR      &kp GRAVE      &bs_del
+                &kp TILDE     &kp SQT       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET     &kp AMPS      &kp LPAR      &kp RPAR      &kp GRAVE      &bs_del
                 &kp MINUS     &kp LBKT      &kp RBKT      &kp FSLH      &kp LT        &kp GT            &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &kp ASTRK
                 &kp UNDER     &kp LBRC      &kp RBRC      &kp BSLH      &kp EQUAL     &kp PIPE          &none         &none         &none         &none         &none          &none
                                                           &trans        &trans        &trans            &trans        &trans        &trans

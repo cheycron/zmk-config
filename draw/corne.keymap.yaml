@@ -15,7 +15,7 @@ layers:
   - - {t: K, h: RCTRL}
     - {t: L, h: RALT}
     - {t: ;, h: RGUI}
-    - {t: '''', h: RALT}
+    - ENTER
     - '&l_mouse'
     - Z
     - X
@@ -75,7 +75,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   ext:
-  - ['~', '!', '@', '#', $, '%', ^, '&', (, )]
+  - ['~', '''', '@', '#', $, '%', ^, '&', (, )]
   - - '`'
     - {t: BSPC, s: DEL}
     - '-'
