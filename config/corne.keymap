@@ -23,6 +23,8 @@ ZMK_BEHAVIOR(bs_del,          mod_morph,    bindings = <&kp BSPC>, <&kp DEL>; mo
 ZMK_BEHAVIOR(sp_escl,         mod_morph,    bindings = <&kp SPACE>, <&kp EXCL>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 ZMK_BEHAVIOR(sp_admi,         mod_morph,    bindings = <&kp SPACE>, <&kp QMARK>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 ZMK_BEHAVIOR(fslh_bslh,       mod_morph,    bindings = <&kp FSLH>, <&kp BSLH>; mods = <(MOD_LSFT|MOD_RSFT)>;)
+ZMK_BEHAVIOR(dot,             mod_morph,    bindings = <&kp DOT>, <&kp COLON>; mods = <(MOD_LSFT|MOD_RSFT)>;)
+ZMK_BEHAVIOR(comma,           mod_morph,    bindings = <&kp COMMA>, <&kp SEMI>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 ZMK_BEHAVIOR(l_func,          tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_FUNC>, <&tog L_FUNC>; )
 ZMK_BEHAVIOR(l_num,           tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_NUM>, <&tog L_NUM>; )
 ZMK_BEHAVIOR(l_ext,           tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_EXT>, <&tog L_EXT>; )
@@ -48,15 +50,13 @@ ZMK_COMBO(paste,        &kp C_PASTE,        LB1 LB0,        L_HOME,             
 ZMK_COMBO(undo,         &kp C_UNDO,         LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,                 COMBO_TERM_SLOW)
 
-
-
 //=========================
 //  LAYERS DEFINITION
 //=========================
 ZMK_LAYER(home,
                 &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
                 &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp ENTER
-                &l_mouse      &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &fslh_bslh     &l_media
+                &l_mouse      &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &comma        &dot          &fslh_bslh     &l_media
                                                           &l_func       &l_num        &sp_escl          &sp_admi      &l_ext        &l_move
 ) //===================================================================================================================================================================================
 ZMK_LAYER(numeric,
@@ -73,8 +73,8 @@ ZMK_LAYER(function,
 ) //===================================================================================================================================================================================
 ZMK_LAYER(ext,
                 &kp TILDE     &kp SQT       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &kp CARET     &kp AMPS      &kp LPAR      &kp RPAR      &kp GRAVE      &bs_del
-                &kp MINUS     &kp LBKT      &kp RBKT      &kp FSLH      &kp LT        &kp GT            &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &kp ASTRK
-                &kp UNDER     &kp LBRC      &kp RBRC      &kp BSLH      &kp EQUAL     &kp PIPE          &none         &none         &none         &none         &none          &none
+                &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT      &none         &none             &none         &kp RSHFT     &kp RCTRL     &kp RALT      &kp RGUI       &kp ASTRK
+                &kp UNDER     &kp PIPE      &kp LBRC      &kp RBRC      &kp LT        &kp GT            &none         &none         &none         &none         &none          &none
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(media,

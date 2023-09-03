@@ -170,8 +170,10 @@ path.combo {
 <text x="618.0" y="203.0" class="tap">M</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="170.0" width="52.0" height="52.0" class="key"/>
 <text x="674.0" y="196.0" class="tap">,</text>
+<text x="674.0" y="172.0" class="shifted">;</text>
 <rect rx="6.0" ry="6.0" x="704.0" y="177.0" width="52.0" height="52.0" class="key"/>
 <text x="730.0" y="203.0" class="tap">.</text>
+<text x="730.0" y="179.0" class="shifted">:</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="191.0" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="217.0" class="tap">/</text>
 <text x="786.0" y="193.0" class="shifted">\</text>
@@ -424,15 +426,13 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="32.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="1152.959200876839" class="tap">-</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1126.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1152.959200876839" class="tap">[</text>
+<text x="114.0" y="1152.959200876839" class="tap">=</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1112.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1138.959200876839" class="tap">]</text>
+<text x="170.0" y="1138.959200876839" class="tap">[</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1105.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1131.959200876839" class="tap">/</text>
+<text x="226.0" y="1131.959200876839" class="tap">]</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1112.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1138.959200876839" class="tap">&lt;</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1119.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="1145.959200876839" class="tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1119.959200876839" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1112.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="618.0" y="1138.959200876839" class="tap">RSHFT</text>
@@ -447,15 +447,15 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="32.0" y="1182.959200876839" width="52.0" height="52.0" class="key"/>
 <text x="58.0" y="1208.959200876839" class="tap">_</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="1182.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1208.959200876839" class="tap">{</text>
+<text x="114.0" y="1208.959200876839" class="tap">|</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1168.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1194.959200876839" class="tap">}</text>
+<text x="170.0" y="1194.959200876839" class="tap">{</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1161.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1187.959200876839" class="tap">\</text>
+<text x="226.0" y="1187.959200876839" class="tap">}</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1168.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1194.959200876839" class="tap">=</text>
+<text x="282.0" y="1194.959200876839" class="tap">&lt;</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1175.959200876839" width="52.0" height="52.0" class="key"/>
-<text x="338.0" y="1201.959200876839" class="tap">|</text>
+<text x="338.0" y="1201.959200876839" class="tap">&gt;</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="1175.959200876839" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1168.959200876839" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="648.0" y="1161.959200876839" width="52.0" height="52.0" class="key"/>
