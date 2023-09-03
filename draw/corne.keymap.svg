@@ -174,6 +174,7 @@ path.combo {
 <text x="730.0" y="203.0" class="tap">.</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="191.0" width="52.0" height="52.0" class="key"/>
 <text x="786.0" y="217.0" class="tap">/</text>
+<text x="786.0" y="193.0" class="shifted">\</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="191.0" width="52.0" height="52.0" class="key"/>
 <text x="842.0" y="217.0" class="tap" style="font-size: 88%">&amp;l_media</text>
 <rect rx="6.0" ry="6.0" x="228.0" y="234.84799999999996" width="52.0" height="52.0" class="key"/>
