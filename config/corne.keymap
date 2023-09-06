@@ -35,6 +35,11 @@ ZMK_BEHAVIOR(l_media,         tap_dance,    tapping-term-ms = <200>; bindings = 
 //  COMBO DEFINITION
 //=========================
 ZMK_COMBO(egaming,      &tog L_GAMING,      RT5 RM5 RB5,    L_HOME L_GAMING,        COMBO_TERM_SLOW)
+ZMK_COMBO(gan1,         &kp N1,             LT5 LT4,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan2,         &kp N2,             LT4 LT3,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan3,         &kp N3,             LT3 LT2,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan4,         &kp N4,             LT2 LT1,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan5,         &kp N5,             LT1 LT0,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT L_MOVE,    COMBO_TERM_FAST)
 ZMK_COMBO(enter,        &kp ENTER,          RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(insert,       &kp INSERT,         RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
@@ -49,6 +54,7 @@ ZMK_COMBO(copy,         &kp C_COPY,         LB2 LB1,        L_HOME,             
 ZMK_COMBO(paste,        &kp C_PASTE,        LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(undo,         &kp C_UNDO,         LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(redo,         &kp C_REDO,         RT3 RT4 RT5,    L_HOME,                 COMBO_TERM_SLOW)
+ZMK_COMBO(altf4,        &kp C_ALTF4,        LT5 LM5 LB5,    L_HOME,                 COMBO_TERM_SLOW)
 
 //=========================
 //  LAYERS DEFINITION

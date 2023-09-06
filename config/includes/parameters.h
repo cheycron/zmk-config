@@ -53,6 +53,8 @@
 #define C_PASTE         LC(V)
 #define C_UNDO          LC(Z)
 #define C_REDO          LC(Y)
+#define C_ALTF4         LA(F4)
+
 // mic mute maybe?
 
 // Custom Functions
