@@ -18,7 +18,6 @@
 //=========================
 MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
 MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
-MAKE_HRM(sqt_alt, &kp, &kp, KEYS_T)
 ZMK_BEHAVIOR(bs_del,          mod_morph,    bindings = <&kp BSPC>, <&kp DEL>; mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <(MOD_RSFT|MOD_LCTL|MOD_RCTL)>; )
 ZMK_BEHAVIOR(sp_escl,         mod_morph,    bindings = <&kp SPACE>, <&kp EXCL>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 ZMK_BEHAVIOR(sp_admi,         mod_morph,    bindings = <&kp SPACE>, <&kp QMARK>; mods = <(MOD_LSFT|MOD_RSFT)>;)
@@ -32,7 +31,6 @@ ZMK_BEHAVIOR(l_move,          tap_dance,    tapping-term-ms = <200>; bindings = 
 ZMK_BEHAVIOR(l_mouse,         tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_MOUSE>, <&tog L_MOUSE>; )
 ZMK_BEHAVIOR(l_media,         tap_dance,    tapping-term-ms = <200>; bindings = <&mo L_MEDIA>, <&tog L_MEDIA>; )
 
-//
 //=========================
 //  COMBO DEFINITION
 //=========================
