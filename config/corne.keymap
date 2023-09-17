@@ -16,8 +16,19 @@
 //=========================
 //  BEHAVIORS DEFINITION
 //=========================
-MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
-MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
+// MAKE_HRM(hml, &kp, &kp, KEYS_R KEYS_T)
+// MAKE_HRM(hmr, &kp, &kp, KEYS_L KEYS_T)
+
+
+ZMK_BEHAVIOR(hml, hold_tap, #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; global-quick-tap-ms = <150>; tapping-term-ms = <300>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_R KEYS_T>; hold-trigger-on-release; )
+ZMK_BEHAVIOR(hmr, hold_tap, #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; global-quick-tap-ms = <150>; tapping-term-ms = <300>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_L KEYS_T>; hold-trigger-on-release; )
+ZMK_BEHAVIOR(hsl, hold_tap, #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; tapping-term-ms = <200>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_R KEYS_T>; )
+ZMK_BEHAVIOR(hsr, hold_tap, #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; tapping-term-ms = <200>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_L KEYS_T>; )
+
+
+
+
+
 ZMK_BEHAVIOR(bs_del,          mod_morph,    bindings = <&kp BSPC>, <&kp DEL>; mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <(MOD_RSFT|MOD_LCTL|MOD_RCTL)>; )
 ZMK_BEHAVIOR(sp_escl,         mod_morph,    bindings = <&kp SPACE>, <&kp EXCL>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 ZMK_BEHAVIOR(sp_admi,         mod_morph,    bindings = <&kp SPACE>, <&kp QMARK>; mods = <(MOD_LSFT|MOD_RSFT)>;)
@@ -61,7 +72,7 @@ ZMK_COMBO(altf4,        &kp C_ALTF4,        RT5 RM5 RB5,    L_HOME,             
 //=========================
 ZMK_LAYER(home,
                 &kp ESC       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P          &bs_del
-                &kp TAB       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G             &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp ENTER
+                &kp TAB       &hml LGUI A   &hml LALT S   &hsl LCTRL D  &hml LSHFT F  &kp G             &kp H         &hsr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp ENTER
                 &l_mouse      &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &comma        &dot          &fslh_bslh     &l_media
                                                           &l_func       &l_num        &sp_escl          &sp_admi      &l_ext        &l_move
 ) //===================================================================================================================================================================================
