@@ -43,7 +43,7 @@ ZMK_COMBO(gan5,         &kp N5,             LT1 LT0,        L_GAMING,           
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT L_MOVE,    COMBO_TERM_FAST)
 ZMK_COMBO(enter,        &kp ENTER,          RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(insert,       &kp INSERT,         RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(caps,         &kp CAPSLOCK,       LB5 LB4,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(caps,         &kp CAPSLOCK,       LM1 RM1,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(btclr,        &bt BT_CLR,         LT5 LM5 LB5,    L_MEDIA,                COMBO_TERM_SLOW)
 // Shortcuts
 ZMK_COMBO(select_all,   &kp C_SELECT_ALL,   LM4 LM3,        L_HOME,                 COMBO_TERM_FAST)
