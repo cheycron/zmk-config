@@ -207,8 +207,6 @@ path.combo {
 <text x="58.0" y="161.0" class="combo tap">gaming</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="92.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="105.0" class="combo tap">DELETE</text>
-<rect rx="6.0" ry="6.0" x="800.0" y="148.0" width="28.0" height="26.0" class="combo"/>
-<text x="814.0" y="161.0" class="combo tap">ENTER</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="217.0" class="combo tap">INSERT</text>
 <path d="M450.0,147.0 l-149.33333333333331,0.0" class="combo"/>
@@ -227,18 +225,18 @@ path.combo {
 <text x="254.0" y="199.5" class="combo tap">LC(C)</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="193.5" width="28.0" height="26.0" class="combo"/>
 <text x="310.0" y="206.5" class="combo tap">LC(V)</text>
+<rect rx="6.0" ry="6.0" x="72.0" y="92.0" width="28.0" height="26.0" class="combo"/>
+<text x="86.0" y="105.0" class="combo tap">LC(Z)</text>
 <path d="M114.0,100.33333333333333 l-37.39781251276224,3.1164843760635237" class="combo"/>
 <path d="M114.0,100.33333333333333 l37.58731342179998,-6.264552236966661" class="combo"/>
 <rect rx="6.0" ry="6.0" x="100.0" y="87.33333333333333" width="28.0" height="26.0" class="combo"/>
-<text x="114.0" y="100.33333333333333" class="combo tap">LC(Z)</text>
-<path d="M786.0,100.33333333333333 l-37.58731342179998,-6.264552236966661" class="combo"/>
-<path d="M786.0,100.33333333333333 l37.39781251276224,3.1164843760635237" class="combo"/>
-<rect rx="6.0" ry="6.0" x="772.0" y="87.33333333333333" width="28.0" height="26.0" class="combo"/>
-<text x="786.0" y="100.33333333333333" class="combo tap">LC(Y)</text>
+<text x="114.0" y="100.33333333333333" class="combo tap">LC(Y)</text>
 <path d="M842.0,161.0 l0.0,-37.33333333333333" class="combo"/>
 <path d="M842.0,161.0 l0.0,37.33333333333333" class="combo"/>
 <rect rx="6.0" ry="6.0" x="828.0" y="148.0" width="28.0" height="26.0" class="combo"/>
 <text x="842.0" y="161.0" class="combo tap">LA(F4)</text>
+<rect rx="6.0" ry="6.0" x="800.0" y="148.0" width="28.0" height="26.0" class="combo"/>
+<text x="814.0" y="161.0" class="combo tap" style="font-size: 78%">LC(ENTER)</text>
 </g>
 <g class="layer-numeric">
 <text x="30.0" y="358.6530669589464" class="label">numeric:</text>

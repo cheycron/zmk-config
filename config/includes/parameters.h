@@ -44,6 +44,7 @@
 #define C_UNDO          LC(Z)
 #define C_REDO          LC(Y)
 #define C_ALTF4         LA(F4)
+#define C_CTRLENT       LC(ENTER)
 
 // mic mute maybe?
 

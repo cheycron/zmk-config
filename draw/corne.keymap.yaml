@@ -201,9 +201,6 @@ combos:
 - p: [10, 11]
   k: DELETE
   l: [home, ext, move]
-- p: [22, 23]
-  k: ENTER
-  l: [home]
 - p: [34, 35]
   k: INSERT
   l: [home]
@@ -231,12 +228,15 @@ combos:
 - p: [28, 29]
   k: LC(V)
   l: [home]
-- p: [0, 1, 2]
+- p: [0, 1]
   k: LC(Z)
   l: [home]
-- p: [9, 10, 11]
+- p: [0, 1, 2]
   k: LC(Y)
   l: [home]
 - p: [11, 23, 35]
   k: LA(F4)
+  l: [home]
+- p: [22, 23]
+  k: LC(ENTER)
   l: [home]
