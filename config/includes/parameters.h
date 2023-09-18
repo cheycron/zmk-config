@@ -27,16 +27,6 @@
     tapping-term-ms = <220>; \
     quick-tap-ms = <220>; \
     hold-trigger-key-positions = <0>;
-#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
-    ZMK_BEHAVIOR(NAME, hold_tap, \
-        flavor = "balanced"; \
-        tapping-term-ms = <200>; \
-        quick-tap-ms = <QUICK_TAP_MS>; \
-        global-quick-tap-ms = <150>; \
-        bindings = <HOLD>, <TAP>; \
-        hold-trigger-key-positions = <TRIGGER_POS>; \
-        hold-trigger-on-release; \
-    )
 &mt { tapping-term-ms = <200>; quick_tap_ms = <0>; flavor = "tap-preferred"; };
 &sk { release-after-ms = <900>; quick-release; };
 &sl { ignore-modifiers; };
