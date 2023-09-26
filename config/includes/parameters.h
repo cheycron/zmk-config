@@ -46,6 +46,8 @@
 #define C_ALTF4         LA(F4)
 #define C_CTRLENT       LC(ENTER)
 #define C_COMMAND       LC(LS(P))
+#define C_FILES         LC(P)
+#define C_FORMAT        LS(LA(F))
 
 // mic mute maybe?
 

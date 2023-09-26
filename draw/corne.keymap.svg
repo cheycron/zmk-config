@@ -207,18 +207,16 @@ path.combo {
 <text x="58.0" y="161.0" class="combo tap">gaming</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="92.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="105.0" class="combo tap">DELETE</text>
-<rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
-<text x="814.0" y="217.0" class="combo tap">INSERT</text>
 <path d="M450.0,147.0 l-149.33333333333331,0.0" class="combo"/>
 <path d="M450.0,147.0 l149.33333333333331,0.0" class="combo"/>
 <rect rx="6.0" ry="6.0" x="436.0" y="134.0" width="28.0" height="26.0" class="combo"/>
 <text x="450.0" y="147.0" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
-<rect rx="6.0" ry="6.0" x="128.0" y="141.0" width="28.0" height="26.0" class="combo"/>
-<text x="142.0" y="154.0" class="combo tap">LC(A)</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="130.5" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="143.5" class="combo tap">LC(S)</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="137.5" width="28.0" height="26.0" class="combo"/>
 <text x="310.0" y="150.5" class="combo tap">LC(F)</text>
+<rect rx="6.0" ry="6.0" x="72.0" y="204.0" width="28.0" height="26.0" class="combo"/>
+<text x="86.0" y="217.0" class="combo tap">LC(A)</text>
+<rect rx="6.0" ry="6.0" x="128.0" y="197.0" width="28.0" height="26.0" class="combo"/>
+<text x="142.0" y="210.0" class="combo tap">LC(S)</text>
 <rect rx="6.0" ry="6.0" x="184.0" y="186.5" width="28.0" height="26.0" class="combo"/>
 <text x="198.0" y="199.5" class="combo tap">LC(X)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="186.5" width="28.0" height="26.0" class="combo"/>
@@ -237,8 +235,12 @@ path.combo {
 <text x="842.0" y="161.0" class="combo tap">LA(F4)</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="148.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="161.0" class="combo tap" style="font-size: 78%">LC(ENTER)</text>
-<rect rx="6.0" ry="6.0" x="744.0" y="85.0" width="28.0" height="26.0" class="combo"/>
-<text x="758.0" y="98.0" class="combo tap" style="font-size: 78%">LC(LS(P))</text>
+<rect rx="6.0" ry="6.0" x="576.0" y="193.5" width="28.0" height="26.0" class="combo"/>
+<text x="590.0" y="206.5" class="combo tap" style="font-size: 78%">LC(LS(P))</text>
+<rect rx="6.0" ry="6.0" x="632.0" y="186.5" width="28.0" height="26.0" class="combo"/>
+<text x="646.0" y="199.5" class="combo tap">LC(P)</text>
+<rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
+<text x="814.0" y="217.0" class="combo tap" style="font-size: 78%">LS(LA(F))</text>
 </g>
 <g class="layer-numeric">
 <text x="30.0" y="358.6530669589464" class="label">numeric:</text>
