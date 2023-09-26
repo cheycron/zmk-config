@@ -125,7 +125,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   move:
-  - ['', PAGE UP, UP, HOME, '', '', '', '', '', '']
+  - ['', PAGE DOWN, UP, PAGE UP, '', '', '', '', '', '']
   - - ''
     - {t: BSPC, s: DEL}
     - ''
@@ -136,7 +136,7 @@ layers:
     - ''
     - ''
     - RSHFT
-  - [RCTRL, RALT, RGUI, '', '', PAGE DOWN, '', END, '', '']
+  - [RCTRL, RALT, RGUI, '', '', HOME, '', END, '', '']
   - - ''
     - ''
     - ''
@@ -239,4 +239,7 @@ combos:
   l: [home]
 - p: [22, 23]
   k: LC(ENTER)
+  l: [home]
+- p: [9, 10]
+  k: LC(LS(P))
   l: [home]
