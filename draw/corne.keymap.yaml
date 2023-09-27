@@ -213,9 +213,6 @@ combos:
 - p: [24, 25]
   k: LC(A)
   l: [home]
-- p: [25, 26]
-  k: LC(S)
-  l: [home]
 - p: [26, 27]
   k: LC(X)
   l: [home]
@@ -244,5 +241,8 @@ combos:
   k: LC(P)
   l: [home]
 - p: [34, 35]
+  k: LC(S)
+  l: [home]
+- p: [33, 34]
   k: LS(LA(F))
   l: [home]

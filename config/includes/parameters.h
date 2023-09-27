@@ -48,6 +48,8 @@
 #define C_COMMAND       LC(LS(P))
 #define C_FILES         LC(P)
 #define C_FORMAT        LS(LA(F))
+#define C_CARET         LS(LA(I))
+
 
 // mic mute maybe?
 

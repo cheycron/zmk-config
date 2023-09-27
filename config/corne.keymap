@@ -48,7 +48,6 @@ ZMK_COMBO(btclr,        &bt BT_CLR,         LT5 LM5 LB5,    L_MEDIA,            
 // Shortcuts
 ZMK_COMBO(find,         &kp C_FIND,         LM1 LM0,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(select_all,   &kp C_SELECT_ALL,   LB5 LB4,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(save,         &kp C_SAVE,         LB4 LB3,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(cut,          &kp C_CUT,          LB3 LB2,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(copy,         &kp C_COPY,         LB2 LB1,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(paste,        &kp C_PASTE,        LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
@@ -58,7 +57,8 @@ ZMK_COMBO(altf4,        &kp C_ALTF4,        RT5 RM5 RB5,    L_HOME,             
 ZMK_COMBO(ctrlenter,    &kp C_CTRLENT,      RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(command,      &kp C_COMMAND,      RB0 RB1,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(files,        &kp C_FILES,        RB1 RB2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(format,       &kp C_FORMAT,       RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(format,       &kp C_FORMAT,       RB3 RB4,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(save,         &kp C_SAVE,         RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
 
 //=========================
 //  LAYERS DEFINITION
