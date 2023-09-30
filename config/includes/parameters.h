@@ -52,6 +52,6 @@
 #define C_WPREV                &kp LS(TAB)
 #define C_WNEXT                &swapper
 #define C_TCLOSE               &kp LC(F4)
-#define C_TPREV                &kp LC(PG_DN)
-#define C_TNEXT                &kp LC(PG_UP)
+#define C_TNEXT                &kp LC(PG_DN)
+#define C_TPREV                &kp LC(PG_UP)
 #define C_TSKMGR               &kp LC(LS(ESC))
