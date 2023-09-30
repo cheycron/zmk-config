@@ -209,8 +209,6 @@ path.combo {
 <path d="M450.0,147.0 l149.33333333333331,0.0" class="combo"/>
 <rect rx="6.0" ry="6.0" x="436.0" y="134.0" width="28.0" height="26.0" class="combo"/>
 <text x="450.0" y="147.0" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
-<rect rx="6.0" ry="6.0" x="296.0" y="137.5" width="28.0" height="26.0" class="combo"/>
-<text x="310.0" y="150.5" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
 <rect rx="6.0" ry="6.0" x="576.0" y="137.5" width="28.0" height="26.0" class="combo"/>
 <text x="590.0" y="150.5" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="137.5" width="28.0" height="26.0" class="combo"/>
