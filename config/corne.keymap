@@ -16,6 +16,7 @@
 //=========================
 //  BEHAVIORS DEFINITION
 //=========================
+ZMK_BEHAVIOR(swapper,         tri_state,    bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>; ignored-key-positions = <LT2>; )
 ZMK_BEHAVIOR(hml,             hold_tap,     #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; global-quick-tap-ms = <150>; tapping-term-ms = <300>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_R KEYS_T>; hold-trigger-on-release; )
 ZMK_BEHAVIOR(hmr,             hold_tap,     #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; global-quick-tap-ms = <150>; tapping-term-ms = <300>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_L KEYS_T>; hold-trigger-on-release; )
 ZMK_BEHAVIOR(hsl,             hold_tap,     #binding-cells = <2>; bindings = <&kp>,  <&kp>; flavor = "balanced"; quick-tap-ms = <175>; tapping-term-ms = <200>; quick-tap-ms = <175>; hold-trigger-key-positions = <KEYS_R KEYS_T>; )
@@ -46,18 +47,18 @@ ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT L_MOVE,
 ZMK_COMBO(caps,         &kp CAPSLOCK,       LM1 RM1,        L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(btclr,        &bt BT_CLR,         LH2 LH1,        L_MEDIA,                COMBO_TERM_SLOW)
 // Shortcuts
-ZMK_COMBO(find,         &kp C_FIND,         LM1 LM0,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(select_all,   &kp C_SELECT_ALL,   LB5 LB4,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(cut,          &kp C_CUT,          LB3 LB2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(copy,         &kp C_COPY,         LB2 LB1,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(paste,        &kp C_PASTE,        LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(undo,         &kp C_UNDO,         LT5 LT4,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(redo,         &kp C_REDO,         LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(ctrlenter,    &kp C_CTRLENT,      RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(command,      &kp C_COMMAND,      RB0 RB1,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(files,        &kp C_FILES,        RB1 RB2,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(format,       &kp C_FORMAT,       RB3 RB4,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(save,         &kp C_SAVE,         RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(find,         C_FIND,         LM1 LM0,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(select_all,   C_SELECT_ALL,   LB5 LB4,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(cut,          C_CUT,          LB3 LB2,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(copy,         C_COPY,         LB2 LB1,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(paste,        C_PASTE,        LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(undo,         C_UNDO,         LT5 LT4,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(redo,         C_REDO,         LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(ctrlenter,    C_CTRLENT,      RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(command,      C_COMMAND,      RB0 RB1,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(files,        C_FILES,        RB1 RB2,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(format,       C_FORMAT,       RB3 RB4,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(save,         C_SAVE,         RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
 
 //=========================
 //  LAYERS DEFINITION
@@ -75,9 +76,9 @@ ZMK_LAYER(numeric,
                                                           &trans        &trans        &trans            &trans          &trans      &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(function,
-                &none         &none         &none         &none         &none         &none             &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &kp F6
+                C_WCLOSE      C_WPREV       C_WNEXT       C_TPREV       C_TNEXT       C_TCLOSE          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5         &kp F6
                 &none         &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none             &kp F7        &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
-                &none         &none         &none         &none         &none         &none             &kp C_WCLOSE  &kp C_TCLOSE  &none         &kp C_TPREV   &kp C_TNEXT    &kp PSCRN
+                &none         &none         &none         &none         &none         &none             &none         &none         &none         &none         &none          &kp PSCRN
                                                           &trans        &trans        &trans            &trans        &trans        &trans
 ) //===================================================================================================================================================================================
 ZMK_LAYER(ext,

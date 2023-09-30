@@ -325,11 +325,17 @@ path.combo {
 <g class="layer-function">
 <text x="30.0" y="689.3061339178928" class="label">function:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="740.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="58.0" y="766.3061339178928" class="tap">LA(F4)</text>
 <rect rx="6.0" ry="6.0" x="88.0" y="740.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="114.0" y="766.3061339178928" class="tap">LS(TAB)</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="170.0" y="752.3061339178928" class="tap" style="font-size: 88%">&amp;swapper</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="719.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="226.0" y="745.3061339178928" class="tap" style="font-size: 64%">LC(LS(TAB))</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="752.3061339178928" class="tap">LC(TAB)</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="733.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="338.0" y="759.3061339178928" class="tap">LC(F4)</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="733.3061339178928" width="52.0" height="52.0" class="key"/>
 <text x="562.0" y="759.3061339178928" class="tap">F1</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
@@ -371,14 +377,10 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="256.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="312.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
-<text x="562.0" y="871.3061339178928" class="tap">LA(F4)</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
-<text x="618.0" y="864.3061339178928" class="tap">LC(TAB)</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="831.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="704.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
-<text x="730.0" y="864.3061339178928" class="tap" style="font-size: 64%">LC(LS(TAB))</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
-<text x="786.0" y="878.3061339178928" class="tap">LC(F4)</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
 <text x="842.0" y="878.3061339178928" class="tap">PSCRN</text>
 <rect rx="6.0" ry="6.0" x="228.0" y="896.1541339178928" width="52.0" height="52.0" class="trans key"/>

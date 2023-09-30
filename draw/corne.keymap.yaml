@@ -59,14 +59,14 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   function:
-  - ['', '', '', '', '', '', F1, F2, F3, F4]
+  - [LA(F4), LS(TAB), '&swapper', LC(LS(TAB)), LC(TAB), LC(F4), F1, F2, F3, F4]
   - [F5, F6, '', LGUI, LALT, LCTRL, LSHFT, '', F7, F8]
   - [F9, F10, F11, F12, '', '', '', '', '', '']
-  - - LA(F4)
-    - LC(TAB)
+  - - ''
     - ''
-    - LC(LS(TAB))
-    - LC(F4)
+    - ''
+    - ''
+    - ''
     - PSCRN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
