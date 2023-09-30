@@ -54,4 +54,4 @@
 #define C_TCLOSE               &kp LC(F4)
 #define C_TPREV                &kp LC(LS(TAB))
 #define C_TNEXT                &kp LC(TAB)
-#define C_DSKMGR               &kp LA(GRAVE)
+#define C_TSKMGR               &kp LC(LS(ESC))
