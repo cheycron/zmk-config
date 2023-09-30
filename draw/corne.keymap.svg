@@ -201,10 +201,8 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="234.84799999999996" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="260.84799999999996" class="tap">&amp;l_move</text>
-<path d="M58.0,161.0 l0.0,-37.33333333333333" class="combo"/>
-<path d="M58.0,161.0 l0.0,37.33333333333333" class="combo"/>
-<rect rx="6.0" ry="6.0" x="44.0" y="148.0" width="28.0" height="26.0" class="combo"/>
-<text x="58.0" y="161.0" class="combo tap">gaming</text>
+<rect rx="6.0" ry="6.0" x="270.79999999999995" y="251.964" width="28.0" height="26.0" class="combo"/>
+<text x="284.79999999999995" y="264.964" class="combo tap">gaming</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="92.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="105.0" class="combo tap">DELETE</text>
 <path d="M450.0,147.0 l-149.33333333333331,0.0" class="combo"/>
@@ -227,20 +225,16 @@ path.combo {
 <path d="M114.0,100.33333333333333 l37.58731342179998,-6.264552236966661" class="combo"/>
 <rect rx="6.0" ry="6.0" x="100.0" y="87.33333333333333" width="28.0" height="26.0" class="combo"/>
 <text x="114.0" y="100.33333333333333" class="combo tap">LC(Y)</text>
-<path d="M842.0,161.0 l0.0,-37.33333333333333" class="combo"/>
-<path d="M842.0,161.0 l0.0,37.33333333333333" class="combo"/>
-<rect rx="6.0" ry="6.0" x="828.0" y="148.0" width="28.0" height="26.0" class="combo"/>
-<text x="842.0" y="161.0" class="combo tap">LA(F4)</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="148.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="161.0" class="combo tap" style="font-size: 78%">LC(ENTER)</text>
 <rect rx="6.0" ry="6.0" x="576.0" y="193.5" width="28.0" height="26.0" class="combo"/>
 <text x="590.0" y="206.5" class="combo tap" style="font-size: 78%">LC(LS(P))</text>
 <rect rx="6.0" ry="6.0" x="632.0" y="186.5" width="28.0" height="26.0" class="combo"/>
 <text x="646.0" y="199.5" class="combo tap">LC(P)</text>
-<rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
-<text x="814.0" y="217.0" class="combo tap">LC(S)</text>
 <rect rx="6.0" ry="6.0" x="744.0" y="197.0" width="28.0" height="26.0" class="combo"/>
 <text x="758.0" y="210.0" class="combo tap" style="font-size: 78%">LS(LA(F))</text>
+<rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
+<text x="814.0" y="217.0" class="combo tap">LC(S)</text>
 </g>
 <g class="layer-numeric">
 <text x="30.0" y="358.6530669589464" class="label">numeric:</text>
@@ -377,10 +371,14 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="256.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="312.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="562.0" y="871.3061339178928" class="tap">LA(F4)</text>
 <rect rx="6.0" ry="6.0" x="592.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="618.0" y="864.3061339178928" class="tap">LC(TAB)</text>
 <rect rx="6.0" ry="6.0" x="648.0" y="831.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="704.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="730.0" y="864.3061339178928" class="tap" style="font-size: 64%">LC(LS(TAB))</text>
 <rect rx="6.0" ry="6.0" x="760.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="786.0" y="878.3061339178928" class="tap">LC(F4)</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="852.3061339178928" width="52.0" height="52.0" class="key"/>
 <text x="842.0" y="878.3061339178928" class="tap">PSCRN</text>
 <rect rx="6.0" ry="6.0" x="228.0" y="896.1541339178928" width="52.0" height="52.0" class="trans key"/>
@@ -574,11 +572,9 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="1557.4602678357855" width="52.0" height="52.0" class="trans key"/>
 <text x="646.0" y="1583.4602678357855" class="trans tap">▽</text>
-<path d="M58.0,1483.6122678357856 l0.0,-37.33333333333333" class="combo"/>
-<path d="M58.0,1483.6122678357856 l0.0,37.33333333333333" class="combo"/>
-<rect rx="6.0" ry="6.0" x="44.0" y="1470.6122678357856" width="28.0" height="26.0" class="combo"/>
-<text x="58.0" y="1483.6122678357856" class="combo tap">
-<tspan x="58.0" dy="-0.6em">BT</tspan><tspan x="58.0" dy="1.2em">CLR</tspan></text>
+<rect rx="6.0" ry="6.0" x="270.79999999999995" y="1574.5762678357855" width="28.0" height="26.0" class="combo"/>
+<text x="284.79999999999995" y="1587.5762678357855" class="combo tap">
+<tspan x="284.79999999999995" dy="-0.6em">BT</tspan><tspan x="284.79999999999995" dy="1.2em">CLR</tspan></text>
 </g>
 <g class="layer-move">
 <text x="30.0" y="1681.265334794732" class="label">move:</text>
@@ -751,10 +747,8 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="2218.7664017536786" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="2244.7664017536786" class="tap">RCTRL</text>
-<path d="M58.0,2144.9184017536786 l0.0,-37.33333333333333" class="combo"/>
-<path d="M58.0,2144.9184017536786 l0.0,37.33333333333333" class="combo"/>
-<rect rx="6.0" ry="6.0" x="44.0" y="2131.9184017536786" width="28.0" height="26.0" class="combo"/>
-<text x="58.0" y="2144.9184017536786" class="combo tap">gaming</text>
+<rect rx="6.0" ry="6.0" x="270.79999999999995" y="2235.8824017536786" width="28.0" height="26.0" class="combo"/>
+<text x="284.79999999999995" y="2248.8824017536786" class="combo tap">gaming</text>
 <rect rx="6.0" ry="6.0" x="72.0" y="2075.9184017536786" width="28.0" height="26.0" class="combo"/>
 <text x="86.0" y="2088.9184017536786" class="combo tap">1</text>
 <rect rx="6.0" ry="6.0" x="128.0" y="2068.9184017536786" width="28.0" height="26.0" class="combo"/>

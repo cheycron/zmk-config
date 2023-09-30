@@ -35,27 +35,20 @@
 &caps_word { /delete-property/ ignore-modifiers; };
 
 // Shortcuts
-#define C_SELECT_ALL    LC(A)
-#define C_SAVE          LC(S)
-#define C_FIND          LC(F)
-#define C_CUT           LC(X)
-#define C_COPY          LC(C)
-#define C_PASTE         LC(V)
-#define C_UNDO          LC(Z)
-#define C_REDO          LC(Y)
-#define C_ALTF4         LA(F4)
-#define C_CTRLENT       LC(ENTER)
-#define C_COMMAND       LC(LS(P))
-#define C_FILES         LC(P)
-#define C_FORMAT        LS(LA(F))
-#define C_CARET         LS(LA(I))
-
-
-// mic mute maybe?
-
-// Custom Functions
-#define MASK_MODS(NAME, MODS, BINDING) \
-    ZMK_BEHAVIOR(NAME, mod_morph, \
-        bindings = <BINDING>, <BINDING>; \
-        mods = <MODS>; \
-    )
+#define C_SELECT_ALL           LC(A)
+#define C_SAVE                 LC(S)
+#define C_FIND                 LC(F)
+#define C_CUT                  LC(X)
+#define C_COPY                 LC(C)
+#define C_PASTE                LC(V)
+#define C_UNDO                 LC(Z)
+#define C_REDO                 LC(Y)
+#define C_CTRLENT              LC(ENTER)
+#define C_COMMAND              LC(LS(P))
+#define C_FILES                LC(P)
+#define C_FORMAT               LS(LA(F))
+#define C_CARET                LS(LA(I))
+#define C_WCLOSE               LA(F4)
+#define C_TCLOSE               LC(TAB)
+#define C_TPREV                LC(LS(TAB))
+#define C_TNEXT                LC(F4)
