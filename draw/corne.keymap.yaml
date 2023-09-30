@@ -61,7 +61,7 @@ layers:
   function:
   - [LA(F4), LS(TAB), '&swapper', LC(LS(TAB)), LC(TAB), LC(F4), F1, F2, F3, F4]
   - [F5, F6, '', LGUI, LALT, LCTRL, LSHFT, '', F7, F8]
-  - [F9, F10, F11, F12, '', '', '', '', '', '']
+  - [F9, F10, F11, F12, '', '', '', '', '', LA(GRAVE)]
   - - ''
     - ''
     - ''
@@ -204,6 +204,12 @@ combos:
 - p: [16, 19]
   k: CAPSLOCK
   l: [home]
+- p: [16, 17]
+  k: CAPSLOCK
+  l: [home]
+- p: [18, 19]
+  k: CAPSLOCK
+  l: [home]
 - p: [36, 37]
   k: BT CLR
   l: [media]
@@ -213,11 +219,8 @@ combos:
 - p: [24, 25]
   k: LC(A)
   l: [home]
-- p: [26, 27]
-  k: LC(X)
-  l: [home]
 - p: [27, 28]
-  k: LC(C)
+  k: '&copy_cut'
   l: [home]
 - p: [28, 29]
   k: LC(V)

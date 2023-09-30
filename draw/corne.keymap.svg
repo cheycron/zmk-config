@@ -210,13 +210,15 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="436.0" y="134.0" width="28.0" height="26.0" class="combo"/>
 <text x="450.0" y="147.0" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="137.5" width="28.0" height="26.0" class="combo"/>
+<text x="310.0" y="150.5" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
+<rect rx="6.0" ry="6.0" x="576.0" y="137.5" width="28.0" height="26.0" class="combo"/>
+<text x="590.0" y="150.5" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
+<rect rx="6.0" ry="6.0" x="296.0" y="137.5" width="28.0" height="26.0" class="combo"/>
 <text x="310.0" y="150.5" class="combo tap">LC(F)</text>
 <rect rx="6.0" ry="6.0" x="72.0" y="204.0" width="28.0" height="26.0" class="combo"/>
 <text x="86.0" y="217.0" class="combo tap">LC(A)</text>
-<rect rx="6.0" ry="6.0" x="184.0" y="186.5" width="28.0" height="26.0" class="combo"/>
-<text x="198.0" y="199.5" class="combo tap">LC(X)</text>
 <rect rx="6.0" ry="6.0" x="240.0" y="186.5" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="199.5" class="combo tap">LC(C)</text>
+<text x="254.0" y="199.5" class="combo tap" style="font-size: 78%">&amp;copy_cut</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="193.5" width="28.0" height="26.0" class="combo"/>
 <text x="310.0" y="206.5" class="combo tap">LC(V)</text>
 <rect rx="6.0" ry="6.0" x="72.0" y="92.0" width="28.0" height="26.0" class="combo"/>
@@ -376,6 +378,7 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="200.0" y="831.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="256.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="312.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="338.0" y="871.3061339178928" class="tap" style="font-size: 78%">LA(GRAVE)</text>
 <rect rx="6.0" ry="6.0" x="536.0" y="845.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="838.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="648.0" y="831.3061339178928" width="52.0" height="52.0" class="key"/>
