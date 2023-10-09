@@ -16,7 +16,7 @@
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2
 
 // Settings
-#define COMBO_HOOK global-quick-tap-ms = <150>;
+#define COMBO_HOOK require-prior-idle-ms = <150>;
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 #define QUICK_TAP_MS 160
