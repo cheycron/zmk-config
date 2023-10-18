@@ -39,11 +39,13 @@ ZMK_BEHAVIOR(l_media,         tap_dance,    tapping-term-ms = <200>; bindings = 
 //  COMBO DEFINITION
 //=========================
 ZMK_COMBO(egaming,      &tog L_GAMING,      LH2 LH1,        L_HOME L_GAMING,        COMBO_TERM_SLOW)
+ZMK_COMBO(caps,         &kp CAPSLOCK,       LM5 LM4,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(gan1,         &kp N1,             LT5 LT4,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(gan2,         &kp N2,             LT4 LT3,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(gan3,         &kp N3,             LT3 LT2,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(gan4,         &kp N4,             LT2 LT1,        L_GAMING,               COMBO_TERM_FAST)
 ZMK_COMBO(gan5,         &kp N5,             LT1 LT0,        L_GAMING,               COMBO_TERM_FAST)
+
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT L_MOVE,    COMBO_TERM_FAST)
 ZMK_COMBO(caps,         &kp CAPSLOCK,       LM1 RM1,        L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(caps2,        &kp CAPSLOCK,       RM0 RM1,        L_HOME,                 COMBO_TERM_SLOW)
@@ -51,8 +53,8 @@ ZMK_COMBO(btclr,        &bt BT_CLR,         LH2 LH1,        L_MEDIA,            
 // Shortcuts
 ZMK_COMBO(find,         C_FIND,             LM1 LM0,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(select_all,   C_SELECT_ALL,       LB5 LB4,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(copy_cut,     &copy_cut,          LB2 LB1,        L_HOME,                 COMBO_TERM_FAST)
-ZMK_COMBO(paste,        C_PASTE,            LB1 LB0,        L_HOME,                 COMBO_TERM_FAST)
+ZMK_COMBO(copy_cut,     &copy_cut,          LB2 LB1,        L_HOME,                 COMBO_TERM_SLOW)
+ZMK_COMBO(paste,        C_PASTE,            LB1 LB0,        L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(undo,         C_UNDO,             LT5 LT4,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(redo,         C_REDO,             LT5 LT4 LT3,    L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(ctrlenter,    C_CTRLENT,          RM4 RM5,        L_HOME,                 COMBO_TERM_FAST)

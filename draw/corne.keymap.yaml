@@ -59,14 +59,14 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   function:
-  - [LA(F4), LS(TAB), '&swapper', LC(PG DN), LC(PG UP), LC(F4), F1, F2, F3, F4]
+  - [LA(F4), LS(TAB), '&swapper', LC(PG UP), LC(PG DN), LC(F4), F1, F2, F3, F4]
   - [F5, F6, '', LGUI, LALT, LCTRL, LSHFT, '', F7, F8]
   - [F9, F10, F11, F12, '', '', '', '', '', LC(LS(ESC))]
-  - - ''
-    - ''
-    - ''
-    - ''
-    - ''
+  - - LG(TAB)
+    - LG(LC(D))
+    - LG(LC(LEFT))
+    - LG(LC(RIGHT))
+    - LG(LC(F4))
     - PSCRN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -183,6 +183,9 @@ combos:
 - p: [36, 37]
   k: gaming
   l: [home, gaming]
+- p: [12, 13]
+  k: CAPSLOCK
+  l: [gaming]
 - p: [0, 1]
   k: '1'
   l: [gaming]
