@@ -38,14 +38,6 @@ ZMK_BEHAVIOR(l_media,         tap_dance,    tapping-term-ms = <200>; bindings = 
 //=========================
 //  COMBO DEFINITION
 //=========================
-ZMK_COMBO(egaming,      &tog L_GAMING,      LH2 LH1,        L_HOME L_GAMING,        COMBO_TERM_SLOW)
-ZMK_COMBO(caps,         &kp CAPSLOCK,       LM5 LM4,        L_GAMING,               COMBO_TERM_FAST)
-ZMK_COMBO(gan1,         &kp N1,             LT5 LT4,        L_GAMING,               COMBO_TERM_FAST)
-ZMK_COMBO(gan2,         &kp N2,             LT4 LT3,        L_GAMING,               COMBO_TERM_FAST)
-ZMK_COMBO(gan3,         &kp N3,             LT3 LT2,        L_GAMING,               COMBO_TERM_FAST)
-ZMK_COMBO(gan4,         &kp N4,             LT2 LT1,        L_GAMING,               COMBO_TERM_FAST)
-ZMK_COMBO(gan5,         &kp N5,             LT1 LT0,        L_GAMING,               COMBO_TERM_FAST)
-
 ZMK_COMBO(delete,       &kp DELETE,         RT4 RT5,        L_HOME L_EXT L_MOVE,    COMBO_TERM_FAST)
 ZMK_COMBO(caps,         &kp CAPSLOCK,       LM1 RM1,        L_HOME,                 COMBO_TERM_SLOW)
 ZMK_COMBO(caps2,        &kp CAPSLOCK,       RM0 RM1,        L_HOME,                 COMBO_TERM_SLOW)
@@ -62,6 +54,27 @@ ZMK_COMBO(command,      C_COMMAND,          RB0 RB1,        L_HOME,             
 ZMK_COMBO(files,        C_FILES,            RB1 RB2,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(format,       C_FORMAT,           RB3 RB4,        L_HOME,                 COMBO_TERM_FAST)
 ZMK_COMBO(save,         C_SAVE,             RB4 RB5,        L_HOME,                 COMBO_TERM_FAST)
+// Gaming Layer
+ZMK_COMBO(egaming,      &tog L_GAMING,      LH2 LH1,        L_HOME L_GAMING,        COMBO_TERM_SLOW)
+ZMK_COMBO(caps,         &kp CAPSLOCK,       LB5 LB4,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan1,         &kp N1,             LT5 LT4,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan2,         &kp N2,             LT4 LT3,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan3,         &kp N3,             LT3 LT2,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan4,         &kp N4,             LT2 LT1,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(gan5,         &kp N5,             LT1 LT0,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf1,          &kp F1,             RT0 RM0,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf2,          &kp F2,             RT1 RM1,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf3,          &kp F3,             RT2 RM2,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf4,          &kp F4,             RT3 RM3,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf5,          &kp F5,             RT4 RM4,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf6,          &kp F6,             RT5 RM5,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf7,          &kp F7,             RM0 RB0,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf8,          &kp F8,             RM1 RB1,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf9,          &kp F9,             RM2 RB2,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf10,         &kp F10,            RM3 RB3,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf11,         &kp F11,            RM4 RB4,        L_GAMING,               COMBO_TERM_FAST)
+ZMK_COMBO(kf12,         &kp F12,            RM5 RB5,        L_GAMING,               COMBO_TERM_FAST)
+
 
 //=========================
 //  LAYERS DEFINITION

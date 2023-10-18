@@ -201,8 +201,6 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="234.84799999999996" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="260.84799999999996" class="tap">&amp;l_move</text>
-<rect rx="6.0" ry="6.0" x="270.79999999999995" y="251.964" width="28.0" height="26.0" class="combo"/>
-<text x="284.79999999999995" y="264.964" class="combo tap">gaming</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="92.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="105.0" class="combo tap">DELETE</text>
 <path d="M450.0,147.0 l-149.33333333333331,0.0" class="combo"/>
@@ -235,6 +233,8 @@ path.combo {
 <text x="758.0" y="210.0" class="combo tap" style="font-size: 78%">LS(LA(F))</text>
 <rect rx="6.0" ry="6.0" x="800.0" y="204.0" width="28.0" height="26.0" class="combo"/>
 <text x="814.0" y="217.0" class="combo tap">LC(S)</text>
+<rect rx="6.0" ry="6.0" x="270.79999999999995" y="251.964" width="28.0" height="26.0" class="combo"/>
+<text x="284.79999999999995" y="264.964" class="combo tap">gaming</text>
 </g>
 <g class="layer-numeric">
 <text x="30.0" y="358.6530669589464" class="label">numeric:</text>
@@ -759,8 +759,8 @@ path.combo {
 <text x="646.0" y="2244.7664017536786" class="tap">RCTRL</text>
 <rect rx="6.0" ry="6.0" x="270.79999999999995" y="2235.8824017536786" width="28.0" height="26.0" class="combo"/>
 <text x="284.79999999999995" y="2248.8824017536786" class="combo tap">gaming</text>
-<rect rx="6.0" ry="6.0" x="72.0" y="2131.9184017536786" width="28.0" height="26.0" class="combo"/>
-<text x="86.0" y="2144.9184017536786" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
+<rect rx="6.0" ry="6.0" x="72.0" y="2187.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="86.0" y="2200.9184017536786" class="combo tap" style="font-size: 88%">CAPSLOCK</text>
 <rect rx="6.0" ry="6.0" x="72.0" y="2075.9184017536786" width="28.0" height="26.0" class="combo"/>
 <text x="86.0" y="2088.9184017536786" class="combo tap">1</text>
 <rect rx="6.0" ry="6.0" x="128.0" y="2068.9184017536786" width="28.0" height="26.0" class="combo"/>
@@ -771,6 +771,30 @@ path.combo {
 <text x="254.0" y="2071.4184017536786" class="combo tap">4</text>
 <rect rx="6.0" ry="6.0" x="296.0" y="2065.4184017536786" width="28.0" height="26.0" class="combo"/>
 <text x="310.0" y="2078.4184017536786" class="combo tap">5</text>
+<rect rx="6.0" ry="6.0" x="548.0" y="2096.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="562.0" y="2109.9184017536786" class="combo tap">F1</text>
+<rect rx="6.0" ry="6.0" x="604.0" y="2089.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="618.0" y="2102.9184017536786" class="combo tap">F2</text>
+<rect rx="6.0" ry="6.0" x="660.0" y="2082.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="674.0" y="2095.9184017536786" class="combo tap">F3</text>
+<rect rx="6.0" ry="6.0" x="716.0" y="2089.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="730.0" y="2102.9184017536786" class="combo tap">F4</text>
+<rect rx="6.0" ry="6.0" x="772.0" y="2103.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="786.0" y="2116.9184017536786" class="combo tap">F5</text>
+<rect rx="6.0" ry="6.0" x="828.0" y="2103.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="842.0" y="2116.9184017536786" class="combo tap">F6</text>
+<rect rx="6.0" ry="6.0" x="548.0" y="2152.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="562.0" y="2165.9184017536786" class="combo tap">F7</text>
+<rect rx="6.0" ry="6.0" x="604.0" y="2145.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="618.0" y="2158.9184017536786" class="combo tap">F8</text>
+<rect rx="6.0" ry="6.0" x="660.0" y="2138.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="674.0" y="2151.9184017536786" class="combo tap">F9</text>
+<rect rx="6.0" ry="6.0" x="716.0" y="2145.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="730.0" y="2158.9184017536786" class="combo tap">F10</text>
+<rect rx="6.0" ry="6.0" x="772.0" y="2159.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="786.0" y="2172.9184017536786" class="combo tap">F11</text>
+<rect rx="6.0" ry="6.0" x="828.0" y="2159.9184017536786" width="28.0" height="26.0" class="combo"/>
+<text x="842.0" y="2172.9184017536786" class="combo tap">F12</text>
 </g>
 <g class="layer-mouse">
 <text x="30.0" y="2342.571468712625" class="label">mouse:</text>

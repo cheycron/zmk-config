@@ -180,27 +180,6 @@ layers:
     - '&mkp MB1'
   - ['&mkp MB3', '&mkp MB2']
 combos:
-- p: [36, 37]
-  k: gaming
-  l: [home, gaming]
-- p: [12, 13]
-  k: CAPSLOCK
-  l: [gaming]
-- p: [0, 1]
-  k: '1'
-  l: [gaming]
-- p: [1, 2]
-  k: '2'
-  l: [gaming]
-- p: [2, 3]
-  k: '3'
-  l: [gaming]
-- p: [3, 4]
-  k: '4'
-  l: [gaming]
-- p: [4, 5]
-  k: '5'
-  l: [gaming]
 - p: [10, 11]
   k: DELETE
   l: [home, ext, move]
@@ -246,3 +225,60 @@ combos:
 - p: [34, 35]
   k: LC(S)
   l: [home]
+- p: [36, 37]
+  k: gaming
+  l: [home, gaming]
+- p: [24, 25]
+  k: CAPSLOCK
+  l: [gaming]
+- p: [0, 1]
+  k: '1'
+  l: [gaming]
+- p: [1, 2]
+  k: '2'
+  l: [gaming]
+- p: [2, 3]
+  k: '3'
+  l: [gaming]
+- p: [3, 4]
+  k: '4'
+  l: [gaming]
+- p: [4, 5]
+  k: '5'
+  l: [gaming]
+- p: [6, 18]
+  k: F1
+  l: [gaming]
+- p: [7, 19]
+  k: F2
+  l: [gaming]
+- p: [8, 20]
+  k: F3
+  l: [gaming]
+- p: [9, 21]
+  k: F4
+  l: [gaming]
+- p: [10, 22]
+  k: F5
+  l: [gaming]
+- p: [11, 23]
+  k: F6
+  l: [gaming]
+- p: [18, 30]
+  k: F7
+  l: [gaming]
+- p: [19, 31]
+  k: F8
+  l: [gaming]
+- p: [20, 32]
+  k: F9
+  l: [gaming]
+- p: [21, 33]
+  k: F10
+  l: [gaming]
+- p: [22, 34]
+  k: F11
+  l: [gaming]
+- p: [23, 35]
+  k: F12
+  l: [gaming]
